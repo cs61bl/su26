@@ -1,0 +1,234 @@
+#####################################
+# Instructions for updating website #
+#####################################
+
+# To upload discussion worksheets and solutions to the website, just
+# put the files in assets/discussions using the filename format below.
+
+# Pad discussion numbers, e.g. discussion 2 uses "02", not "2".
+# For example, the files for discussion 2 should be placed at:
+#   - /assets/discussions/cs101-sp25-disc02.pdf
+#   - /assets/discussions/cs101-sp25-disc02-sols.pdf
+#   - /assets/discussions/cs101-sp25-examprep02.pdf
+#   - /assets/discussions/cs101-sp25-examprep02-sols.pdf
+# If you'd like a different filepath or prefix (in the example, it's
+# /assets/lectures/cs161-sp25-disc), change the filename bases below.
+
+# To show worksheets, set "show_worksheet: true"
+# To show solutions, set "show_sols: true"
+# To show videos, set "show_videos: true"
+
+# If you need to manually put something in the discussion cell
+# (e.g. links to multiple worksheets for exam review weeks), there's
+# an extra field that you can use. Anything you put in the extra
+# field will be converted to Markdown.
+
+# To highlight the cell in a special color, add "classes", and we have
+# some pre-defined colors like "schedule-purple" and "schedule-green".
+
+# Example showing various features:
+# - title: "Discussion Title"
+#   show_worksheet: true
+#   show_sols: true
+#   show_videos: true
+#   slides: "https://www.example.com"
+#   extra: | 
+#     [Extra guide](https://www.google.com)
+#
+#     [Another extra guide](https://www.youtube.com)
+#   classes:
+#     - schedule-purple
+
+
+#####################################
+# Additional documentation          #
+#####################################
+
+# - Each element in the array corresponds to one box on the website.
+#   This includes boxes that are blank or don't have a discussion.
+#   By default, each box spans 2 rows (edit the default in syllabus.yml).
+#   To override this, use the "rowspan" attribute to resize a box.
+# - The website automatically numbers each element in the array.
+#   To skip numbering (e.g. for a "no discussion" box), add
+#   "nonumber: True" as an attribute.
+#
+# - Discussion filepaths all start with the same base filepath and phrase,
+#   which you can configure below, e.g. "/assets/discussion/cs101-sp25".
+# - Then, we add a dash after the base phrase.
+# - Then, we allow for up to 3 types of discussions, which you can
+#   configure below. By default, we use "disc" and "examprep" as 2 types,
+#   and leave the third type unused.
+# - Then, we add a discussion number, with increasing numbers per box
+#   on the syllabus. Numbering customization would be done in syllabus.html.
+#
+# - Worksheets show iff "show_worksheet: true" AND the filepath exists.
+#   Solutions show iff "show_sols: true" AND the filepath exists.
+#   Videos show iff "show_videos: true" AND video link exists in discussions.yml.
+#   Slides show iff "show_slides: true" AND slide link exists in discussions.yml.
+# - "classes" is an array passed to discussion.html to format the cell.
+#   We predefined colors like schedule-purple, schedule-green, etc. in 
+#   and you can add your own in _sass/custom/custom.scss if you want.
+
+# Example usage of all the features:
+#
+# - title: "Welcome"
+#   nonumber: false
+#   show_worksheet: true
+#   show_sols: true
+#   show_videos: true
+#   show_slides: true
+#   regular_video: "https://youtube.com/1"
+#   examprep_video: "https://youtube.com/2"
+#   bridge_video: "https://youtube.com/3"
+#   regular_slides: "https://slides.google.com/1"
+#   examprep_slides: "https://slides.google.com/2"
+#   bridge_slides: "https://slides.google.com/3"
+#   extra: |
+#     [61C Review Video](https://www.youtube.com/watch?v=WVhKJqCqwyE)
+#   rowspan: 3
+#   classes:
+#     - schedule-purple
+
+# - Every semester, you have to change the path to reflect the latest semester.
+# - The path MUST start with a leading slash, and MUST NOT have a slash at the end.
+# - You should not need to change the rest of these unless you're rebuilding the website.
+# - Slugs and path are used to build filenames.
+# - Names are used to display on the website, e.g. "Exam Prep: Worksheet"
+# - If your website builds at a different baseurl (e.g. your homepage is
+#   cs161.org/sp25), the path should not include the baseurl.
+#   It should still be /assets/discussions/cs161-sp25,
+#   not /sp25/assets/discussions/cs161-sp25.
+discussion_filename_bases:
+  path: "/assets/discussions/cs61b-su26"
+  regular_slug: "disc"
+  examprep_slug: "examlevel"
+  bridge_slug: "bridge"
+  regular_name: "Theoretical Lab"
+  examprep_name: "Exam-Level"
+  bridge_name: "Bridge"
+
+
+    
+discussions:
+  - title: "No Discussion"
+    nonumber: true
+    rowspan: "2"
+  - title: "Introduction to Java"
+    show_worksheet: false
+    show_sols: false
+    show_videos: false
+    show_slides: false
+    regular_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRobydmi0jaICLlTv0q_lDhT"
+    examprep_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoH8ytpcjLoFCkM0v2FVp6C"
+    regular_slides: "https://docs.google.com/presentation/d/1J2Ld-5qg536HA8jyB9-IeoD1hFcF9sJegqIeg2ncLs4"
+    examprep_slides: "https://docs.google.com/presentation/d/1awV2DnjW0zedBjmwWjbFNpVI0Yg3ghyhX9IDuKQ_keE"
+  - title: "Scope, Static, Linked Lists, Arrays"
+    show_worksheet: false
+    show_sols: false
+    show_videos: false
+    show_slides: false
+    regular_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRpemggJcC8s64Om7XBMmmWZ"
+    examprep_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRpPzSP6eDAJLsqxHbAqhgkX"
+    regular_slides: "https://docs.google.com/presentation/d/12fU-6_vBT-BzOOcvMgf6G26bqo4F1czR3pAxhu0-YZg"
+    examprep_slides: "https://docs.google.com/presentation/d/175Z0P9u0YQQ4dP51KftXCrS3k3JcQoI-q4oMqGEo3T4"
+  - title: "Interface Inheritance, Comparables/Comparators, Generic Functions "
+    show_worksheet: false
+    show_sols: false
+    show_videos: false
+    show_slides: false
+    regular_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRpZCnCD8f6-j3WJQS_rbBe4"
+    examprep_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRo32RBXkS7LFlMNNIgF618Q"
+    regular_slides: "https://docs.google.com/presentation/d/1xpH8CpZHEKVaWtSNnnro59IhgXrVoQG4PAXDVNvm_lQ"
+    examprep_slides: "https://docs.google.com/presentation/d/1Q0vg7T3kJHiSVVFXaw6uBzfaFDm6CxVLwXoKMmd3k5Q"
+  - title: "Iterators, Iterables, Asymptotics"
+    show_worksheet: false
+    show_sols: false
+    show_videos: false
+    show_slides: false
+    regular_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRosONixmTTQnspn7fLOV4-Y"
+    examprep_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqOkhLqRr1OoRCpUKvlqm_P"
+    regular_slides: "https://docs.google.com/presentation/d/1B_HtHOpRRFpeNCab2kaZEjuqIYwSa5cSWweNfIv7iTM"
+    examprep_slides: "https://docs.google.com/presentation/d/13wi-eo4T52oK8tgDvWqrcm7IXgYSK56ecoQnxd-VQJE"
+    rowspan: "4"
+  - title: "Asymptotics II"
+    show_worksheet: false
+    show_sols: false
+    show_videos: false
+    show_slides: false
+    regular_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRpqWL31oiZlmcka8zFyT5uM"
+    examprep_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRpebKdnwkYKIkyCBNzNXAHW"
+    regular_slides: "https://docs.google.com/presentation/d/1TZ2Rf1ALjd6OyBiqS75jbpTcTgyU9vUFx5RJNKAyeB4"
+    examprep_slides: "https://docs.google.com/presentation/d/1uZnhJu9WRhX_hsWzk5tMT3kaUPRKE1gQqTzMV-Qbmt4"
+  - title: "Disjoint Sets, ADTs, BSTs"
+    show_worksheet: false
+    show_sols: false
+    show_videos: false
+    show_slides: false
+    regular_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRpBCAx-EGDwnOY4YW0zwczO"
+    examprep_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRonJvfbSeiELXQ5TcvrAO1U"
+    regular_slides: "https://docs.google.com/presentation/d/1GOYRLWkNWVC69-_tZk1ihRrkS7J0nWaWwDZS5IxAKsg"
+    examprep_slides: "https://docs.google.com/presentation/d/1HeHgNNYqY48wgZLMtEH_vNVWQykNdSYGkMwwzb11NW8"
+  - title: "B-Trees, LLRBs, Hashing"
+    show_worksheet: false
+    show_sols: false
+    show_videos: false
+    show_slides: false
+    regular_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrjXIJbf0eFsWeUnD6RsfYa"
+    examprep_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoIGRoR3H0WHl2AmxCgcxTN"
+    regular_slides: "https://docs.google.com/presentation/d/1GiIA7wwloRRh2SKJayNrqWrs1mV_lZ3JYLhLDL2zlDA"
+    examprep_slides: "https://docs.google.com/presentation/d/14Ohpg1_tKwY-H3SOZfqxq_Jg1zIcJwFPsTjC1f7oy6M"
+  - title: "Graphs, Heaps"
+    show_worksheet: false
+    show_sols: false
+    show_videos: false
+    show_slides: false
+    regular_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrdIn4Jnf_aI1Hgw5m-wrL2"
+    examprep_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqWGEpy-S22SMXVVxtkqmmT"
+    regular_slides: "https://docs.google.com/presentation/d/1YY9YOZxbsWX4WzfDxXFIItV0ADlqLo57ikPGAR_Gn_c"
+    examprep_slides: "https://docs.google.com/presentation/d/1UKGsqrKq-X1sJxnZXvI7RUatdituOAOyHZuLA4ep43A"
+  - title: "No Discussion"
+    nonumber: true
+  - title: "Shortest Paths, MSTs"
+    show_worksheet: false
+    show_sols: false
+    show_videos: false
+    show_slides: false
+    regular_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRp0SkHfIO9HavzXht0K9mOA"
+    examprep_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqhMYH6tRt4bru5HxoWta9G"
+    regular_slides: "https://docs.google.com/presentation/d/18Ix5jKoVXeSkQkKKTfVz5C9W9YLPPjL6RDkWKG0FisY"
+    examprep_slides: "https://docs.google.com/presentation/d/1_Qy30oN3EBey_iWDaWGYMZAHI1mODLSn6aWJIl3Dkz4"
+    rowspan: "4"
+  - title: "Graphs II, Tries"
+    show_worksheet: false
+    show_sols: false
+    show_videos: false
+    show_slides: false
+    regular_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrD3GyILak06gbTN0rbKJat"
+    examprep_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoboeJhEoJbAb7U_W7KBvoj"
+    regular_slides: "https://docs.google.com/presentation/d/10ArskQi2InnyyZwTo8Yo6flZmMAWhPGCbuOYVsTZFNA"
+    examprep_slides: "https://docs.google.com/presentation/d/1lJB4c3eYi_S6zxJa0HRypVM7Y1Y8z_RirxDlp6fVm04"
+  - title: "Sorting"
+    show_worksheet: false
+    show_sols: false
+    show_videos: false
+    show_slides: false
+    regular_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqxJ0qF1CglXRb-Qb-oNOgs"
+    examprep_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrxu6rDIFiBjifethxW7gSl"
+    regular_slides: "https://docs.google.com/presentation/d/18GxCUP6-s8bD24wzeOw3JTyyFZ-Kcle9QFhkW0wThGY"
+    examprep_slides: "https://docs.google.com/presentation/d/1D1g0tzp91nGcERs9w6pH847cPJOvbnvcEBXwDD-R618"
+  - title: "Sorting II"
+    show_worksheet: false
+    show_sols: false
+    show_videos: false
+    show_slides: false
+    regular_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRrpqJ8WTjbBOwSNFg54wQDT"
+    examprep_video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoenwS-qOt7TtocoDP-qXo4"
+    regular_slides: "https://docs.google.com/presentation/d/1igNhdJwbrF6WxuV67BfateU9I4diqAZeErFhxbTvvFY"
+    examprep_slides: "https://docs.google.com/presentation/d/1LbXSL9oC-TjhiU9s6CIKRKrwrEBCcBAkkoQ2yZnAAyw"
+  - title: "Goodbye, Fun"
+    show_worksheet: false
+    show_sols: false
+    show_videos: false
+    show_slides: false
+  - title: "No Discussion"
+    nonumber: true

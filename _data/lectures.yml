@@ -68,17 +68,12 @@ lecture_prefix: "/assets/lectures/cs101-sp25-lec"
 # [CS61B] We don't use lecture_prefix. ~peyrin Jun 2025
 
 lectures:
-  - nonumber: true
-    rowspan: 100
-  #- title: "Introduction and Logistics"
-  #  slides: https://docs.google.com/presentation/d/1g31wXLoykVRf5cP1X3fsYdW6pwcZv9Ut0k3FZYOxOtU/edit?usp=sharing
+  - title: "Introduction and Logistics"
+    slides: https://docs.google.com/presentation/d/1g31wXLoykVRf5cP1X3fsYdW6pwcZv9Ut0k3FZYOxOtU/edit?usp=sharing
     # video: ""
     # reading: 
     # recording: https://www.youtube.com/watch?v=dQw4w9WgXcQ
     # quiz: https://forms.gle/9YzSaMr74atHPoai7
-  #  readings: 
-  #    - title: "Course Policies"
-  #      link: policies
 
   # saving below for reference
   
@@ -98,5 +93,5 @@ lectures:
   # - title: "No Lecture (RRR Week)"
   #   rowspan: 3
   #   nonumber: True
-  # - title: "**Final Exam (Tue, May 13, 8–11am)**"
+  # - title: "**Final Exam (Tue,  May 13, 8–11am)**"
   #   nonumber: True
