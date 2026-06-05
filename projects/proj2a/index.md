@@ -11,7 +11,7 @@ description: >-
   Project 2A spec.
 released: false
 ---
-## Due: Wednesday, July 16th at 11:59 PM PT
+## Due: Wednesday, July 15th at 11:59 PM PT
 
 ## [FAQ](faq.md)
 

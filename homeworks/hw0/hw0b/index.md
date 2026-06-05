@@ -701,4 +701,4 @@ For example, in the image above, the `takeOrder` method is missing its closing b
 
 For this assignment, you need to complete the methods in `JavaExercises`, `ListExercises`, and `MapExercises`. You also need to create a new file `Dessert.java` and implement it according to the desired specifications. Make sure you test your code before submitting to Gradescope. Although we do not have a submission limit for this specific assignment, in the future it is encouraged to use existing tests and write your own tests to see if your methods work before submitting your code to the autograder, as there may be limited submissions.
 
-This assignment is **10 points** and due **9/3, 11:59 PM**.
+This assignment is **10 points** and due **Tuesday, June 23rd at 11:59 PM**.

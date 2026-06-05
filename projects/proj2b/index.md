@@ -18,7 +18,7 @@ Each assignment will have an FAQ linked at the top. You can also access it by ad
 FAQ for Project 2B is located
 [here](faq.md).
 
-## Due Sunday, 7/27 at 11:59 PM
+## Due Sunday, 7/26 at 11:59 PM
 
 In this project, you'll complete your implementation of the NGordNet tool.
 
@@ -464,7 +464,7 @@ The EECS-course guide is not available on the interactive web staff solution so 
 For Project 2B, the only required deliverable is the `HyponymsHandler.java` file, in addition to any helper classes.
 However, we will not be directly grading these classes, since they can vary from student to student.
 
-- [Project 2B Coding]: 26 points - **Due July 27th**
+- [Project 2B Coding]: 26 points - **Due July 26th**
   - `HyponymsHandler` k = 0, single word, single query per test
   - `HyponymsHandler` k = 0, single word, multiple queries per test
   - `HyponymsHandler` k = 0, multiple words, single query per test

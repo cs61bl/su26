@@ -21,7 +21,7 @@ description: >-
 released: false
 ---
 
-## Due: Thursday, July 3rd at 11:59 PM PT
+## Due: Thursday, July 2nd at 11:59 PM PT
 
 {: .no_toc}
 

@@ -12,7 +12,7 @@ description: >-
 released: true
 ---
 
-## Due: 3/7/2025
+## Due: Tuesday, July 7th at 11:59 PM PT
 
 {: .danger}
 In contrast with previous homework assignments, this homework is comparable to a project in length. Start early. You have been warned. We will **not grant extensions for failing to understand the depth of this homework**.

@@ -19,7 +19,7 @@ description: >-
 released: true  
 ---
 
-## Due: Wednesday, July 9th at 11:59 PM PT
+## Due: Wednesday, July 8th at 11:59 PM PT
 
 {: .no_toc}
 

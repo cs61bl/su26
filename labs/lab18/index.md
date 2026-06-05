@@ -28,10 +28,10 @@ Some steps to complete before getting started on this lab:
 - Understand that Project 3 will be a marathon and not a sprint. Don't wait until the last minute! You and your partner should start thinking about your design NOW.
 
 {: .info}
->This lab will be graded by completing a checkoff with your TA, who will give you a magic word to submit to Gradescope. This means you should try to finish the required parts of the lab ASAP to avoid waiting in a long line for checkoff. **This lab (magic word submission) is due Wednesday, July 30th at 11:59PM.** Asynchronous checkoffs are also available; see the [bottom of the spec](#checkoff) for how to get asynchronously checked off. 
+>This lab will be graded by completing a checkoff with your TA, who will give you a magic word to submit to Gradescope. This means you should try to finish the required parts of the lab ASAP to avoid waiting in a long line for checkoff. **This lab (magic word submission) is due Wednesday, July 29th at 11:59PM.** Asynchronous checkoffs are also available; see the [bottom of the spec](#checkoff) for how to get asynchronously checked off. 
 
 {: .danger}
->If you choose to get asynchronously checked off, please try to post your finalized video on Ed by Wednesday, July 30th at **11:30PM**; otherwise, we cannot guarantee that we can give you your magic word by the deadline. **It is up to you to make sure you submit to Gradescope by 11:59 PM.**
+>If you choose to get asynchronously checked off, please try to post your finalized video on Ed by Wednesday, July 29th at **11:30PM**; otherwise, we cannot guarantee that we can give you your magic word by the deadline. **It is up to you to make sure you submit to Gradescope by 11:59 PM.**
 
 This lab is divided into two main parts: "Plus World" and "Memory Game". Both will help you with Project 3: Build your own World (BYOW).
 The first part will teach you how to use a set of "tiles" to generate shapes on your screen. This will apply to building the rooms, hallways, and other features of your world in Project 3. The second part will teach you more about how to use the StdDraw package to make a fun text-based game. This will help you build the main menu and other text-based elements of Project 3. It will also teach you how to achieve user interactivity, which is vital to Project 3!
@@ -378,4 +378,4 @@ If you want to get checked off asynchronously, you can make a private Ed **Quest
 {: .danger}
 >Copied from above:
 >
->If you choose to get asynchronously checked off, please try to post your finalized video on Ed by Wednesday, July 30th at **11:30PM**; otherwise, we cannot guarantee that we can give you your magic word by the deadline. **It is up to you to make sure you submit to Gradescope by 11:59 PM.**
+>If you choose to get asynchronously checked off, please try to post your finalized video on Ed by Wednesday, July 29th at **11:30PM**; otherwise, we cannot guarantee that we can give you your magic word by the deadline. **It is up to you to make sure you submit to Gradescope by 11:59 PM.**
