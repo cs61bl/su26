@@ -76,6 +76,13 @@ lectures:
       - name: "Chapter 1"
         link: "https://cs61b-2.gitbook.io/cs61b-textbook/1.-introduction"
   - title: "Primitives and Objects"
+    readings:
+      - name: "Chapter 2"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/2.-defining-and-using-classes
+      - name: "Chapter 3"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/3.-references-recursion-and-lists
+      - name: "Chapter 6"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/6.-arrays
   - title:
     nonumber: True
     readings:
@@ -119,3 +126,138 @@ lectures:
       - name: "Chapter 12"
         link: https://cs61b-2.gitbook.io/cs61b-textbook/12.-inheritance-iv-iterators-object-methods
   
+  - title:
+    nonumber: true
+
+  #Week 3
+  - title: "Asymptotic Analysis"
+    readings:
+    - name: "Chapter 13"
+      link: https://cs61b-2.gitbook.io/cs61b-textbook/13.-asymptotics-i
+
+  - title:
+    nonumber: true
+    readings:
+      - name: "Chapter 15"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/15.-asymptotics-ii
+
+  - title: "BSTs + Traversals"
+    readings:
+    - name: "Chapters 22.1-22.2"
+      link: https://cs61b-2.gitbook.io/cs61b-textbook/22.-tree-traversals-and-graphs/22.1-tree-recap
+
+  - title:
+    nonumber: true
+    readings:
+      - name: "Chapter 16.2-16.7"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/16.-adts-and-bsts/16.2-binary-search-trees
+
+  - title:
+    nonumber: true
+
+  #Week 4
+  - title: "B-Trees + Red-Black Trees"
+    readings:
+    - name: "Chapter 17"
+      link: https://cs61b-2.gitbook.io/cs61b-textbook/17.-b-trees
+  
+  - title:
+    nonumber: true
+    readings:
+    - name: "Chapter 18"
+      link: https://cs61b-2.gitbook.io/cs61b-textbook/18.-red-black-trees
+
+  - title: "Midterm Review (TAs & Tutors)"
+
+  - title:
+    nonumber: true
+
+  - title: "**Midterm (3pm - 6pm)**"
+    exam: true
+    nonumber: true
+
+  - title: "Hashing, Heaps, and Priority Queues"
+    readings:
+      - name: "Chapter 19"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/19.-hashing-i
+      - name: "Chapter 20"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/20.-hashing-ii
+  
+  - title:
+    nonumber: true
+    readings:
+      - name: "Chapter 21"
+
+  - title: "Disjoint Sets / Introduction to Graphs"
+    readings:
+      - name: "Chapter 14"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/14.-disjoint-sets
+
+  - title:
+    nonumber: true
+
+  - title:
+    nonumber: true
+
+  - title: "Graph Traversals, DAGs, Topological Sorts"
+    readings:
+      - name: "Chapters 22.3-22.4"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/22.-tree-traversals-and-graphs/22.3-graphs
+      - name: "Chapter 23"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/23.-graph-traversals-and-implementations
+      - name: "Chapter 28"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/28.-reductions-and-decomposition/28.1-topological-sorts-and-dags
+  
+  - title:
+    nonumber: true
+    readings:
+      - name: "Project 3 Spec"
+        link: "#"
+
+  - title: "Shortest Paths + MSTs"
+    readings:
+      - name: "Chapter 24"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/24.-shortest-paths
+  
+  - title:
+    nonumber: true
+    readings:
+      - name: "Chapter 25"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/25.-minimum-spanning-trees
+  
+  - title:
+    nonumber: true
+
+  - title: "Comparison Sorts / Quicksort"
+    readings:
+      - name: "Chapter 29"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/29.-basic-sorts
+      - name: "Chapter 30"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/30.-quicksort
+        
+  - title:
+    nonumber: true
+    readings:
+      - name: "Chapter 32"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/32.-more-quick-sort-sorting-summary
+  
+  - title: "Radix Sorts + Sorting Bounds"
+    readings:
+      - name: "Chapter 35"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/35.-radix-sorts
+      - name: "Chapter 36"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/36.-sorting-and-data-structures-conclusion
+        
+  - title:
+    nonumber: true
+
+  - title:
+    nonumber: true
+
+  - title: "Final Review (TAs & Tutors)"
+
+  - title: "**Final Exam (3pm - 6pm)**"
+    exam: true
+    nonumber: true
+
+  - title: "Getting a Tech Job (Sherdil & Friends)"

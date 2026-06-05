@@ -107,15 +107,13 @@ aux_links:
   Dark Mode:
     - '#'
   Ed:
-    - 'https://edstem.org/us/courses/79523/'
+    - '#'
   OH Queue:
     - 'https://cs61b-oh.eecs.berkeley.edu/'
   Beacon:
     - 'https://beacon.datastructur.es/'
-  Slip Days Form:
-    - 'https://forms.gle/x7sgo8SwkhmjrPo48'
   Student Support:
-    - 'https://forms.gle/fhgcSq54BJHhNKz66'
+    - '#'
 
 links:
   student_support_meetings:
