@@ -1,7 +1,7 @@
 ---
 layout: page
 title: >-
-  Lab 02: Conditionals, Loops, and Arrays
+  Lab 02: Conditionals, Loops, Array Preview
 nav: 1
 has_children: true
 nav_exclude: true
@@ -27,7 +27,7 @@ In this lab, we will learn more about Java syntax and get some more practice wit
 
 To see what you need to complete for full credit on this lab, skip to the [Deliverables section](#deliverables) below.
 
-## Java: Conditionals, Loops, and Arrays
+## Java: Conditionals, Loops, Array Preview
 
 This section will provide an introduction to Java loops and conditionals (the `if`, `while` and `for` statements), followed by a brief explanation of Java Arrays. We assume no prior experience with any of these topics in Java, but we do assume some prior knowledge of these concepts from an earlier course (like Python control flow and lists as taught in CS61A).
 

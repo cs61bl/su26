@@ -73,7 +73,7 @@ labs:
     due: "2026/06/23"
     link: "/labs/lab01"
     show_links: true
-  - title: "Conditionals, Loops, and Arrays"
+  - title: "Conditionals, Loops, Array Preview"
     due: "2026/06/24"
     link: "/labs/lab02"
     show_links: false
@@ -222,11 +222,11 @@ labs:
     show_links: false
     nonumber: True
   - title: "Comparison Sorts"
-    due: "2026/08/04"
+    due: "2026/08/05"
     link: labs/lab21
     show_links: false
   - title: "Counting Sorts"
-    due: "2026/08/06"
+    due: "2026/08/07"
     link: labs/lab22
     show_links: false
   - title: "Exam Prep 5: Final Exam Review"

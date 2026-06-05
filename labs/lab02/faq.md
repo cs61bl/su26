@@ -3,7 +3,7 @@ layout: page
 title: >-
   FAQ
 parent: >-
-  Lab 02: Conditionals, Loops, and Arrays
+  Lab 02: Conditionals, Loops, Array Preview
 grand_parent: Labs
 has_right_toc: true
 released: true
