@@ -246,8 +246,8 @@ repository ("repo"), which you will need to submit all coding assignments.
 ### Your Repository
 
 Your repository will have a name containing a number that is unique to you!
-For instance, if your repo is called "`su25-s12`", you'll be able to visit your
-private repository at <https://github.com/Berkeley-CS61B-Student/su25-s12>
+For instance, if your repo is called "`su26-s12`", you'll be able to visit your
+private repository at <https://github.com/Berkeley-CS61B-Student/su26-s12>
 (when logged into GitHub). **If your repo number is not "12" this link will not
 work for you.** Replace "12" with your own to see your repo on Github.
 
@@ -326,9 +326,9 @@ directories, etc., refer back to
 
 
 1.  Create a directory called `lab01-checkoff` (`mkdir`). You can put this directory
-    anywhere on your computer (unless you have already cloned your `su25-s***`
+    anywhere on your computer (unless you have already cloned your `su26-s***`
     repository, in which case, you **should not put this directory inside of
-    your `su25-s***` repo)**.
+    your `su26-s***` repo)**.
 2.  Move into the `lab01-checkoff` directory (`cd`), and initialize a git repository
     in this directory (`git init`).
 3.  Create a file called `61b.txt` in any way you'd like (`touch`). In this text file,
@@ -394,7 +394,7 @@ First, run the following command in your terminal. It will print out any SSH key
 and generate a new one if none exists: 
 
 ```shell
-curl -sS https://cs61bl.org/su25/labs/lab01/get-ssh-key.sh | bash 
+curl -sS https://cs61bl.org/su26/labs/lab01/get-ssh-key.sh | bash 
 ```
 
 {: .info}
@@ -434,7 +434,7 @@ Hi USERNAME! You've successfully authenticated, but GitHub does not provide shel
 
 You should now be successfully authenticated with Github and good to go!
 
-#### Clone your `su25-s***` Git Repository
+#### Clone your `su26-s***` Git Repository
 
 Navigate to the spot in your folders on your computer that you'd like to start
 your repository. In the example below, we're assuming you want all your stuff
@@ -449,7 +449,7 @@ Enter the following command to clone your GitHub repo. Make sure to replace the
 were assigned through Beacon, not your lab section number).
 
 ```shell
-git clone git@github.com:Berkeley-CS61B-Student/su25-s***.git
+git clone git@github.com:Berkeley-CS61B-Student/su26-s***.git
 ```
 
 {: .info}
@@ -458,7 +458,7 @@ git clone git@github.com:Berkeley-CS61B-Student/su25-s***.git
 Move into your newly created repo!
 
 ```shell
-cd su25-s***
+cd su26-s***
 ```
 
 Make sure that we're working with the branch name we expect, `main`:
@@ -473,7 +473,7 @@ within the newly created repository folder when you continue with these
 commands.) Enter the following command to add the `skeleton` remote.
 
 ```shell
-git remote add skeleton https://github.com/cs61bl/skeleton-su25.git
+git remote add skeleton https://github.com/cs61bl/skeleton-su26.git
 ```
 
 Listing the remotes should now show both the `origin` and `skeleton` remotes.
@@ -483,7 +483,7 @@ git remote -v
 ```
 
 {: .info}
-> If you see an error like `fatal: not a git repository` make sure you have properly moved into the `su25-s***` directory using `cd`.
+> If you see an error like `fatal: not a git repository` make sure you have properly moved into the `su26-s***` directory using `cd`.
 
 ### Getting the Skeleton
 
@@ -532,7 +532,7 @@ git push origin main
 You can verify that this was successful by checking your repository online on
 GitHub's website. It should contain the updated `magic_word.txt` file. If it
 doesn't, make sure that your `add` and `commit` were successful. In particular,
-make sure that you are in your repo, `su25-***`.
+make sure that you are in your repo, `su26-***`.
 
 {: .task}
 > **Task**: Follow the instructions above to push your magic word to GitHub, and check that it appears.
@@ -581,22 +581,22 @@ dependency management is a bit of a mess, so we instead provide a
 git repo that contains all the dependencies that we will use in this course.
 
 {: .warning}
-> First, **move out of your `su25-s***` repo with `cd ..`**. Failing to do so can cause many headaches later.
+> First, **move out of your `su26-s***` repo with `cd ..`**. Failing to do so can cause many headaches later.
 
 Then, run:
 
 ```shell
-git clone https://github.com/cs61bl/library-su25
+git clone https://github.com/cs61bl/library-su26
 ```
 
-Below is shown the directory structure of `library-su25`. Look inside the
-folder using `ls library-su25` and make sure you see the `.jar` files
+Below is shown the directory structure of `library-su26`. Look inside the
+folder using `ls library-su26` and make sure you see the `.jar` files
 listed below. There are many more, but we only list the first few. If you're
 using your operating system's file explorer, the `jar` part might not show up
 in the filenames, and that's OK.
 
 ```console
-library-su25
+library-su26
 ├── algs4.jar
 ├── animated-gif-lib-1.4.jar
 ├── antlr4-runtime-4.11.1.jar
@@ -630,7 +630,7 @@ other editors, including VSCode.
 the git exercise:**
 
 1.  You have successfully created your local repo for the class on your own
-    machine. This is the `su25-s***` repository you earlier.
+    machine. This is the `su26-s***` repository you earlier.
 2.  You have pulled from the skeleton, and you have a `lab01` directory.
 
 ### Installing IntelliJ
@@ -702,7 +702,7 @@ With IntelliJ and the plugins installed, we can install the JDK. Follow the step
 1. Start up IntelliJ. If you have no projects open, click the “Open” button. If you have a project currently open,
    navigate to “File –> Open”.
 2. Find and choose the directory of your current assignment. For example, for Lab 1, you would select the 
-   lab01 directory inside your `su25-s***`. 
+   lab01 directory inside your `su26-s***`. 
 3. Navigate to the “File -> Project Structure” menu, and make sure you are in the Project tab. Then, follow 
    the instructions [Set up the project JDK](https://www.jetbrains.com/help/idea/sdk.html#set-up-jdk)
    to download your JDK version. **Choose a version that is 17 or greater!** Depending on which

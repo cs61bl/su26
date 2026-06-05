@@ -359,7 +359,7 @@ By looking at the priority queue this way, we are first looking at paths we thin
 {: .info}
 >CS61BL doesn't cover how good heuristics are calculated/chosen; take CS188 if you'd like to learn more about it!
 
-<!-- commented out since admissible + consistent are oos for Su25 -->
+<!-- commented out since admissible + consistent are oos for Su26 -->
 
 <!-- **We say that an A\* is only guaranteed to find the correct shortest path if the heuristic is *admissive* and *consistent*.** -->
 <!-- * *Admissive* means that the heuristic never OVERestimates the real distance to the goal. Consider that if our heuristic was not admissive, we might be deterred from visiting a vertex that was actually involved in the correct shortest path.

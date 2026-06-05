@@ -24,7 +24,7 @@ released: true
 {: .danger}
 > The setup for this project is different from all other assignments so far. **Read this carefully and do not skip any steps!**
 
-1. **DO NOT JOIN OR CREATE A TEAM YET!** [Join the SU25 GitHub Classroom for Project 3 here](https://classroom.github.com/a/DcyBFCe2). You should see a page that looks like this:
+1. **DO NOT JOIN OR CREATE A TEAM YET!** [Join the SU26 GitHub Classroom for Project 3 here](https://classroom.github.com/a/DcyBFCe2). You should see a page that looks like this:
     ![GitHub Classroom page](../assets/proj3-setup/0-github-classroom-team.png)
 
 2. **DO NOT JOIN OR CREATE A TEAM YET!**
@@ -40,7 +40,7 @@ released: true
     ![GitHub group repo](../assets/proj3-setup/0-group-repo.png)
 
 8. This repo is your group's code for Project 3, and will be **completely separate** from every other assignment in this class.
-9.  In your command line terminal, navigate to the folder where you want to clone your group repo. **Do not clone this repo inside your personal `su25-s***` repo!** You should not be cloning your group repo inside your personal one. You can `cd ..` to go up one directory level from your `su25-s***` repo, after which it should be safe to clone.
+9.  In your command line terminal, navigate to the folder where you want to clone your group repo. **Do not clone this repo inside your personal `su26-s***` repo!** You should not be cloning your group repo inside your personal one. You can `cd ..` to go up one directory level from your `su26-s***` repo, after which it should be safe to clone.
 10.  Clone your group repo with `git clone git@github.com:Berkeley-CS61B-Classroom/project-3-byow-<YOUR GROUP NAME HERE>.git`.
 11. You now have the skeleton code locally! Both you and your partner should be able to add, commit, push to, and pull from `origin main` in this repo as you would otherwise (be careful of merge conflicts!).
 
@@ -60,7 +60,7 @@ released: true
 
 4. Click "SSH" and copy the link that appears. It should look like this, with `***` replaced with some group number:
 
-    `git@github.com:Berkeley-CS61B-Student/su25-proj3-g***.git`
+    `git@github.com:Berkeley-CS61B-Student/su26-proj3-g***.git`
 
     <img alt="Copy SSH link." src="../assets/proj3-setup/4-ssh-copy.webp">
 
@@ -68,26 +68,26 @@ released: true
 
 6. Use `cd` to navigate to your CS 61B folder. Most students have a folder called `cs61b`.
 
-    Warning: Do not navigate to your personal `su25-s***` repo! You should not be cloning your group repo inside your personal one.
+    Warning: Do not navigate to your personal `su26-s***` repo! You should not be cloning your group repo inside your personal one.
 
 7. Type `pwd` in your terminal. This will output the current directory you are in.
 
-    Make sure you do not see `su25-s***` in the output! If you do, go back to Step 6.
+    Make sure you do not see `su26-s***` in the output! If you do, go back to Step 6.
 
 8. In your terminal, clone your repo, replacing the URL with the one you copied earlier:
 
-    `git clone git@github.com:Berkeley-CS61B-Student/su25-proj3-g***.git`
+    `git clone git@github.com:Berkeley-CS61B-Student/su26-proj3-g***.git`
 
 9. Navigate into the repo you just cloned:
 
-    `cd su25-proj3-g***`
+    `cd su26-proj3-g***`
 
 10. Tell Github where to find the skeleton repo:
 
-    `git remote add skeleton git@github.com:cs61bl/proj3-skeleton-su25.git`
+    `git remote add skeleton git@github.com:cs61bl/proj3-skeleton-su26.git`
 
 11. Pull the skeleton code:
 
     `git pull skeleton main --allow-unrelated-histories`
 
-Once you’ve completed the above steps, you should see your new group repo called `su25-proj3-g***` in your local files, and if you open this repo, you’ll see the `proj3` skeleton folder. From here, you and your partner can proceed as normal, by adding, committing, pushing, and pulling from this repo as you would otherwise. -->
+Once you’ve completed the above steps, you should see your new group repo called `su26-proj3-g***` in your local files, and if you open this repo, you’ll see the `proj3` skeleton folder. From here, you and your partner can proceed as normal, by adding, committing, pushing, and pulling from this repo as you would otherwise. -->

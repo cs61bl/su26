@@ -23,7 +23,7 @@ your repository on GitHub.
 Secondly, the expected file structure (including the optional files) is
 
 ```text
-su25-***
+su26-***
 ├── magic_word.txt
 ├── src
 │   └── Arithmetic.java

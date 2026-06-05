@@ -23,7 +23,7 @@ The `skeleton` remote repository contains the skeleton code for all assignments.
 git pull skeleton main
 ```
 
-This fetches all remote files from the repo named `skeleton` (which is located at `https://github.com/cs61bl/skeleton-su25`) and copies them into your current folder.
+This fetches all remote files from the repo named `skeleton` (which is located at `https://github.com/cs61bl/skeleton-su26`) and copies them into your current folder.
 
 {: .warning}
 > If you get an error similar to `fatal: refusing to merge unrelated histories`,
@@ -42,7 +42,7 @@ The following instructions apply for **every** assignment. **Each time after pul
 
 1. Start up IntelliJ. **If you have no projects open**, click the "Open" button. If you have a project currently open, navigate to **"File --> Open"**.
 
-2. Find and choose the directory of your current assignment. For example, for Lab 1, you would select the `lab01` directory inside your `su25-s***` repo.
+2. Find and choose the directory of your current assignment. For example, for Lab 1, you would select the `lab01` directory inside your `su26-s***` repo.
 
 3. Navigate to the **"File -> Project Structure"** menu, and make sure you are in the **Project** tab. Set your project SDK to your installed Java version. If 17 or higher isn't available in the dropdown, make sure you downloaded and installed Java completely.
 
@@ -58,7 +58,7 @@ The following instructions apply for **every** assignment. **Each time after pul
    - The Language level is at least 17, and at most the SDK.
    - The Compiler output is filled in, and is set to the assignment directory, followed by `out`
 
-5. Still in Project Structure, go to the **Libraries** tab. Click the "**+ -> Java**" button, then navigate to `library-su25`, select the folder, and click "Ok".
+5. Still in Project Structure, go to the **Libraries** tab. Click the "**+ -> Java**" button, then navigate to `library-su26`, select the folder, and click "Ok".
 
    ![select-libraries](../assignment-workflow-img/lab01-librarysu25.png){: style="max-height: 300;"}
 
