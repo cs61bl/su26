@@ -14,15 +14,15 @@ Incomplete grades allow you to complete coursework after the semester if you wer
 A couple important requirements from the website:
 
 - "Students who fail to turn in all required work cannot request an I grade unless they have been unable to finish because of circumstances beyond their control."
-- Your work must be of "passing quality", meaning that completing the projects you're taking an incomplete for would bring you to at least a passing grade in the course. The grade bins can be found in [the syllabus](https://cs61bl.org/su25/policies/#grading).
+- Your work must be of "passing quality", meaning that completing the projects you're taking an incomplete for would bring you to at least a passing grade in the course. The grade bins can be found in [the syllabus](https://cs61bl.org/su26/policies/#grading).
 
 In CS61B, you may receive an incomplete on at most **2 projects** or **1 project/1 exam**.
 
 ## Incomplete deadlines
 
-- By default, the deadline to turn in incomplete assignments will be **Monday, September 29th, 2025 (9/29)**. We will not be granting further extensions aside from exceptional cases.
-    - For project 3, the latest deadline will be right before [checkoff session 2](#assignment-incomplete-logistics). We will send an email regarding the exact date after the content schedule is finalized for Fall 2025. 
-- If you are taking an incomplete on the final, you will take the **Fall 2025 final exam.**
+- By default, the deadline to turn in incomplete assignments will be **Monday, September 28th, 2026 (9/28)**. We will not be granting further extensions aside from exceptional cases.
+    - For project 3, the latest deadline will be right before [checkoff session 2](#assignment-incomplete-logistics). We will send an email regarding the exact date after the content schedule is finalized for Fall 2026. 
+- If you are taking an incomplete on the final, you will take the **Fall 2026 final exam.**
 
 ## Is an incomplete right for you?
 
@@ -42,11 +42,11 @@ An incomplete grants you additional time on assignments that you may not have be
 {: .danger}
 **You will not be able to request for an incomplete for this class if you have/had a misconduct case from course assignments or exams.**
 
-An alternative to taking an incomplete is [late dropping](https://summer.berkeley.edu/enrollment-changes/dropping-courses) the course. With another chance at the course, you'll have more time to learn the fundamental concepts and a chance to improve your grade. Many 61B(L) assignments don't change much from semester to semester, so a lot of your efforts this semester can be reused if you decide to retake the course. The late drop deadline is **Friday, August 15th (8/15)**. Please note for summer session courses, you will not be refunded but provide Summer Tuition Credit you can use a following summer.
+An alternative to taking an incomplete is [late dropping](https://summer.berkeley.edu/enrollment-changes/dropping-courses) the course. With another chance at the course, you'll have more time to learn the fundamental concepts and a chance to improve your grade. Many 61B(L) assignments don't change much from semester to semester, so a lot of your efforts this semester can be reused if you decide to retake the course. The late drop deadline is **Friday, August 14th (8/14)**. Please note for summer session courses, you will not be refunded but provide Summer Tuition Credit you can use a following summer.
 
 ## Requesting an incomplete
 
-To request an incomplete, please fill out [this form](https://forms.gle/MTnfvgrp1soUFrRFA) by **Sunday, August 10th (8/10) at 11:59pm**. We will be processing incomplete requests on a rolling basis.
+To request an incomplete, please fill out [this form](https://forms.gle/MTnfvgrp1soUFrRFA) by **Sunday, August 9th (8/9) at 11:59pm**. We will be processing incomplete requests on a rolling basis.
 
 {: .info}
 If you do not meet one of the requirements above, we will still review your request on a case-by-case basis. Please sign up for a student support meeting [here]({{site.links.student_support_meetings}}) to further discuss your case. 
@@ -56,7 +56,7 @@ If you do not meet one of the requirements above, we will still review your requ
 ### Timeline
 **Q: When can I request for an incomplete?**
 
-A: You can request for an incomplete grade from now until the request form closes on **Sunday, August 10th (8/10) at 11:59pm.**
+A: You can request for an incomplete grade from now until the request form closes on **Sunday, August 9th (8/9) at 11:59pm.**
 
 **Q: When will I hear back regarding the decision of my incomplete request?**
 
@@ -64,15 +64,15 @@ A: You should expect to wait for around 1 week (including business and non-busin
 
 **Q: When should I start working on my incomplete assignment? When should I complete them by?**
 
-A: You can start working on your incomplete assignment anytime after your incomplete request is approved. For all assignments except project 3, you should complete them by the deadline established above (9/29, 2025). For project 3, you should complete it before the intended [checkoff session](#assignment-incomplete-logistics) you want to attend.
+A: You can start working on your incomplete assignment anytime after your incomplete request is approved. For all assignments except project 3, you should complete them by the deadline established above (9/28, 2026). For project 3, you should complete it before the intended [checkoff session](#assignment-incomplete-logistics) you want to attend.
 
 **Q: When will my incomplete grade be resolved?**
 
 A: We will conduct two rounds of incomplete resolution processes:
-- At the beginning of the Fall 2025 semester (after [checkoff session 1](#assignment-incomplete-logistics))
-- Near the end of the Fall 2025 semester (after final).
+- At the beginning of the Fall 2026 semester (after [checkoff session 1](#assignment-incomplete-logistics))
+- Near the end of the Fall 2026 semester (after final).
 
-If you have an incomplete on project assignments, it will take us up to 3 weeks to resolve your incomplete after the deadline (9/30, 2025). If you have an incomplete on the final exam, it will take us up to 3 weeks to resolve your incomplete after Fall 2025's final exam. It might take us longer to update your grade on CalCentral. 
+If you have an incomplete on project assignments, it will take us up to 3 weeks to resolve your incomplete after the deadline (9/28, 2026). If you have an incomplete on the final exam, it will take us up to 3 weeks to resolve your incomplete after Fall 2026's final exam. It might take us longer to update your grade on CalCentral. 
 
 If you need your grade to be finalized and released at an earlier date, please reach out to us through cs61b-incompletes@berkeley.edu. 
 
@@ -87,13 +87,13 @@ A: We will send you an email with the final grade and breakdown from cs61b-incom
 ### Exam Incomplete Logistics
 **Q: How does the clobber work if I take an incomplete on the final?**
 
-A: We will calculate your z-score based on scores from next semester's final (e.g. if you take the Fall 2025 final, your z-score is calculated relative to the Fall 2025 scores). That z-score will be used when clobbering your midterm scores from the current semester.
+A: We will calculate your z-score based on scores from next semester's final (e.g. if you take the Fall 2026 final, your z-score is calculated relative to the Fall 2026 scores). That z-score will be used when clobbering your midterm scores from the current semester.
 
-You can find the exact calculation formula of your exam score [here](https://cs61bl.org/su25/policies/exams/#final-exam-clobbering).
+You can find the exact calculation formula of your exam score [here](https://cs61bl.org/su26/policies/exams/#final-exam-clobbering).
 
 **Q: How will my exam grade be calculated if the semester I'm resolving incomplete has a different policy ?**
 
-A: We will calculate your grade according to the exam policies of this semester (Summer 2025). 
+A: We will calculate your grade according to the exam policies of this semester (Summer 2026). 
 
 ### Assignment Incomplete Logistics
 
@@ -101,13 +101,13 @@ A: We will calculate your grade according to the exam policies of this semester 
 
 A: For incomplete assignments submitted to the autograder, you should submit them the same way as you normally do during the semester (i.e. submit your most recent implementation to the corresponding assignment autograder on gradescope).
 
-For Project 3, which requires a staff checkoff, we will be holding **two checkoff sessions during Fall 2025:**  
+For Project 3, which requires a staff checkoff, we will be holding **two checkoff sessions during Fall 2026:**  
 - Checkoff session 1: First week of school. 
 - Checkoff session 2: Regular project 3 checkoff session near the end of semester.
 
 Project 3 checkoff sessions will be hold separately by staff. We will send out information regarding sign ups before each checkoff session through email. 
 
-By default, to receive credit for project 3, you must get checked off by the end of Fall 2025. 
+By default, to receive credit for project 3, you must get checked off by the end of Fall 2026. 
 
 **Q: If I take an incomplete on Project 3, will I get a partner?**
 
@@ -123,7 +123,7 @@ We will have **limited student support meeting** slots from now till the end of 
 
 **Q: What kind of course resources do I have access as an incomplete student?**
 
-A: If your incomplete require access to Fall 2025's logistics (i.e. content schedule, office hour schedule, project 3 checkoff), we will add you to the Fall 2025 Ed as an observer. You will be able to read announcements, posts, and other people's comments but will not be able to ask questions directly. 
+A: If your incomplete require access to Fall 2026's logistics (i.e. content schedule, office hour schedule, project 3 checkoff), we will add you to the Fall 2026 Ed as an observer. You will be able to read announcements, posts, and other people's comments but will not be able to ask questions directly. 
 
 **Q: Who should I email if I have any questions related to my incomplete after the semester ends?**
 
