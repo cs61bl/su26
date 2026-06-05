@@ -244,43 +244,30 @@ We'll be using the version-control system [Git](https://git-scm.com/) this semes
 
 ---
 
-## Collaboration and Academic Misconduct
+## Collaboration and LLM Policy
+
+### Collaboration Policy
 
 Deadlines can be stressful, and we know that under extreme pressure, it becomes tempting to start rationalizing actions that you would otherwise consider inappropriate. Perhaps you’ll find yourself facing a CS 61BL project deadline, and under all this stress you’ll convince yourself that you’re just going to cheat for the moment so you can get the points, and that you’ll come back later and really learn the thing you were supposed to have learned in order to restore your karmic balance (I’ve heard something along these lines a few times).
 
 Please don't do this. We care that you learn the material, and that your grade reflects your learning, regardless of the timeline. If you feel that you need to engage in academic misconduct to meet a deadline, please reach out to course staff.
 
-Academic misconduct on any homework, lab or project will result in requiring you to write an anonymous reflection to be posted on this course website and to resubmit the assignment. A second instance of plagiarism on a homework, lab, or project will result in an F in the course. **All incidents of plagiarism will be referred to the Office of Student Conduct**, including shared code with others. Given our friendly lateness policy, there will be no exceptions to this rule.
+During the Spring 2017 semester, we compiled a series of [incident reports written by students who were caught plagiarizing](./academic-misconduct.md). If you find yourself tempted to cheat, you might turn to the words of others who have made the wrong choice for guidance.
 
-During the Spring 2017 semester, we compiled a series of [incident reports written by students who were caught plagiarizing](/policies/academic-misconduct#incident-reports-from-spring-2017). If you find yourself tempted to cheat, you might turn to the words of others who have made the wrong choice for guidance.
+| **Collaboration Policies** | |
+| --- | --- |
+| Homeworks, Labs, and Projects | Class assignments were created for learning. As such, they are intended to be completed primarily on your own (or with your partner on Project 3, which requires partners), particularly when it comes to writing the actual code. We do, however, encourage high-level discussion with peers and course staff (more details below). |
+| Exams | **For exams, we will be absolutely unforgiving.** Any incident will result in a failing grade for the course, though Berkeley will let you retake CS 61B next semester. As above, all incidents of cheating will be referred to the Office of Student Conduct. |
 
-### Homework and Lab Collaboration
-
-The entire point of homework and labs is to learn. For homework or labs, you should feel free to collaborate with others however you choose, though keep in mind that greater independence is likely to give you a better learning experience (as long as you aren’t totally stuck). **Even though we will allow close collaborations on HW and labs, the solutions you submit should still be your own work!** Identical or near identical submissions will be treated as plagiarism.
-
-### Project Collaboration
-
-By contrast, the projects were designed not just for learning (particularly how to be self-reliant in the context of large unfamiliar systems), but also for the dual purpose of evaluating your mastery of the course material. As such, they are intended to be completed primarily on your own (or with your partner on project 3, which allows partners), particularly when it comes to writing the actual code.
-
-### Exam Misconduct
-
-**For exams, we will be absolutely unforgiving.** Any incident will result in a failing grade for the course, though Berkeley will let you retake CS 61B next semester. As above, all incidents of cheating will be referred to the Office of Student Conduct.
-
-### Academic Misconduct
-
-What constitutes cheating? **The golden rule of academic dishonesty is that you should not claim to be responsible for work that is not yours.**
+What constitutes cheating? The golden rule of academic dishonesty is that you should not claim to be responsible for work that is not yours.
 
 This is obviously open to some interpretation, and you’ll be getting some help from instructors, the internet, other students, and more throughout the course. This is OK, and we hope that the class is an open, welcoming, collaborative environment where we can help each other build the highest possible understanding of the course material.
 
 To help (but not entirely define) the bounds of acceptable behavior, we have three important rules for coding assignments:
 
-1.  **By You Alone**: All code that you submit (other than skeleton code) should be written by you and your partner alone, except for small snippets that solve tiny subproblems (examples in the Permitted section below).
-
-2.  **Do Not Possess or Share Code**: Before you've submitted your final work, you should never be in possession of solution code that you (or your partner) did not write. Looking up solution code online is effectively possessing solution code.
-
-    You will be equally culpable if you distribute such code to other student or future students of 61B(L) (within reason). **DO NOT GIVE ANYONE YOUR CODE -- EVEN IF THEY ARE DESPERATELY ASKING. DO NOT POST SOLUTIONS ONLINE (on GitHub or anywhere else)!** If you're not sure what you're doing is OK, please ask.
-
-3.  **Cite Your Sources**: When you receive significant assistance on a coding assignment from someone else, you should cite that assistance somewhere in your source code with the `@source` tag in a comment. We leave it to you to decide what constitutes 'significant'. However, citing does not change the extent of collaboration or reference allowed.
+- **By You Alone:** All code that you submit (other than skeleton code) should be written by you and your partner alone, except for small snippets that solve tiny subproblems (examples in the Permitted section below).
+- **Do Not Possess or Share Code:** Before you’ve submitted your final work, you should never be in possession of solution code that you (or your partner) did not write. Looking up solution code online is effectively possessing solution code. You will be equally culpable if you distribute such code to other students or future students of 61B(L) (within reason). **DO NOT GIVE ANYONE YOUR CODE – EVEN IF THEY ARE DESPERATELY ASKING. DO NOT POST SOLUTIONS ONLINE (on GitHub or anywhere else)!** If you’re not sure what you’re doing is OK, please ask.
+- **Cite Your Sources:** When you receive significant assistance on a coding assignment from someone else, you should cite that assistance somewhere in your source code with the `@source` tag in a comment. We leave it to you to decide what constitutes ‘significant’. However, citing does not change the extent of collaboration or reference allowed.
 
     {: .warning}
     > **Examples:**
@@ -303,35 +290,80 @@ To help (but not entirely define) the bounds of acceptable behavior, we have thr
 For clarity, some examples of specific activities are listed below:
 
 **Permitted**:
-
 - High-level discussion of approaches for solving a problem.
 - Giving away or receiving significant conceptual ideas towards a problem solution. Such help should be cited as comments in your code. For the sake of other's learning experience, we ask that you try not to give away anything juicy, and instead try to lead people to such solutions.
 - Discussion of specific syntax issues and bugs in your code.
-- Using small snippets of code that you find online for solving tiny problems (e.g. googling "uppercase string java" may lead you to some sample code that you copy and paste into your solution). Such usages should be cited as comments in your HW, lab, and especially project code!
+- Using small snippets of code that you find online for solving tiny problems (e.g. googling “uppercase string java” may lead you to some sample code that you copy and paste into your solution). Such usages should be cited as comments in your code!
 
-Permitted with **Extreme Caution**:
-
-- Working on a project alongside another person or group of people. Your code should not substantially resemble anyone else's!
-- Use of GitHub Copilot / ChatGPT / Gemini / Cursor / etc. If you're just generating some amount of boilerplate code or help you debug when truly stuck, that's ok. However, you should not use such tools to generate non-trivial methods. We are trying to build your fundamental skills, and leaning on an AI is going to cause you trouble in circumstances where you don't have an AI to help, such as exams. **Any AI generated code must be cited and explicitly commented as such.** Violation of this citation rule is a serious act of plagiarism. Note that generative AI is designed to output data that *looks* correct, not output data that *is* correct. As such, AI-generated code, especially from sources like ChatGPT, is often subtly buggy or completely incorrect. It also may use strategies out-of-scope for this course.
+**Permitted with Extreme Caution**:
+- Working on a project alongside another person or group of people. Your code should not substantially resemble anyone else’s!
 - Sending code to someone at a company when you are applying for a job. You should never send code publicly. Rather, you can add the recipient as a private collaborator to your Github repository.
 
 **Absolutely Forbidden**:
-
-- Typing or dictacting code into someone else's computer is a violation of the "By You Alone" rule.
-- Possessing another student's code in any form before a final deadline, be it electronic or on paper. This includes the situation where you're trying to help someone debug. Distributing such code is equally forbidden.
+- Typing or dictating code into someone else’s computer is a violation of the “By You Alone” rule.
+- Possessing another student’s code in any form before a final deadline, be it electronic or on paper. This includes the situation where you’re trying to help someone debug. Distributing such code is equally forbidden.
 - Possessing solution code that you did not write yourself (from online (e.g. GitHub), staff solution code found somewhere on a server it should not have been, etc.) before a final deadline. Distributing such code is equally forbidden. **Looking at solution code online counts as possessing code.**
 - Posting solution code to any assignment in a public place (e.g. a public git repository, Google Drive, Discord, etched into stones above the Mediterranean, etc). This applies even after the semester is over.
 - Working in lock-step with other students. Your workflow should not involve a group of people identifying, tackling, and effectively identically solving a sequence of subproblems.
 
-We have advanced cheating detection software, and we will routinely run this code to detect cheating. Every semester, we catch and penalize a significant number of people (roughly 100 cases per semester). Do not be one of them. If you find yourself at such a point of total desperation that cheating begins to look attractive, contact one of the instructors. Likewise, if 61BL is causing massive disruption to your personal life, please email `cs61bl (at) berkeley.edu`{: .blue}.
+Please also refer to the LLM Policy section for more details on what is permitted use of LLMs. If 61BL is causing massive disruption to your personal life, please email cs61bl@berkeley.edu.
 
-In essence, our ultimate goal is for students to grasp the code they've crafted. It's not just about completing projects; it's about cultivating a deep comprehension of their code. We assign these projects to give you an opportunity to build a strong foundation in coding, ensuring that you truly understand the core principles behind the concepts we teach in this course.
-
-If you admit guilt to an act of plagiarism before we catch you, you will receive the same penalty, but we will not refer your case to the Center of Student Conduct. However, we would strongly prefer that you ask us for additional time before opting to plagiarize.
+In essence, our ultimate goal is for students to grasp the code they’ve crafted. It’s not just about completing projects; it’s about cultivating a deep comprehension of their code. We assign these projects to give you an opportunity to build a strong foundation in coding, ensuring that you truly understand the core principles behind the concepts we teach in this course.
 
 Obviously, the expressive power of Java is a subset of the English language. And yes, you can obviously obey the letter of this entire policy while completely violating its spirit. However, this policy is not a game to be defeated, and such circumventions will be seen as plagiarism.
 
 You can review our [academic misconduct resolution procedures here](./academic-misconduct.md).
+
+### LLM Policy
+
+**General Policy**
+Use LLMs in the same way you might use a friend in the class. Just as it’s OK to ask a friend a conceptual question, you may use LLMs for conceptual questions. You would not ask a friend to write code for you, and similarly you may not ask an LLM to write code for you unless explicitly stated (e.g. LLM Experiment in HW 2) in the assignment. As a general rule of thumb, no code or instructions should be pasted/typed into an LLM. If at any point you find yourself stuck on an assignment, concept, or anything else related to CS 61BL, we encourage you to find our staff at office hours or lab!
+
+**Code Reviews and Interviews**
+In order to discourage unacceptable LLM use, we will be conducting random code reviews for submitted project code for all projects, with some bias towards code that appears to be LLM-generated. If you find yourself at such a point of total desperation that cheating begins to look attractive, please come to office hours or lab for assistance. We are here to help! For students selected for code review, we’ll hold short interviews to verify that you are able to explain your code and are capable of generating similar code unassisted.
+
+**Question Types**
+The below policy applies to all interactions with LLMs relating to CS 61BL content:
+
+**Reasonable Questions**:
+These are things that are reasonable to ask an LLM.
+- “What’s the difference between Integer and int in Java?”
+- “What is a garbage collector?”
+- “What does this mean: Exception in thread “main” java.lang.ArithmeticException: / by zero”
+
+**Cautionable Questions**:
+These questions are borderline, but allowed with caution. If answers to questions like the below end up generating code that ends up in your submissions, you must cite where the code came from.
+- “Write a snippet of code to make an array in Java.”
+- “Write a snippet of code to make every word uppercased in Java.”
+
+**Unreasonable Questions**:
+These questions will massively detract from your learning experience in the course, and should not be asked to LLMs.
+- “Design an algorithm to solve this following task: [copy pasted from spec]”
+- Any prompt that involves copying, rewording, paraphrasing, etc. more than approximately 15 words of an assignment.
+- Any prompt that aims to generate code that can be directly copied and pasted into an assignment with minimal revision.
+- Any prompt that involves giving your own code to the LLM to review. This includes Github Copilot, ChatGPT, Claude, built-in LLM tools in IDEs, etc.
+
+We believe that students are able to tell the difference between using an LLM to genuinely attempt to understand the course content more deeply and using an LLM to avoid engaging with the learning goals of the course or to complete assignments without learning more about the content. We also believe that LLMs are very prone to giving out incorrect answers, so we will not penalize asking about the accuracy of LLM output on course platforms. For example, if an LLM gives you information that seems to be wrong, please ask! We are here to support your learning and correct your misconceptions, and course staff is an official source of truth for CS 61BL. It’s better to ask us and be confident in the reply than to possibly internalize incorrect information after the end of this course.
+
+**Any AI-generated or inspired code must be cited and explicitly commented as such.**
+Violation of this citation rule is a serious act of plagiarism. Additionally, note that the same restrictions on posting code in a public forum applies to posting LLM code. Do not post large amounts of code publicly on course platforms.
+
+**Citing LLMs as a Source**
+
+```
+//TEMPLATE @source: used [tool] for [brief < 1 sentence purpose]
+...
+
+// @source: used ChatGPT to solve a NumberFormatException when parsing a string to an int 
+...
+
+// @source: used Gemini to figure out syntax for scanner.nextLine and its outputs
+...
+```
+
+Please comment in specific regions where you received a significant amount of help from LLMs.
+
+*Acknowledgements: Portions of this policy are derived from CS 61C Spring 2026 and CS 189 Spring 2026.*
 
 ### Reusing Code from Past Semesters
 

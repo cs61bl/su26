@@ -75,7 +75,7 @@ There is one exception: To get credit for Project 3, you will have to do a check
 
 ## Collaboration
 
-All work for CS 47B will be solo except for projects, where you will have the option to pair up with another 47B student. You're allowed to talk to others, but your work should be your own. See [Policies on Collaboration and Academic Misconduct](../index.md#collaboration-and-academic-misconduct).
+All work for CS 47B will be solo except for projects, where you will have the option to pair up with another 47B student. You're allowed to talk to others, but your work should be your own. See [Collaboration and LLM Policy](../index.md#collaboration-and-llm-policy).
 
 For Projects 2 and 3, 47B student project partners are optional but strongly recommended. Working with a partner can enhance your learning experience by providing different perspectives and enabling collaborative problem-solving.
 
@@ -95,7 +95,7 @@ If you need help with labs, homeworks, or projects, please come to lab or office
 
 ## Getting Started
 
-- [ ] Review the [47B course page](index.md) and the [61B course policies](../index.md) ("General Background Information", "Resources", "Collaboration and Academic Misconduct" sections).
+- [ ] Review the [47B course page](index.md) and the [61B course policies](../index.md) ("General Background Information", "Resources", "Collaboration and LLM Policy" sections).
 - [ ] Check your email for a bCourses invitation to 61B. This will give you access to our course forum Ed and Gradescope. Reach out to cs47b@berkeley.edu if you run into issues or have not received an invite.
 - [ ] Start setting up your computer with the instructions in [Lab 1](../../labs/lab01/index.md). By the end of this lab, you should have your Github repository, Beacon account, and development environment.
 - [ ] Fill out the [Spring 2025 CS 47B introductory survey](https://forms.gle/h7BGgg2KfiMcQEzaA).

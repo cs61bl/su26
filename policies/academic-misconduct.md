@@ -95,7 +95,7 @@ Note: If we have a high volume of cases, we may not have enough staff time to ho
 
 You may reuse any code as long as it is your own original work, and you followed our collaboration policies when creating that code.
 
-For example, you might have taken 61B in a previous semester, but dropped the course halfway through. Or, you might have completed some of the assignments ahead of time. Reusing this code is fine, as long as you are the original author of that code, and that code was produced in a way that's consistent with our collaboration policies (e.g. you did not generate the code with ChatGPT).
+For example, you might have taken 61B in a previous semester, but dropped the course halfway through. Or, you might have completed some of the assignments ahead of time. Reusing this code is fine, as long as you are the original author of that code, and that code was produced in a way that's consistent with our collaboration policies (e.g. you did not generate the code with an LLM in a way that violates our collaboration and LLM policies).
 
 If you are not certain if the code is your own original work, don't use it! You should instead delete the code and start from scratch. Remember, looking at any code that is not yours constitutes academic misconduct.
 

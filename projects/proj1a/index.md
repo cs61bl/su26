@@ -58,7 +58,7 @@ much less scaffolding.
 
 {: .warning}
 >For this project, you must work alone! Please carefully read the
->[Policy on Collaboration and Cheating](../../policies/#collaboration-and-academic-misconduct)
+>[Policy on Collaboration](../../policies/#collaboration-and-llm-policy)
 >to see what this means exactly. In particular, do not look for solutions online.
 >
 >
