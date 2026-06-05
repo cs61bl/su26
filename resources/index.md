@@ -88,9 +88,14 @@ The **[Student Technology Equity Program (STEP)](https://studenttech.berkeley.ed
 </thead>
 <tbody>
   <tr>
+    <td><a href="https://sp26.datastructur.es">Spring 2026</a><br>(Josh Hug, Kay Ousterhout)</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td><a href="https://sp25.datastructur.es">Spring 2025</a><br>(Justin Yokota, Josh Hug)</td>
     <td><a href="https://cs61bl.org/su25/">Summer 2025</a><br>(Noah Adhikari, Wilson Fung)</td>
-    <td></td>
+    <td><a href="https://fa25.datastructur.es/">Fall 2025</a><br>(Josh Hug, Peyrin Kao)</td>
   </tr>
   <tr>
     <td><a href="https://sp24.datastructur.es">Spring 2024</a><br>(Justin Yokota, Peyrin Kao)</td>
