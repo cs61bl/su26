@@ -205,7 +205,7 @@ lectures:
         link: https://cs61b-2.gitbook.io/cs61b-textbook/22.-tree-traversals-and-graphs/22.3-graphs
       - name: "Chapter 23"
         link: https://cs61b-2.gitbook.io/cs61b-textbook/23.-graph-traversals-and-implementations
-      - name: "Chapter 28"
+      - name: "Chapter 28.1"
         link: https://cs61b-2.gitbook.io/cs61b-textbook/28.-reductions-and-decomposition/28.1-topological-sorts-and-dags
   
   - title:
