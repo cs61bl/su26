@@ -103,7 +103,7 @@ discussion_filename_bases:
   regular_slug: "disc"
   examprep_slug: "examlevel"
   bridge_slug: "bridge"
-  regular_name: "Theoretical Lab"
+  regular_name: "Friday Exam Prep"
   examprep_name: "Exam-Level"
   bridge_name: "Bridge"
 

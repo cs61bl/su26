@@ -104,8 +104,8 @@ categories:
     darkTheme:
       --event-background: "#4C4B10"
       --event-border-color: "#F4EFC3"
-  - name: "Theoretical Lab"
-    match: "theoretical lab"
+  - name: "Friday Exam Prep"
+    match: "theoretical lab|exam prep"
     lightTheme:
       --event-background: "#ECD9C9"
       --event-border-color: "#8D5C32"

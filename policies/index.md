@@ -35,8 +35,8 @@ of work. **We strongly recommend not taking any other courses alongside 61BL.**
 While we can’t predict exactly how many hours you will spend on the course, here is a
 brief breakdown of what you will have to do in this course.
 
-- Four 2 hour practical labs per week on Monday - Thursday.
-- One 2 hour theoretical lab per week on Friday.
+- Four 2 hour labs per week on Monday - Thursday.
+- One 2 hour Friday Exam Prep session per week.
 - Two 1 hour live lectures per week on Monday and Wednesday, with pre-recorded lecture videos to watch before class.
 - One homework per week (total of 6).
 - Two exams (one midterm, one final) in the 8 weeks of the course.
@@ -84,22 +84,21 @@ Noah will hold OH in Soda 779 on Tue/Thu from 10-11AM or by appointment.
 
 ### Labs
 
-Lab sections meet Monday through Friday. You may only attend the lab section which you signed up for. All labs will be held in person in a lab room in Soda Hall.
+Lab sections meet Monday through Thursday. You may only attend the lab section which you signed up for. All labs will be held in person in a lab room in Soda Hall.
 
-#### Practical Labs
+Labs emphasize hands-on experience with the course material, involving coding assignments that are submitted for credit. Labs do not require attendance, but are your main source of help from course staff, including on projects.
 
-The Monday through Thursday labs are practical labs (except Mon, Jul 7) that emphasize hands-on experience with the course material. These involve coding assignments that are submitted for credit. Practical labs do not require attendance, but are your main source of help from course staff, including on projects.
+There are currently a total of 21 graded lab exercises (subject to change), each worth 2 points. Thus, while the total point value for labs is 42 points, lab grades are capped at 40 points. This means that **you can miss up to 1 lab without penalty** if you get a full score on every other lab. It also means that you can get full credit for labs in this class if you do not get a full score on every lab assignment. In other words, getting more than 40 points on lab is equivalent to getting 40 points for your lab score.
 
-There are currently a total of 21 graded lab exercises (subject to change), each worth 2 points. Thus, while the total point value for labs is 42 points, lab grades are capped
-at 40 points. This means that **you can miss up to 1 lab without penalty** if you get a full score on every other lab. It also means that you can get full credit for labs in this class if you do not get a full score on every lab assignment. In other words, getting more than 40 points on lab is equivalent to getting 40 points for your lab score.
+### Friday Exam Prep Sessions
 
-#### Theoretical Labs
+Friday sessions are Exam Prep sessions (except Fri, Jul 4, which will be pushed to Mon, Jul 7) that involve working through a worksheet with your classmates and TA. Friday Exam Prep sessions will have a small attendance credit (see grading breakdown below).
 
-Friday labs are theoretical labs (except Fri, Jul 4, which will be pushed to Mon, Jul 7) that involve working through a worksheet with your classmates and TA. Theoretical labs will have a small attendance credit (see grading breakdown below).
+**Please note that Friday Exam Prep sessions are distinct from labs and will be held in different rooms shown on the main calendar.**
 
-We also may hold review sessions this semester before the exams. Attending these will also count towards the theoretical lab attendance credit. More details will be announced on Ed as the semester progresses.
+We also may hold review sessions this semester before the exams. Attending these will also count towards the Friday Exam Prep attendance credit. More details will be announced on Ed as the semester progresses.
 
-There will be 7 theoretical labs and 2 review sessions. You will need to attend 5 of them (aka 5 of the 9 sections) in order to receive full attendance credit. Each attendance is worth 3 points, capped at 15 points. Achieving more than 5 attendances does not give extra credit, but we still encourage you to attend all theoretical labs and review sessions, as they will help you better prepare for the exams.
+There will be 7 Friday Exam Prep sessions and 2 review sessions. You will need to attend 5 of them (aka 5 of the 9 sessions) in order to receive full attendance credit. Each attendance is worth 3 points, capped at 15 points. Achieving more than 5 attendances does not give extra credit, but we still encourage you to attend all Friday Exam Prep sessions and review sessions, as they will help you better prepare for the exams.
 
 #### Section Swapping
 
@@ -159,8 +158,8 @@ Your course grade is computed using a point system with a total of 300 points. I
 
 | Category                      | Percentage  | Points   |
 | ----------------------------- | ----------- | -------- |
-| Practical Lab Assignments     | 13%         | 40       |
-| Theoretical Lab Attendance    | 5%          | 15       |
+| Lab Assignments               | 13%         | 40       |
+| Friday Exam Prep Attendance   | 5%          | 15       |
 | Homeworks                     | 5%          | 15       |
 | Project 0                     | 5%          | 15       |
 | Project 1                     | 8%          | 24       |
