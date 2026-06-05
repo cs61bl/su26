@@ -35,16 +35,16 @@ of work. **We strongly recommend not taking any other courses alongside 61BL.**
 While we can’t predict exactly how many hours you will spend on the course, here is a
 brief breakdown of what you will have to do in this course.
 
-- Four 2 hour labs per week on Monday - Thursday.
-- One 2 hour Friday Exam Prep session per week.
-- Two 1 hour live lectures per week on Monday and Wednesday, with pre-recorded lecture videos to watch before class.
+- Four 2 hour labs per week on Monday - Thursday, each with **required prep work**.
+- One 2 hour Friday Exam Prep session per week (most weeks).
+- Two 1 hour live lectures per week on Monday and Wednesday.
 - One homework per week (total of 6).
 - Two exams (one midterm, one final) in the 8 weeks of the course.
 - Four projects in the 8 weeks of the course.
 
 ### Remote Policy
 
-This is, per university policy, an in-person course. **We will not have remote Lectures, Labs, or Exam Prep Sessions this semester.** However, attendance at Lecture, our regular Lab sections (Monday through Thursday) and our Friday Exam Prep sessions is not strictly required. **You must take the exams in person.** Everything other than exams can be completed remotely.
+This is, per university policy, an in-person course. **We will not have remote Lectures, Labs, or Exam Prep Sessions this semester.** However, attendance at Lecture, our regular Lab sections (Monday through Thursday), and our Friday Exam Prep sessions is not strictly required: as you can earn credit for assignments and Exam Prep sessions asynchronously. **You must take the exams in person.** Everything other than exams can be completed remotely.
 
 ### Alternatives
 
@@ -80,7 +80,7 @@ Lecture will be held on **Mondays and Wednesdays from 9–10am in Evans 10**. Be
 
 ### Lecture Office Hours
 
-Noah will hold OH in Soda 779 on Tue/Thu from 10-11AM or by appointment.
+Sherdil will hold regular in-person office hours: please see the Calendar. Peyrin will hold regular office hours via Zoom.
 
 ### Labs
 
@@ -92,13 +92,13 @@ There are currently a total of 21 graded lab exercises (subject to change), each
 
 ### Friday Exam Prep Sessions
 
-Friday sessions are Exam Prep sessions (except Fri, Jul 4, which will be pushed to Mon, Jul 7) that involve working through a worksheet with your classmates and TA. Friday Exam Prep sessions will have a small attendance credit (see grading breakdown below).
+Friday sessions are Exam Prep sessions that involve working through a worksheet with your classmates and TA. Friday Exam Prep sessions will have a small attendance/participation credit (see grading breakdown below).
 
 **Please note that Friday Exam Prep sessions are distinct from labs and will be held in different rooms shown on the main calendar.**
 
-We also may hold review sessions this semester before the exams. Attending these will also count towards the Friday Exam Prep attendance credit. More details will be announced on Ed as the semester progresses.
+There will be 5 Friday Exam Prep sessions. You will need to receive credit for all 5 sessions in order to receive full credit (each session is worth 3 points, capped at 15 point). You can receive credit either by attending the session in person or working on the worksheet asynchronously (more details on how to submit worksheets for asynchronous credit will be announced on Ed).
 
-There will be 7 Friday Exam Prep sessions and 2 review sessions. You will need to attend 5 of them (aka 5 of the 9 sessions) in order to receive full attendance credit. Each attendance is worth 3 points, capped at 15 points. Achieving more than 5 attendances does not give extra credit, but we still encourage you to attend all Friday Exam Prep sessions and review sessions, as they will help you better prepare for the exams.
+We will also hold review sessions this semester before the exams. More details will be announced on Ed as the semester progresses: you can use these to replace Friday sessions you may have missed. We still encourage you to complete all Friday Exam Prep sessions, as they will help you better prepare for the exams.
 
 #### Section Swapping
 
@@ -222,7 +222,7 @@ Rather than using bCourses, we will be using our own custom learning management 
 
 **There is no required textbook for the class.**
 
-There is an online textbook written by Josh Hug (long-time 61B instructor) and a large team of course staff. It can be found at [https://cs61b-2.gitbook.io/cs61b-textbook/](https://cs61b-2.gitbook.io/cs61b-textbook/). If you find these notes insufficient, you might consider consulting [Paul Hilfinger's (free) Java Reference](http://www-inst.eecs.berkeley.edu/~cs61b/fa14/book1/java.pdf)
+There is an online textbook written by Josh Hug (long-time 61B instructor) and a large team of course staff. It can be found at [https://cs61b-2.gitbook.io/cs61b-textbook/](https://cs61b-2.gitbook.io/cs61b-textbook/) and **serves as required reading before each Lab**. If you find these notes insufficient, you might consider consulting [Paul Hilfinger's (free) Java Reference](http://www-inst.eecs.berkeley.edu/~cs61b/fa14/book1/java.pdf)
 or [Head First Java, 2nd Edition by Sierra and Bates (O'Reilly, 2005)](https://www.google.com/search?q=head+first+java). These are not required for the course. The **optional** textbook for the weeks 5-14 of the course is Algorithms, 4th Edition by Wayne and Sedgewick.
 
 The official description of the Java core language is available online in [The Java Language Specification](https://docs.oracle.com/javase/specs/jls/se21/html/index.html) (Java SE 21 Edition) by James Gosling, Bill Joy, Guy Steele, Gilad Bracha, Alex Buckley, Daniel Smith, and Gavin Bierman. It's extremely thorough and precise, at the expense of being quite dense and technical. You may find the official [Java 21 documentation](https://docs.oracle.com/en/java/javase/21/docs/api/index.html) to be useful as well.
