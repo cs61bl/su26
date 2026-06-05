@@ -11,8 +11,8 @@ unreleased_warning: false
 
 This course has a midterm exam and a final exam.
 
-- The Midterm will be on **Friday, July 18th from 7-9 PM in Dwinelle 155**.
-- The Final Exam will be on **Tuesday, August 12th from 3-6 PM in Dwinelle 155**.
+- The Midterm will be on **Friday, July 17th from 7-9 PM (Room TBD)**.
+- The Final Exam will be on **Tuesday, August 11th from 3-6 PM (Room TBD)**.
 
 We will offer **in-person exams only**.
 
