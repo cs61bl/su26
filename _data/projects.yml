@@ -71,12 +71,65 @@
 #     - schedule-green
 
 projects:
+  # - nonumber: true
+  #   rowspan: 1
+  - title: "Project 0: 2048"
+    link: "/projects/proj0"
+    show_links: true
+    due: "2026/06/28"
+    classes:
+      - "schedule-green"
+    rowspan: 5
+  - title: "Project 1A: LinkedListDeque"
+    link: "/projects/proj1a"
+    show_links: false
+    due: "2026/07/02"
+    classes:
+      - "schedule-blue"
+    rowspan: 4
+  - title: "Project 1B: ArrayDeque"
+    link: "/projects/proj1b"
+    show_links: false
+    due: "2026/07/08"
+    classes:
+      - "schedule-blue"
+    rowspan: 4
+  # - nonumber: true
+  #   rowspan: 4
+  - title: "Project 2A: NGrams"
+    link: "/projects/proj2a"
+    show_links: false
+    due: "2026/07/15"
+    classes:
+      - "schedule-purple"
+    rowspan: 5
+  # - title: "Project 2B: Checkpoint"
+  #   link: "/projects/proj2b"
+  #   rowspan: 4
+  #   show_links: true
+  #   due: "2026/03/21"
+  #   classes:
+  #     - "schedule-green"
+  - title: "Project 2B: Wordnet"
+    link: "/projects/proj2b"
+    show_links: false
+    due: "2026/07/26"
+    classes:
+      - "schedule-purple"
+    rowspan: 7
+  - title: "Project 3A: World Generation"
+    link: "/projects/proj3/proj3a"
+    show_links: false
+    due: "2026/08/03"
+    classes:
+      - "schedule-green"
+    rowspan: 6
+  - title: "Project 3B: Interactivity"
+    link: "/projects/proj3/proj3b"
+    show_links: false
+    due: "2026/08/09"
+    classes:
+      - "schedule-green"
+    rowspan: 4
   - nonumber: true
-    rowspan: 100
-  #- title: "Project 0: 2048"
-  #  link: "/projects/proj0"
-  #  show_links: false
-  #  due: "2025/06/29"
-  #  classes:
-  #    - "schedule-green"
-  #  rowspan: 5
+    rowspan: 10

@@ -16,9 +16,11 @@
     per week.
 {%- endcomment -%}
 
-{%- if include.element.theoretical -%}
-  <td class="{{ include.is_even }}" rowspan="{{ include.rowspan }}" style="background-color: rgba(255, 183, 237, 0.122);">
-{%- else -%}
+{%- if include.element.examprep -%}
+  <td class="{{ include.is_even }}" rowspan="{{ include.rowspan }}" style="background-color: rgba(255, 183, 183, 0.475);">
+  {%- elsif include.element.recitation -%}
+  <td class="{{ include.is_even }}" rowspan="{{ include.rowspan }}" style="background-color: rgba(183, 209, 255, 0.475);">
+  {%- else -%}
   <td class="{{ include.is_even }}" rowspan="{{ include.rowspan }}">
 {%- endif -%}
 
@@ -38,12 +40,12 @@
   - [CS61B] Enabled auto-numbering by changing this line:
     "{{ include.element.title }}"
     to this line:
-    "Lab {{ include.number }}:<br> {{ include.element.title }}"
+    "Lab {{ include.number }}: {{ include.element.title }}"
     ~peyrin Jun 2025
 {%- endcomment -%}
 {%- capture assignment_title -%}
   {%- if include.element.title and include.element.title != empty -%}
-    Lab {{ include.number }}:<br> {{ include.element.title }}
+    Lab {{ include.number }}: {{ include.element.title }}
   {%- else -%}
     HW{{ include.number }}
   {%- endif -%}

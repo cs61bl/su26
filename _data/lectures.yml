@@ -68,30 +68,54 @@ lecture_prefix: "/assets/lectures/cs101-sp25-lec"
 # [CS61B] We don't use lecture_prefix. ~peyrin Jun 2025
 
 lectures:
-  - title: "Introduction and Logistics"
-    slides: https://docs.google.com/presentation/d/1g31wXLoykVRf5cP1X3fsYdW6pwcZv9Ut0k3FZYOxOtU/edit?usp=sharing
-    # video: ""
-    # reading: 
-    # recording: https://www.youtube.com/watch?v=dQw4w9WgXcQ
-    # quiz: https://forms.gle/9YzSaMr74atHPoai7
-
-  # saving below for reference
+  # Week 1
+  - title: "Welcome!"
+  - title:
+    nonumber: True
+    readings:
+      - name: "Chapter 1"
+        link: "https://cs61b-2.gitbook.io/cs61b-textbook/1.-introduction"
+  - title: "Primitives and Objects"
+  - title:
+    nonumber: True
+    readings:
+      - name: "Chapter 7"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/7.-testing
+  - title:
+    nonumber: True
   
-  # - title: "Intro, Instance Variables"
-  #   slides: "https://docs.google.com/presentation/d/1_funKmLVePWqfNulUl5yehBQmV1gxHarI_VkMgQ_Ah8/edit#slide=id.g3280633c3ea_0_148"
-  #   video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRq5wRDN8wZFy7GrrJXUtr1q"
-  #   recording: "https://www.youtube.com/watch?v=qMdLi5v8aT4"
-  #   quiz: "https://forms.gle/9YzSaMr74atHPoai7"
-  #   readings:
-  #     - name: "Ch. 1"
-  #       link: "https://cs61b-2.gitbook.io/cs61b-textbook/1.-introduction"
-  # - title: "Summary, Fun [Optional]"
-  #   slides: "https://docs.google.com/presentation/d/1U9ljZcRX3zYHRw4IesdqD4KMRCqig6UGjXdmYC1bE7I/edit?usp=sharing"
-  #   recording: "https://youtu.be/wIL8ELdtgBo"
-  #   classes:
-  #     - schedule-red
-  # - title: "No Lecture (RRR Week)"
-  #   rowspan: 3
-  #   nonumber: True
-  # - title: "**Final Exam (Tue,  May 13, 8–11am)**"
-  #   nonumber: True
+  # Week 2
+  - title: "ADTs + Lists"
+    readings:
+    - name: "Chapter 3"
+      link: https://cs61b-2.gitbook.io/cs61b-textbook/3.-references-recursion-and-lists
+    - name: "Chapter 4"
+      link: https://cs61b-2.gitbook.io/cs61b-textbook/4.-sllists
+  
+  - title:
+    nonumber: true
+    readings:
+      - name: "Chapter 5"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/5.-dllists
+      - name: "Chapter 8"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/8.-arraylist
+
+  - title: "Inheritance + Polymorphism"
+    readings:
+    - name: "Chapter 9"
+      link: https://cs61b-2.gitbook.io/cs61b-textbook/9.-inheritance-i-interface-and-implementation-inheritance
+    - name: "Chapter 10"
+      link: https://cs61b-2.gitbook.io/cs61b-textbook/10.-inheritance-ii-extends-casting-higher-order-functions
+    - name: "Chapter 11.1"
+      link: https://cs61b-2.gitbook.io/cs61b-textbook/11.-inheritance-iii-subtype-polymorphism-comparators-comparable/11.1-a-review-of-dynamic-method-selection
+    - name: "Chapter 16.1"
+      link: https://cs61b-2.gitbook.io/cs61b-textbook/16.-adts-and-bsts/16.1-abstract-data-types
+  
+  - title:
+    nonumber: true
+    readings:
+      - name: "Chapters 11.2-11.6"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/11.-inheritance-iii-subtype-polymorphism-comparators-comparable/11.2-subtype-polymorphism-vs-explicit-higher-order-functions
+      - name: "Chapter 12"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/12.-inheritance-iv-iterators-object-methods
+  

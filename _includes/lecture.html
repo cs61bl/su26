@@ -47,7 +47,7 @@
 {%- if include.element.nonumber -%}
   {{ include.element.title | markdownify }}
 {%- elsif include.element.title -%}
-  {{ include.number }}. {{ include.element.title }}
+  Lecture {{ include.number }}: {{ include.element.title }}
 {%- endif -%}
 
 {%- comment -%}
@@ -56,17 +56,6 @@
     Added dashes to percent tags to remove whitespace in the "forloop.last" if-case.
     ~peyrin Jun 2025
 {%- endcomment -%}
-{%- if include.element.readings != nil -%}
-  &nbsp;(
-  {%- for reading in include.element.readings -%}
-    <a href="{{ reading.link | relative_url }}">{{ reading.name }}</a>
-    {%- if forloop.last == false -%}
-      {{}} / {{}}
-    {%- endif -%}
-  {%- endfor -%}
-  )
-{%- endif -%}
-
 {%- comment -%}
   - Each element of this array will hold an HTML link, e.g.
     ["Slides", "Video", "Recording"]

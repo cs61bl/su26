@@ -54,11 +54,10 @@
         <th style="width:{{ site.data.syllabus.week_width }}">Wk.</th>
         <th style="width:{{ site.data.syllabus.date_width }}">Date</th>
         <th style="width:{{ site.data.syllabus.lecture_width }}">Lecture</th>
-        <th style="width:{{ site.data.syllabus.readings_width }}">Pre-Lab Reading</th>
-        <th style="width:{{ site.data.syllabus.lab_width }}">Lab</th>
+        <th style="width:{{ site.data.syllabus.readings_width }}">Pre-Lab Readings</th>
+        <th style="width:{{ site.data.syllabus.lab_width }}">Lab, Recitation, and Exam Prep</th>
         <th style="width:{{ site.data.syllabus.homework_width }}">Homework</th>
         <th style="width:{{ site.data.syllabus.project_width }}">Project</th>
-        <th style="width:{{ site.data.syllabus.project_width }}">Bonus Exam Prep</th>
       </tr>
     </thead>
 
@@ -263,13 +262,6 @@
                   <!-- scuffed -->
               {%- endcomment -%}
               {%- assign lecture_rowspan = new_rowspan | plus:-1 -%}
-              {%- assign lecture_index = lecture_index | plus:1 -%}
-              {%- assign lecture_element2 = site.data.lectures.lectures[lecture_index] -%}
-              {%- if lecture_element2.rowspan -%}
-                {%- assign new_rowspan2 = lecture_element2.rowspan -%}
-              {%- else -%}
-                {%- assign new_rowspan = default_lecture_rowspan -%}
-              {%- endif -%}
               {%- unless lecture_element.nonumber -%}
                 {%- assign old_lecture_number = lecture_number -%}
                 {%- assign lecture_number = lecture_number | plus:1 -%}
@@ -277,12 +269,9 @@
               {%- comment -%}
                   <!-- scuffed -->
               {%- endcomment -%}
-              {%- include lecture.html element=lecture_element element2=lecture_element2 number=old_lecture_number number2=lecture_number rowspan=new_rowspan rowspan2=new_rowspan2 is_even=is_even classes=lecture_element.classes  -%}
+              {%- include lecture.html element=lecture_element number=old_lecture_number number2=lecture_number rowspan=new_rowspan rowspan2=new_rowspan2 is_even=is_even classes=lecture_element.classes  -%}
               {%- assign lecture_rowspan = new_rowspan | plus: -1 -%}
               {%- assign lecture_index = lecture_index | plus: 1 -%}
-              {%- unless lecture_element.nonumber -%}
-                {%- assign lecture_number = lecture_number | plus: 1 -%}
-              {%- endunless -%}
             {%- else -%}
               {%- assign lecture_rowspan = lecture_rowspan | plus: -1 -%}
             {%- endif -%}
@@ -312,6 +301,7 @@
             {%- else -%}
               {%- assign readings_rowspan = readings_rowspan | plus:-1 -%}
             {%- endif -%}
+            
 
             <!-- {%- comment -%}
               - Render the discussion column.

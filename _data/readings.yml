@@ -1,3 +1,5 @@
 readings: 
-  - title: "Course Policies"
-    link: policies
+  - name: "Course Policies"
+    link: ""
+  - name: "Chapter 1"
+    link: "https://cs61b-2.gitbook.io/cs61b-textbook/1.-introduction"

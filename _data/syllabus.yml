@@ -7,7 +7,7 @@
 # so some fiddling is necessary. If you're struggling with time zone issues,
 # try setting your system time to GMT when building the website.
 start_date: 2026-06-22
-end_date: 2026-08-14
+end_date: 2026-08-15
 
 # Any other days you want to appear on the calendar (e.g. for one-time events
 # like exams or bonus lectures) can be listed here.
@@ -34,10 +34,10 @@ class_days: ['1', '2', '3', '4', '5']
 # For example, if you set starting_homework_number to 0, then the first homework
 # assignment you create is numbered HW0. If you set it to 1, then that same
 # assignment is numbered HW1 instead.
-starting_lecture_number: '0'
+starting_lecture_number: '1'
 starting_readings_number: '1'
 starting_recordings_number: '1'
-starting_discussion_number: '0'
+starting_discussion_number: '1'
 starting_lab_number: '1'
 starting_homework_number: '1'
 starting_project_number: '0'
@@ -92,10 +92,9 @@ project_alternate_color: false
 # project_width: "13%"
 week_width: "2%"
 date_width: "10%"
-lecture_width: "15%"
-readings_width: "15%"
-recordings_width: "0%"
-discussion_width: "13%"
-lab_width: "20%"
+lecture_width: "12%"
+readings_width: "12%"
+discussion_width: "19%"
+lab_width: "26%"
 homework_width: "12%"
 project_width: "12%"

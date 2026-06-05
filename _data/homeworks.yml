@@ -71,27 +71,76 @@
 #     - schedule-purple
 
 homeworks:
+  - title: "Homework 0"
+    due: "2026/06/23"
+    link: "https://www.gradescope.com/courses/1050654/assignments/6356907"
+    show_links: true
+    rowspan: 2
+    classes:
+      - "schedule-yellow"
+  - title: "Homework 1"
+    due: "2026/06/30"
+    link: "https://www.gradescope.com/courses/1050654/assignments/6372041"
+    show_links: false
+    rowspan: 5
+    classes:
+      - "schedule-yellow"
+  - title: "Homework 2"
+    due: "2026/07/07"
+    link: "https://www.gradescope.com/courses/1050654/assignments/6389510"
+    show_links: false
+    rowspan: 5
+    classes:
+      - "schedule-yellow"
+  - title: "Homework 3"
+    due: "2026/07/14"
+    link: "https://www.gradescope.com/courses/1050654/assignments/6402518"
+    show_links: false
+    rowspan: 5
+    classes:
+      - "schedule-yellow"
+  - title: "Homework 4"
+    due: "2026/07/21"
+    link: "https://www.gradescope.com/courses/1050654/assignments/6417280"
+    show_links: false
+    rowspan: 5
+    classes:
+      - "schedule-yellow"
+  - title: "Homework 5"
+    due: "2026/07/28"
+    link: "https://www.gradescope.com/courses/1050654/assignments/6426965"
+    show_links: false
+    rowspan: 5
+    classes:
+      - "schedule-yellow"
+  - title: "Homework 6"
+    due: "2026/08/04"
+    link: "https://www.gradescope.com/courses/1050654/assignments/6446201"
+    show_links: false
+    rowspan: 5
+    classes:
+      - "schedule-yellow"
+  - title: "Homework 7"
+    due: "2026/08/10"
+    link: "https://www.gradescope.com/courses/1050654/assignments/6454137"
+    show_links: false
+    rowspan: 4
+    classes:
+      - "schedule-yellow"
   - nonumber: true
-    rowspan: 100
-  #- title: "Homework 0"
-  #  due: "2025/06/24"
-  #  link: "https://www.gradescope.com/courses/1050654/assignments/6356907"
-  #  show_links: false
-  #  rowspan: 2
-  #  classes:
-  #    - "schedule-yellow"
+    rowspan: 50
 
   # - title: "Homework 0A"
   #   link: "homeworks/hw0/hw0a"
   #   show_links: true
-  #   due: "2025/1/24"
+  #   due: "2026/1/24"
   #   rowspan: 2
   #   classes:
   #     - "schedule-yellow"
   # - title: "Homework 0B"
   #   link: "homeworks/hw0/hw0b"
   #   show_links: true
-  #   due: "2025/1/29"
+  #   due: "2026/1/29"
   #   rowspan: 1
   #   classes:
   #     - "schedule-yellow"
@@ -100,7 +149,7 @@ homeworks:
   # - title: "Homework 1"
   #   link: "https://www.gradescope.com/courses/961758/assignments/5698332"
   #   show_links: true
-  #   due: "2025/02/7"
+  #   due: "2026/02/7"
   #   rowspan: 3
   #   classes:
   #     - "schedule-yellow"
@@ -109,7 +158,7 @@ homeworks:
   # - title: "Homework 2"
   #   link: "homeworks/hw2"
   #   show_links: true
-  #   due: "2025/03/07"
+  #   due: "2026/03/07"
   #   rowspan: 5
   #   classes:
   #     - "schedule-yellow"
@@ -118,7 +167,7 @@ homeworks:
   # - title: "Homework 3"
   #   link: "https://www.gradescope.com/courses/961758/assignments/5967008"
   #   show_links: true
-  #   due: "2025/04/04"
+  #   due: "2026/04/04"
   #   rowspan: 4
   #   classes:
   #     - "schedule-yellow"
@@ -127,7 +176,7 @@ homeworks:
   # - title: "Homework 4"
   #   link: "https://www.gradescope.com/courses/961758/assignments/6164006"
   #   show_links: true
-  #   due: "2025/05/04"
+  #   due: "2026/05/04"
   #   rowspan: 3
   #   classes:
   #     - "schedule-yellow"

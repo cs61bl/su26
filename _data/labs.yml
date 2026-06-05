@@ -69,17 +69,188 @@
 #     - schedule-purple
 
 labs:
-  - nonumber: true
-    rowspan: 100
-  #- title: "Introduction to Java, Git, and Setup"
-  #  due: "2026/06/24"
-  #  link: "/labs/lab01"
-  #  show_links: true
+  - title: "Introduction to Java, Git, and Setup"
+    due: "2026/06/23"
+    link: "/labs/lab01"
+    show_links: true
+  - title: "Conditionals, Loops, and Arrays"
+    due: "2026/06/24"
+    link: "/labs/lab02"
+    show_links: false
+  - title: "Primitives and Objects"
+    due: "2026/06/25"
+    link: "/labs/lab03"
+    show_links: false
+  - title: "Debugging & Test-Driven Development"
+    due: "2026/06/26"
+    link: "/labs/lab04"
+    show_links: false
+  - title: "Exam Prep 1: Introduction to Java Programming"
+    examprep: true
+    video: false
+    # solutions: https://drive.google.com/file/d/1RUlowvtidu4f8WJVdixrdh05K2OhvKVn/view?usp=sharing
+    # slides: https://docs.google.com/presentation/d/1YiMtbm8RpALnuNXj0yjNjy3rMwpetYHf/edit?usp=sharing&ouid=111619450380883067671&rtpof=true&sd=true
+    # worksheet: https://drive.google.com/file/d/1g5cAmAB4qYUwIp7wwRaSM8OGRhKtP4FE/view?usp=sharing
+    # link: https://docs.google.com/presentation/d/1YiMtbm8RpALnuNXj0yjNjy3rMwpetYHf/edit?slide=id.p1#slide=id.p1
+    nonumber: True
+    show_links: true
+  - title: "Intro to Linked Lists"
+    due: "2026/06/30"
+    link: "/labs/lab05"
+    show_links: false
+  - title: "Linked List Enhancements"
+    due: "2026/07/01"
+    link: "/labs/lab06"
+    show_links: false
+  - title: "Abstract Data Types & Inheritance"
+    due: "2026/07/02"
+    link: "/labs/lab07"
+    show_links: false
+  - title: "Comparison, Exceptions, and Iteration"
+    due: "2026/07/04"
+    link: "/labs/lab08"
+    show_links: false
+  - title: "None (Holiday)"
+    nonumber: True
+    rowspan: 1
+  - title: "Recitation 1: Object Oriented Programming and Abstract Data Types"
+    recitation: True
+    video: false
+    # worksheet: https://drive.google.com/file/d/1V9Q8Tkek8xYb63GfpJBCTSS3n0xRlxHJ/view
+    # slides: https://docs.google.com/presentation/d/1oSwJGeHD92B3sGSSqCiV4k8NcKXLda3E
+    # solutions: https://drive.google.com/file/d/14I-Fywo_7SPpuJAwPD0dAKXH5JNMzyKX/view?usp=sharing
+    link: 
+    show_links: true
+    nonumber: True
+  - title: "Runtime Analysis"
+    due: "2026/07/08"
+    link: labs/lab09
+    show_links: false
+  - title: "Trees and Traversals"
+    due: "2026/07/09"
+    link: labs/lab10
+    show_links: false
+  - title: "Binary Search Trees"
+    due: "2026/07/10"
+    link: labs/lab11
+    show_links: false
+  - title: "Exam Prep 2: Asymptotics and Trees"
+    examprep: true
+    video: false
+    # worksheet: https://drive.google.com/file/d/1KaYV8nUjTRvtQfM7g6tjYTrvarRynpFd/view?usp=sharing
+    # slides: https://docs.google.com/presentation/d/1JsPsh9N6LRPc8OhfKOiK4Jt8p2EGxL8j/edit?usp=sharing&rtpof=true&sd=true
+    # solutions: https://drive.google.com/file/d/1dE7zMUGDkRv-WB0IxeIo1dQbtUlCCwW2/view?usp=sharing
+    link: 
+    show_links: True
+    nonumber: True
+  - title: "Recitation 2: Binary Search Trees"
+    recitation: true
+    # worksheet: https://drive.google.com/file/d/12ERT2-P2a5XUr30PV40RrualXfxdli7d/view?usp=sharing
+    # slides: https://docs.google.com/presentation/d/1SrPa-Yrzqt7_Xczruizttwhft9dF2kU4_2DyM4Ueh8o/edit?usp=sharing
+    # solutions: https://drive.google.com/file/d/1XgzYPO8SKTAVFYXJXJKSXG4amXQGf6VM/view?usp=sharing
+    link: 
+    show_links: True
+    nonumber: True
+  - title: "Balanced Search Trees"
+    due: "2026/07/19"
+    link: labs/lab12
+    show_links: false
+  - title: "Past Midterm Walkthroughs"
+    link: labs/lab13
+    show_links: false
+  - title: "Office Hours"
+    nonumber: True
+    rowspan: 1
+  - title: "None"
+    nonumber: True
+    rowspan: 1
+  - title: "Hashing"
+    due: "2026/07/21"
+    link: labs/lab14
+    show_links: false
+  - title: "Heaps and Priority Queues"
+    due: "2026/07/22"
+    link: labs/lab15
+    show_links: false
+  - title: "Disjoint Sets"
+    due: "2026/07/23"
+    link: labs/lab16
+    show_links: false
+  - title: "Office Hours"
+    nonumber: True
+  - title: "Exam Prep 3: Hashing, Heaps, and Union Find"
+    examprep: True
+    video: false
+    # worksheet: https://drive.google.com/file/d/1vwl6F3T8W_-ws_UY8NKSuTWqcRahI3IS/view?usp=sharing
+    # slides: https://docs.google.com/presentation/d/1xlwynVwRnXdKzzO3lgFZVF0kprRi_TJY/edit?usp=sharing&ouid=108192614859963248609&rtpof=true&sd=true
+    # solutions: https://drive.google.com/file/d/1UrA3mgSFMOMgM5XkuWckLdGn18MLpowj/view?usp=sharing
+    link: 
+    show_links: false
+    nonumber: True
+  - title: "Graphs"
+    due: "2026/07/28"
+    link: labs/lab17
+    show_links: false
+  - title: "Build Your Own World Introduction"
+    due: "2026/07/29"
+    link: labs/lab18
+    show_links: false
+  - title: "Shortest Path Trees"
+    due: "2026/07/30"
+    link: labs/lab19
+    show_links: false
+  - title: "Minimum Spanning Trees"
+    due: "2026/07/31"
+    link: labs/lab20
+    show_links: false
+  - title: "Exam Prep 4: Graphs"
+    examprep: true
+    video: false
+    # worksheet: https://drive.google.com/file/d/1e5--z-MvpO7D8RukzloS13xeRm1NrVaP/view?usp=sharing
+    # slides: https://docs.google.com/presentation/d/1gKvy5kKWVEFdjM710Aq_cR_Ok4LN1XWz/edit?slide=id.p1#slide=id.p1
+    # solutions: https://drive.google.com/file/d/1Yb9ghBTkZVeKOGhzEoEtqt43CFBWiXgd/view?usp=sharing
+    link: 
+    show_links: false
+    nonumber: True
+  - title: "Recitation 3: Sorting"
+    recitation: true
+    video: false
+    # worksheet: https://drive.google.com/file/d/1WX7RbeCsu7elXzsZIDMzPuVOsiM97upn/view?usp=sharing
+    # slides: https://docs.google.com/presentation/d/1zWK16eoIrSBzmZrhjLzx9Ndt6n7n_vDs/edit?usp=sharing
+    # solutions: https://drive.google.com/file/d/1Kbvlb1WXoVFXRjrP0S7ZWEavj5zda8tY/view?usp=sharing
+    link:
+    show_links: false
+    nonumber: True
+  - title: "Comparison Sorts"
+    due: "2026/08/04"
+    link: labs/lab21
+    show_links: false
+  - title: "Counting Sorts"
+    due: "2026/08/06"
+    link: labs/lab22
+    show_links: false
+  - title: "Exam Prep 5: Final Exam Review"
+    examprep: true
+    nonumber: True
+  - title: None
+    nonumber: True
+  - title: "BYOW OH & Checkoffs"
+    nonumber: True
+  - title: "None"
+    nonumber: True
+  - title: "None"
+    nonumber: True
+  - title: "None"
+    nonumber: True
+  - title: "None"
+    nonumber: True
+  - title: "None"
+    nonumber: True
 
   # - title: "Setup, Git"
   #   link: "/labs/lab01"
   #   show_links: true
-  #   due: "2025/1/24"
+  #   due: "2026/1/24"
   #   parts:
   #     - name: "Slides"
   #       link: "https://docs.google.com/presentation/d/1RM9EOWqfaNzy9FP-Ud22fS3xz7xIQDFBXQe0jrEN5rQ"

@@ -65,9 +65,6 @@ lecture:
   location:
       name: "Li Ka Shing 245"
       link: ""
-heading_links:
-  - text: "Zoom"
-    url: "https://berkeley.zoom.us/my/cs61bl"
   # - text: "Playlist" TODO after first lecture
   #   url: "https://www.youtube.com/playlist?list=PLnp31xXvnfRoUqOjlnhHzmYravacOPD8p"
 
