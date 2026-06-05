@@ -78,9 +78,11 @@ Lecture will be held on **Mondays and Wednesdays from 9–10am in Li Ka Shing 24
 
 In CS 61BL, Lecture is intended as a first introduction to topics: you will truly learn and dive deep into these concepts in Lab!
 
-### Lecturer Office Hours
+### Office Hours
 
-Sherdil will hold regular in-person office hours: please see the Calendar. Peyrin will hold regular office hours via Zoom.
+Sherdil will hold regular in-person office hours. Peyrin will hold regular office hours via Zoom. Please see the Calendar for both.
+
+Your TAs will not hold explicit office hours: the four labs per week are intended to serve the role of these.
 
 ### Labs
 
