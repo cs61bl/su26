@@ -35,9 +35,9 @@ of work. **We strongly recommend not taking any other courses alongside 61BL.**
 While we can’t predict exactly how many hours you will spend on the course, here is a
 brief breakdown of what you will have to do in this course.
 
+- Two 1 hour live lectures per week on Monday and Wednesday.
 - Four 2 hour labs per week on Monday - Thursday, each with **required prep work**.
 - One 2 hour Friday Exam Prep session per week (most weeks).
-- Two 1 hour live lectures per week on Monday and Wednesday.
 - One homework per week (total of 6).
 - Two exams (one midterm, one final) in the 8 weeks of the course.
 - Four projects in the 8 weeks of the course.
@@ -74,19 +74,23 @@ If you have a disability, or think you may have a disability, you can work with 
 
 ### Lecture
 
-This summer, we will be using a _flipped classroom_ format. You are **expected** to watch pre-recorded lecture videos from previous semesters before attending class (except for the first lecture). Live lecture sessions will focus on deepening your understanding of the material through conceptual reviews, interactive problem-solving, and Q&A. Pre-videos are **not** a replacement for attending live lecture.
+Lecture will be held on **Mondays and Wednesdays from 9–10am in Li Ka Shing 245**. Recordings will be made available after each session.
 
-Lecture will be held on **Mondays and Wednesdays from 9–10am in Evans 10**. Because the classroom cannot accommodate all enrolled students, lectures will also be livestreamed over Zoom to ensure full access. Whether attending in person or virtually, active participation is encouraged to make the most of our collaborative in-class time.
+In CS 61BL, Lecture is intended as a first introduction to topics: you will truly learn and dive deep into these concepts in Lab!
 
-### Lecture Office Hours
+### Lecturer Office Hours
 
 Sherdil will hold regular in-person office hours: please see the Calendar. Peyrin will hold regular office hours via Zoom.
 
 ### Labs
 
+**Note:** There is required reading from the online [textbook](https://cs61b-2.gitbook.io/cs61b-textbook/) before each lab. You **MUST** do this to fill in material not covered in lecture (since, again, CS 61BL is a lab-centered course).
+
 Lab sections meet Monday through Thursday. You may only attend the lab section which you signed up for. All labs will be held in person in a lab room in Soda Hall.
 
 Labs emphasize hands-on experience with the course material, involving coding assignments that are submitted for credit. Labs do not require attendance, but are your main source of help from course staff, including on projects.
+
+Note that some labs will be used to solve theoretical problems similar to what you would see on a midterm: on the schedule, these are called Recitations.
 
 There are currently a total of 21 graded lab exercises (subject to change), each worth 2 points. Thus, while the total point value for labs is 42 points, lab grades are capped at 40 points. This means that **you can miss up to 1 lab without penalty** if you get a full score on every other lab. It also means that you can get full credit for labs in this class if you do not get a full score on every lab assignment. In other words, getting more than 40 points on lab is equivalent to getting 40 points for your lab score.
 
@@ -220,10 +224,9 @@ Rather than using bCourses, we will be using our own custom learning management 
 
 ### Reading
 
-**There is no required textbook for the class.**
+There is required reading from the online textbook before each Lab. The online textbook is written by Josh Hug (long-time 61B instructor) and a large team of course staff, and can be found at [https://cs61b-2.gitbook.io/cs61b-textbook/](https://cs61b-2.gitbook.io/cs61b-textbook/).
 
-There is an online textbook written by Josh Hug (long-time 61B instructor) and a large team of course staff. It can be found at [https://cs61b-2.gitbook.io/cs61b-textbook/](https://cs61b-2.gitbook.io/cs61b-textbook/) and **serves as required reading before each Lab**. If you find these notes insufficient, you might consider consulting [Paul Hilfinger's (free) Java Reference](http://www-inst.eecs.berkeley.edu/~cs61b/fa14/book1/java.pdf)
-or [Head First Java, 2nd Edition by Sierra and Bates (O'Reilly, 2005)](https://www.google.com/search?q=head+first+java). These are not required for the course. The **optional** textbook for the weeks 5-14 of the course is Algorithms, 4th Edition by Wayne and Sedgewick.
+If you find these notes insufficient, you might consider consulting [Paul Hilfinger's (free) Java Reference](http://www-inst.eecs.berkeley.edu/~cs61b/fa14/book1/java.pdf) or [Head First Java, 2nd Edition by Sierra and Bates (O'Reilly, 2005)](https://www.google.com/search?q=head+first+java). The optional textbook for the weeks 5-14 of the course is Algorithms, 4th Edition by Wayne and Sedgewick.
 
 The official description of the Java core language is available online in [The Java Language Specification](https://docs.oracle.com/javase/specs/jls/se21/html/index.html) (Java SE 21 Edition) by James Gosling, Bill Joy, Guy Steele, Gilad Bracha, Alex Buckley, Daniel Smith, and Gavin Bierman. It's extremely thorough and precise, at the expense of being quite dense and technical. You may find the official [Java 21 documentation](https://docs.oracle.com/en/java/javase/21/docs/api/index.html) to be useful as well.
 
