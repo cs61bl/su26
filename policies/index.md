@@ -44,7 +44,7 @@ brief breakdown of what you will have to do in this course.
 
 ### Remote Policy
 
-This is, per university policy, an in-person course. **However, we will make at least one lab section online, though we have no guarantees about meeting online demand.** Please note, however, that our ability to support those in other timezones will be limited by our need to sleep at night. That means that, if you are on the other side of the world, you may have to be up at night to attend our offerings. We thus do not recommend that you take the course if you will not be physically located in an amenable timezone, although we will not prevent you. **You must take the exams in person.** Everything other than exams can be done remotely.
+This is, per university policy, an in-person course. **We will not have remote Lectures, Labs, or Exam Prep Sessions this semester.** However, attendance at Lecture, our regular Lab sections (Monday through Thursday) and our Friday Exam Prep sessions is not strictly required. **You must take the exams in person.** Everything other than exams can be completed remotely.
 
 ### Alternatives
 
@@ -84,7 +84,7 @@ Noah will hold OH in Soda 779 on Tue/Thu from 10-11AM or by appointment.
 
 ### Labs
 
-Lab sections meet Monday through Friday. You may only attend the lab section which you signed up for. In-person labs will be held in a lab room in Soda Hall. Remote labs will be held over Zoom where you will be working primarily in breakout rooms (TAs / Tutors will join the breakout room when you need assistance).
+Lab sections meet Monday through Friday. You may only attend the lab section which you signed up for. All labs will be held in person in a lab room in Soda Hall.
 
 #### Practical Labs
 
