@@ -69,7 +69,7 @@ All assignments must be submitted by the end of the semester, May 12 (5/12). Add
 
 ## Resources
 
-As a CS 47B student, you are not required or expected to attend any CS 61B course meetings. However, you are welcome and encouraged to come to any CS 61B events to help you succeed in the course, including lectures, labs, office hours, and discussion sections.
+As a CS 47B student, you are not required or expected to attend any CS 61B course meetings. However, you are welcome and encouraged to come to any CS 61B events to help you succeed in the course, including lectures, labs, office hours, and recitation sections.
 
 There is one exception: To get credit for Project 3, you will have to do a checkoff with a TA during week 15.
 
