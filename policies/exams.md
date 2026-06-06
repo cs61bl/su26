@@ -11,8 +11,8 @@ unreleased_warning: false
 
 This course has a midterm exam and a final exam.
 
-- The Midterm will be on **Friday, July 17th from 7-9 PM (Room TBD)**.
-- The Final Exam will be on **Tuesday, August 11th from 3-6 PM (Room TBD)**.
+- The Midterm will be on **Friday, July 17th from 7-9 PM in Pimentel Hall**.
+- The Final Exam will be on **Tuesday, August 11th from 3-6 PM in Hearst Field Annex [Last Name A-M]and Physics Building, Room 2 [Last Name N-Z]**.
 
 We will offer **in-person exams only**.
 
