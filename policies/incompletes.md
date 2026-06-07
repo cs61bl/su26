@@ -40,7 +40,7 @@ An incomplete grants you additional time on assignments that you may not have be
 - As per university policy from [L&S](https://lsadvising.berkeley.edu/policies/incomplete-grades) and [College of Engineering](https://engineering.berkeley.edu/students/undergraduate-guide/policies-procedures/grades/), **if you have 12+ units of incomplete grade at any instance of your academic career at Berkeley, you will not be allowed to enroll in classes next semester.**
 
 {: .danger}
-**You will not be able to request for an incomplete for this class if you have/had a misconduct case from **any** course assignments or exams.**
+**You will not be able to request for an incomplete for this class if you have/had a misconduct case from any course assignments or exams.**
 
 An alternative to taking an incomplete is [late dropping](https://summer.berkeley.edu/enrollment-changes/dropping-courses) the course. With another chance at the course, you'll have more time to learn the fundamental concepts and a chance to improve your grade. Many 61B(L) assignments don't change much from semester to semester, so a lot of your efforts this semester can be reused if you decide to retake the course. The late drop deadline is **Friday, August 14th (8/14)**. Please note for summer session courses, you will not be refunded but provide Summer Tuition Credit you can use a following summer.
 

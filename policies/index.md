@@ -194,7 +194,7 @@ If you are taking the course P/NP, any grade of C- or better will automatically 
 We will grant grades of Incomplete only for dire medical or personal emergencies that cause you to miss the final, and only if your work up to that point has been satisfactory. Do not try to get an Incomplete simply as a way to have more time to study or do a project. That is contrary to University policy. Before requesting an Incomplete grade, please contact a college advisor or review your college’s Incomplete grade policies to understand if this is a right option for you.
 
 {: .danger}
-**You will not be able to request for an incomplete for this class if you have/had a misconduct case from **any** course assignments or exams.**
+**You will not be able to request for an incomplete for this class if you have/had a misconduct case from any course assignments or exams.**
 
 ### Lateness Policy
 
