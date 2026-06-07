@@ -54,7 +54,7 @@ If you're experiencing extenuating circumstances impacting your mental health an
 We will not be considering retroactive submissions to the extenuating circumstances form. **This means that you should proactively submit to the form before the assignment's deadline to be considered.** We also will be primarily providing extensions as a result of extenuating circumstances on projects. Exceptions will only be made in extreme cases.
 
 {: .danger}
-The last day to submit any assignment is **Tuesday, August 11th, 11:59 PM Pacific.**
+The last day to submit any assignment is **Tuesday, August 11th, 11:59 PM PST.**
 This is a hard deadline, and we will not accept any submissions made after this deadline.
 
 ## Student Support Meetings
