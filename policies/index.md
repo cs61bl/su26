@@ -38,7 +38,7 @@ brief breakdown of what you will have to do in this course.
 - Two 1 hour live lectures per week on Monday and Wednesday.
 - Four 2 hour labs per week on Monday - Thursday, each with **required prep work**.
 - One 2 hour Friday Exam Prep session per week (most weeks).
-- One homework per week (total of 6).
+- One homework per week (total of 8).
 - Two exams (one midterm, one final) in the 8 weeks of the course.
 - Four projects in the 8 weeks of the course.
 
