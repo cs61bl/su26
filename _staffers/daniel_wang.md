@@ -2,8 +2,8 @@
 name: Daniel Wang
 pronouns: he/him
 role: Head TA
-spaaccess: false
-dspdata: false
+spaaccess: true
+dspdata: true
 email: dwwwang@berkeley.edu
 photo: daniel_wang.webp
 website: https://www.linkedin.com/in/daniel-r-wang/

@@ -2,8 +2,8 @@
 name: Michelle Koga
 pronouns: she/her
 role: Head TA
-spaaccess: false
-dspdata: false
+spaaccess: true
+dspdata: true
 email: michellesk@berkeley.edu
 photo: michelle_koga.webp
 website: https://enclose.horse
