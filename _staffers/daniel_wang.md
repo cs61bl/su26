@@ -1,7 +1,7 @@
 ---
 name: Daniel Wang
 pronouns: he/him
-role: TA
+role: Head TA
 spaaccess: false
 dspdata: false
 email: dwwwang@berkeley.edu

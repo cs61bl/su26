@@ -1,7 +1,7 @@
 ---
 name: Dawn Schumacher
 pronouns: she/her
-role: TA
+role: Head TA
 spaaccess: false
 dspdata: false
 email: dawn@berkeley.edu
