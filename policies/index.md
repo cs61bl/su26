@@ -147,15 +147,6 @@ Full details on partnerships will be released closer to Project 3.
 
 [See the exam policies page.](./exams)
 
-### Surveys
-
-After most weeks, we will send out a weekly survey in the weekly announcements.
-We will have 6 weekly surveys. Completing each weekly survey will give half of
-an **extra credit** point! In addition to the weekly surveys, we will send out
-presemester, midsemester, and end-of-semester surveys. The presemester, midsemester, and end-of-semester surveys will earn 1 extra
-credit point each. Completing all three will give 3 points. So, if you complete
-every survey in this class, you can get a total of 6 extra credit points!
-
 ---
 
 ## Grading
