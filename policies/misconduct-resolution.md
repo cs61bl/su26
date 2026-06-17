@@ -7,6 +7,9 @@ nav_order: 4
 
 # Misconduct Resolution
 
+{: .warning}
+> If you are looking for the academic misconduct or collaboration policies, please refer to the [Collaboration and LLM Policy](../index.md#collaboration-and-llm-policy). This page only details the procedures for how misconduct is *resolved*.
+
 ## Academic Misconduct Philosophy
 
 Given how very hard so many people in 61B work for what they achieve, we must pursue academic misconduct cases very seriously, and without much mercy. However, we also don't want to derail your undergraduate plans for a single, albeit serious, mistake.
