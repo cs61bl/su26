@@ -365,7 +365,7 @@ We cannot add auditors to private platforms (e.g. bCourses, Ed, SU26 student Gra
 
 Note: If you're auditing the course, you will not be able to access Beacon. Instead, you can directly clone the [skeleton repo](https://github.com/cs61bl/skeleton-su26) to get a copy of the starter code.
 
-To get everything set up, go to Gradescope and select the "Add a course" button. Enter course code **KDR8BZ** to be added. You will not be given a student repo, so you will have to create your own on GitHub in order to submit assignments. After you complete setup and Lab 1, you should have access to all the code for the class.
+To get everything set up, go to Gradescope and select the "Add a course" button. Enter course code **ZJXGD4** to be added. You will not be given a student repo, so you will have to create your own on GitHub in order to submit assignments. After you complete setup and Lab 1, you should have access to all the code for the class.
 
 ---
 
