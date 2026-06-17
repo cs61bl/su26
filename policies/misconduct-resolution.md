@@ -8,7 +8,7 @@ nav_order: 4
 # Misconduct Resolution
 
 {: .warning}
-> If you are looking for the academic misconduct or collaboration policies, please refer to the [Collaboration and LLM Policy](../index.md#collaboration-and-llm-policy). This page only details the procedures for how misconduct is *resolved*.
+> If you are looking for the academic misconduct or collaboration policies, please refer to the [Collaboration and LLM Policy](../#collaboration-and-llm-policy). This page only details the procedures for how misconduct is *resolved*.
 
 ## Academic Misconduct Philosophy
 
