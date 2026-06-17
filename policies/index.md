@@ -294,7 +294,10 @@ For clarity, some examples of specific activities are listed below:
 - Possessing another student’s code in any form before a final deadline, be it electronic or on paper. This includes the situation where you’re trying to help someone debug. Distributing such code is equally forbidden.
 - Possessing solution code that you did not write yourself (from online (e.g. GitHub), staff solution code found somewhere on a server it should not have been, etc.) before a final deadline. Distributing such code is equally forbidden. **Looking at solution code online counts as possessing code.**
 - Posting solution code to any assignment in a public place (e.g. a public git repository, Google Drive, Discord, etched into stones above the Mediterranean, etc). This applies even after the semester is over.
-- Working in lock-step with other students. Your workflow should not involve a group of people identifying, tackling, and effectively identically solving a sequence of subproblems.
+- **Working in lock-step** with other students. Your workflow should not involve a group of people identifying, tackling, and effectively identically solving a sequence of subproblems.
+
+    {: .danger}
+    > **DANGER:** Working in lock-step is the **most common** way students commit academic misconduct in this course.
 
 Please also refer to the LLM Policy section for more details on what is permitted use of LLMs. If 61BL is causing massive disruption to your personal life, please email cs61bl@berkeley.edu.
 
