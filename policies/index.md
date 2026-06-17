@@ -94,7 +94,7 @@ Labs emphasize hands-on experience with the course material, involving coding as
 
 Note that some labs will be used to solve theoretical problems similar to what you would see on a midterm: on the schedule, these are called Recitations.
 
-There are currently a total of 21 graded lab exercises (subject to change), each worth 2 points. Thus, while the total point value for labs is 42 points, lab grades are capped at 40 points. This means that **you can miss up to 1 lab without penalty** if you get a full score on every other lab. It also means that you can get full credit for labs in this class if you do not get a full score on every lab assignment. In other words, getting more than 40 points on lab is equivalent to getting 40 points for your lab score.
+Your overall lab grade is capped such that **you can miss up to 1 lab without penalty** and still receive full credit (40 points) for this category.
 
 ### Friday Exam Prep Sessions
 
