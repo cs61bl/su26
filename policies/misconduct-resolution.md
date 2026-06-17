@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Academic Misconduct
+title: Misconduct Resolution
 parent: Policies
 nav_order: 4
 ---
 
-# Academic Misconduct
+# Misconduct Resolution
 
 ## Academic Misconduct Philosophy
 

@@ -246,7 +246,7 @@ Deadlines can be stressful, and we know that under extreme pressure, it becomes 
 
 Please don't do this. We care that you learn the material, and that your grade reflects your learning, regardless of the timeline. If you feel that you need to engage in academic misconduct to meet a deadline, please reach out to course staff.
 
-During the Spring 2017 semester, we compiled a series of [incident reports written by students who were caught plagiarizing](./academic-misconduct.md). If you find yourself tempted to cheat, you might turn to the words of others who have made the wrong choice for guidance.
+During the Spring 2017 semester, we compiled a series of [incident reports written by students who were caught plagiarizing](./misconduct-resolution.md). If you find yourself tempted to cheat, you might turn to the words of others who have made the wrong choice for guidance.
 
 | **Collaboration Policies** | |
 | --- | --- |
@@ -302,7 +302,7 @@ In essence, our ultimate goal is for students to grasp the code they’ve crafte
 
 Obviously, the expressive power of Java is a subset of the English language. And yes, you can obviously obey the letter of this entire policy while completely violating its spirit. However, this policy is not a game to be defeated, and such circumventions will be seen as plagiarism.
 
-You can review our [academic misconduct resolution procedures here](./academic-misconduct.md).
+You can review our [academic misconduct resolution procedures here](./misconduct-resolution.md).
 
 ### LLM Policy
 
