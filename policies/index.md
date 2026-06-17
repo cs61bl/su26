@@ -102,9 +102,7 @@ Friday sessions are Exam Prep sessions that involve working through a worksheet 
 
 **Please note that Friday Exam Prep sessions are distinct from labs and will be held in different rooms shown on the main calendar.**
 
-There will be 5 Friday Exam Prep sessions. You will need to receive credit for all 5 sessions in order to receive full credit (each session is worth 3 points, capped at 15 point). You can receive credit either by attending the session in person or working on the worksheet asynchronously (more details on how to submit worksheets for asynchronous credit will be announced on Ed).
-
-We will also hold review sessions this semester before the exams. More details will be announced on Ed as the semester progresses: you can use these to replace Friday sessions you may have missed. We still encourage you to complete all Friday Exam Prep sessions, as they will help you better prepare for the exams.
+There are 5 Friday Exam Prep sessions, and each is worth 3 points (for a total of 15 points). You can receive credit either by attending the session in person or working on the worksheet asynchronously. Asynchronous submissions must be submitted before the final exam to receive credit.
 
 #### Section Swapping
 
