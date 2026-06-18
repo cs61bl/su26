@@ -2,7 +2,7 @@
 name: Benjamin Yi
 pronouns: he/him/his
 role: TA
-spaaccess: false
+spaaccess: true
 dspdata: false
 email: byi09@berkeley.edu
 photo: benjamin_yi.webp
