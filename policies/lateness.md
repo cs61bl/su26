@@ -61,7 +61,7 @@ This is a hard deadline, and we will not accept any submissions made after this 
 
 Student support meetings are 20 minutes, online one-on-one meetings where you can speak to a staff member about DSP accommodations, extenuating circumstances, or general advice and support resources for success in the course.
 
-[You can book an appointment with us here]({{site.links.student_support_meetings}}), or by clicking on the “Support 💙” tab at the upper right hand corner of the course website’s home page.
+[You can book an appointment with us here]({{site.links.student_support_meetings}}), or by clicking on the “Support 💜” tab at the upper right hand corner of the course website’s home page.
 
 ## Processing Extensions
 

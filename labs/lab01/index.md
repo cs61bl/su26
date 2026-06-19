@@ -545,10 +545,9 @@ Although we use GitHub to store our programming work, we use **Gradescope** to
 actually grade it. The last step is to submit your work with [Gradescope](https://www.gradescope.com/),
 which we use to autograde programming assignments.
 
-We added everyone's CalCentral email to Gradescope on the first day of labs. Make sure to login using the email address listed on CalCentral.
+You should enroll in Gradescope with the add key found on bCourses. Please make sure to use your **Berkeley email** when signing up.
 
-If you're having trouble accessing the course on Gradescope or would like to use
-a different email address, ask your TA!
+If you're having trouble accessing the course on Gradescope, ask your TA!
 
 
 {: .danger}
