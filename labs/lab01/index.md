@@ -359,12 +359,12 @@ show:
 
 
 
-Be sure to save this repository and directory until you complete **Exercise 1.1** of the
-[asynchronous checkoff form on beacon](https://beacon.datastructur.es/). You need to get full credit for the exercise to receive the magic word later, and there are unlimited attempts.
+Be sure to save this repository and directory until you complete **Exercise 1.1** on the
+[Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdqRWgZXT96nH_AnRxOjjhBkX8XAxdgZGhVeBcoZ5Tmf17HWg/viewform?usp=dialog). You need to get full credit for the exercise to receive the magic word later, and there are unlimited attempts.
 
 
 {: .task}
-> **Task**: Complete Exercise 1.1 linked on Beacon.
+> **Task**: Complete [Exercise 1.1](https://docs.google.com/forms/d/e/1FAIpQLSdqRWgZXT96nH_AnRxOjjhBkX8XAxdgZGhVeBcoZ5Tmf17HWg/viewform?usp=dialog).
 
 ### Git and Remote Repos
 
@@ -493,11 +493,11 @@ git remote -v
 
 ### Task: Git Exercise Part 2
 
-Complete **Exercise 1.2** of the
-[asynchronous checkoff form on beacon](https://beacon.datastructur.es/) and obtain a **magic word**. You will need this magic word later in the lab. 
+Complete **Exercise 1.2** on the
+[Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfQBFBYVneEzybDzdEf04unE-EWAr7wvYWl4lHT5S3a5dbBlQ/viewform?usp=dialog) and obtain a **magic word**. You will need this magic word later in the lab. 
 
 {: .task}
-> **Task**: Complete Exercise 1.2 to receive the magic word.
+> **Task**: Complete [Exercise 1.2](https://docs.google.com/forms/d/e/1FAIpQLSfQBFBYVneEzybDzdEf04unE-EWAr7wvYWl4lHT5S3a5dbBlQ/viewform?usp=dialog) to receive the magic word.
 
 {: .danger}
 > At this point, you should have a `lab01` folder, with the contents
