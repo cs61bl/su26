@@ -473,7 +473,7 @@ within the newly created repository folder when you continue with these
 commands.) Enter the following command to add the `skeleton` remote.
 
 ```shell
-git remote add skeleton https://github.com/cs61bl/skeleton-su26.git
+git remote add skeleton git@github.com:cs61bl/skeleton-su26.git
 ```
 
 Listing the remotes should now show both the `origin` and `skeleton` remotes.
