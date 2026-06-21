@@ -394,7 +394,7 @@ First, run the following command in your terminal. It will print out any SSH key
 and generate a new one if none exists: 
 
 ```shell
-curl -sS https://cs61bl.org/su26/labs/lab01/get-ssh-key.sh | bash 
+curl -sS https://fa24.datastructur.es/labs/lab01/get-ssh-key.sh | bash
 ```
 
 {: .info}
