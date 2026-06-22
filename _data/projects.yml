@@ -75,7 +75,7 @@ projects:
     rowspan: 1
   - title: "Project 0: 2048"
     link: "/projects/proj0"
-    show_links: true
+    show_links: false
     due: "2026/06/28"
     classes:
       - "schedule-green"
