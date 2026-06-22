@@ -3,7 +3,6 @@ name: Benjamin Yi
 pronouns: he/him/his
 role: TA
 spaaccess: true
-dspdata: false
 email: byi09@berkeley.edu
 photo: benjamin_yi.webp
 website: https://fruit-tg2j.onrender.com/

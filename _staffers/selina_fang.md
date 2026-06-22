@@ -2,8 +2,6 @@
 name: Selina Fang
 pronouns: she/her
 role: TA
-spaaccess: false
-dspdata: false
 email: selinafang@berkeley.edu
 photo: selina_fang.webp
 website: https://www.heytea.com
