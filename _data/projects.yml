@@ -71,15 +71,15 @@
 #     - schedule-green
 
 projects:
-  # - nonumber: true
-  #   rowspan: 1
+  - nonumber: true
+    rowspan: 1
   - title: "Project 0: 2048"
     link: "/projects/proj0"
     show_links: true
     due: "2026/06/28"
     classes:
       - "schedule-green"
-    rowspan: 5
+    rowspan: 4
   - title: "Project 1A: LinkedListDeque"
     link: "/projects/proj1a"
     show_links: false

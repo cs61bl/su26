@@ -359,12 +359,12 @@ show:
 
 
 
-Be sure to save this repository and directory until you complete **Exercise 1.1** of the
-[asynchronous checkoff form on beacon](https://beacon.datastructur.es/). You need to get full credit for the exercise to receive the magic word later, and there are unlimited attempts.
+Be sure to save this repository and directory until you complete **Exercise 1.1** on the
+[Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdqRWgZXT96nH_AnRxOjjhBkX8XAxdgZGhVeBcoZ5Tmf17HWg/viewform?usp=dialog). You need to get full credit for the exercise to receive the magic word later, and there are unlimited attempts.
 
 
 {: .task}
-> **Task**: Complete Exercise 1.1 linked on Beacon.
+> **Task**: Complete [Exercise 1.1](https://docs.google.com/forms/d/e/1FAIpQLSdqRWgZXT96nH_AnRxOjjhBkX8XAxdgZGhVeBcoZ5Tmf17HWg/viewform?usp=dialog).
 
 ### Git and Remote Repos
 
@@ -394,7 +394,7 @@ First, run the following command in your terminal. It will print out any SSH key
 and generate a new one if none exists: 
 
 ```shell
-curl -sS https://cs61bl.org/su26/labs/lab01/get-ssh-key.sh | bash 
+curl -sS https://fa24.datastructur.es/labs/lab01/get-ssh-key.sh | bash
 ```
 
 {: .info}
@@ -473,7 +473,7 @@ within the newly created repository folder when you continue with these
 commands.) Enter the following command to add the `skeleton` remote.
 
 ```shell
-git remote add skeleton https://github.com/cs61bl/skeleton-su26.git
+git remote add skeleton git@github.com:cs61bl/skeleton-su26.git
 ```
 
 Listing the remotes should now show both the `origin` and `skeleton` remotes.
@@ -493,11 +493,11 @@ git remote -v
 
 ### Task: Git Exercise Part 2
 
-Complete **Exercise 1.2** of the
-[asynchronous checkoff form on beacon](https://beacon.datastructur.es/) and obtain a **magic word**. You will need this magic word later in the lab. 
+Complete **Exercise 1.2** on the
+[Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfQBFBYVneEzybDzdEf04unE-EWAr7wvYWl4lHT5S3a5dbBlQ/viewform?usp=dialog) and obtain a **magic word**. You will need this magic word later in the lab. 
 
 {: .task}
-> **Task**: Complete Exercise 1.2 to receive the magic word.
+> **Task**: Complete [Exercise 1.2](https://docs.google.com/forms/d/e/1FAIpQLSfQBFBYVneEzybDzdEf04unE-EWAr7wvYWl4lHT5S3a5dbBlQ/viewform?usp=dialog) to receive the magic word.
 
 {: .danger}
 > At this point, you should have a `lab01` folder, with the contents
@@ -545,10 +545,9 @@ Although we use GitHub to store our programming work, we use **Gradescope** to
 actually grade it. The last step is to submit your work with [Gradescope](https://www.gradescope.com/),
 which we use to autograde programming assignments.
 
-We added everyone's CalCentral email to Gradescope on the first day of labs. Make sure to login using the email address listed on CalCentral.
+You should enroll in Gradescope with the add key found on bCourses. Please make sure to use your **Berkeley email** when signing up.
 
-If you're having trouble accessing the course on Gradescope or would like to use
-a different email address, ask your TA!
+If you're having trouble accessing the course on Gradescope, ask your TA!
 
 
 {: .danger}

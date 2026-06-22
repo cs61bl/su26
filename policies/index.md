@@ -308,36 +308,37 @@ You can review our [academic misconduct resolution procedures here](./misconduct
 ### LLM Policy
 
 {: .danger}
-> **DANGER: Direct Code and Repository Interaction is Strictly Forbidden**
+> **DANGER: LLMs are Prohibited from Accessing or Interacting with Code and Repositories**
 > 
-> You are **never** permitted to use LLMs (including ChatGPT, Claude, Claude Code, GitHub Copilot, built-in IDE extensions, or any other agentic coding tools) to write, debug, edit, or commit code for you. You must **never** allow an LLM to interface with your codebase or your GitHub repository, including for version control or committing changes. 
+> You must **never** allow an LLM or any GenAI tool to read, analyze, or interface with your codebase or your GitHub repository in any way. This means all local and terminal-based tools (such as **Claude Code**), GitHub Copilot, built-in IDE extensions (e.g., Cursor, IntelliJ AI Assistant), or any other agentic coding tools are **outright banned**.
 > 
-> LLMs may **ONLY** be used to ask high-level conceptual questions.
+> You may **ONLY** interact with LLMs and GenAI tools conceptually, and this interaction must take place **exclusively through browser-based chatbots** (such as chatgpt.com or claude.ai).
 
 **General Policy**
-Use LLMs in the same way you might use a friend in the class. Just as it’s OK to ask a friend a conceptual question, you may use LLMs for conceptual questions. You would not ask a friend to write code for you, and similarly you may not ask an LLM to write code for you. As a general rule of thumb, no code or instructions should be pasted/typed into an LLM, and no LLM-generated code should ever enter your codebase. If at any point you find yourself stuck on an assignment, concept, or anything else related to CS 61BL, we encourage you to find our staff at office hours or lab!
+Use LLMs in the same way you might use a friend in the class who is not in your group. You may only use browser-based chatbots to ask high-level, conceptual questions. You must **never** feed your code, skeleton code, or assignment instructions into an LLM, and no LLM-generated code should ever enter your codebase. As a general rule, no code or specific instructions from the course should be pasted, typed, or uploaded into an LLM. If at any point you find yourself stuck on an assignment, concept, or anything else related to CS 61BL, we encourage you to find our staff at office hours or lab!
 
 **Code Reviews and Interviews**
-In order to discourage unacceptable LLM use, we will be conducting random code reviews for submitted project code for all projects, with some bias towards code that appears to be LLM-generated. If you find yourself at such a point of total desperation that cheating begins to look attractive, please come to office hours or lab for assistance. We are here to help! For students selected for code review, we’ll hold short interviews to verify that you are able to explain your code and are capable of generating similar code unassisted.
+In order to discourage unacceptable LLM use, we will be conducting random code reviews for submitted project code for all projects, with some bias towards code that appears to be LLM-generated or if there is suspicion of unauthorized tool usage. If you find yourself at such a point of total desperation that cheating begins to look attractive, please come to office hours or lab for assistance. We are here to help! For students selected for code review, we’ll hold short interviews to verify that you are able to explain your code and are capable of generating similar code unassisted.
 
 **Question Types**
 The below policy applies to all interactions with LLMs relating to CS 61BL content:
 
-**Reasonable Questions**:
-These are things that are reasonable to ask an LLM.
+**Reasonable Questions (Exclusively via browser-based chatbots)**:
+These are things that are reasonable to ask an LLM:
 - “What’s the difference between Integer and int in Java?”
 - “What is a garbage collector?”
 - “What does this mean: Exception in thread “main” java.lang.ArithmeticException: / by zero”
 
 **Absolutely Forbidden**:
-These questions/activities will massively detract from your learning experience in the course, and are strictly prohibited.
+These questions/activities will massively detract from your learning experience in the course, and are strictly prohibited:
+- Allowing any LLM tool, IDE extension, or CLI assistant (e.g., Claude Code, GitHub Copilot, Cursor, etc.) to access, read, run, or modify your code or repository.
+- Uploading or pasting your code, skeleton code, or errors from your project into an LLM.
 - “Write a snippet of code to make an array in Java.”
 - “Write a snippet of code to make every word uppercased in Java.”
 - “Design an algorithm to solve this following task: [copy pasted from spec]”
-- Any prompt that involves copying, rewording, paraphrasing, etc. more than approximately 15 words of an assignment.
+- Any prompt that involves copying, uploading, rewording, or paraphrasing more than approximately 15 words of an assignment.
 - Any prompt that aims to generate code that can be directly copied and pasted into an assignment.
-- Any prompt that involves giving your own code to the LLM to review. This includes GitHub Copilot, ChatGPT, Claude, built-in LLM tools in IDEs, etc.
-- Using agentic tools (such as Claude Code) to run commands, modify files, run tests, make commits, or manage your git repository.
+- Using LLM-generated code in your submissions in any capacity.
 
 We believe that students are able to tell the difference between using an LLM to genuinely attempt to understand the course content more deeply and using an LLM to avoid engaging with the learning goals of the course or to complete assignments without learning more about the content. We also believe that LLMs are very prone to giving out incorrect answers, so we will not penalize asking about the accuracy of LLM output on course platforms. For example, if an LLM gives you information that seems to be wrong, please ask! We are here to support your learning and correct your misconceptions, and course staff is an official source of truth for CS 61BL. It’s better to ask us and be confident in the reply than to possibly internalize incorrect information after the end of this course.
 
