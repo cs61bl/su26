@@ -232,8 +232,7 @@ repository ("repo"), which you will need to submit all coding assignments.
 1.  Go to
     the [Beacon website](https://beacon.datastructur.es/)
     and you'll be guided through a few steps to complete your GitHub repository
-    registration. Please follow them carefully! You must be logged in to your
-    Berkeley account to complete the Google Form quiz. If any errors occur while
+    registration. Please follow them carefully! If any errors occur while
     you're working through the steps, please let your TA know immediately.
 1.  After completing all of the steps, you should receive an email inviting you
     to collaborate on your course GitHub repository.
