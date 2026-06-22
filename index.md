@@ -55,10 +55,6 @@ unreleased_warning: false
 [Past announcements](announcements){: .btn .btn-outline .fs-3 }
 {%- endif %}
 
-{: .warning}
-> This site is under construction. For now, please do not start any assignments, as they may change by the time the
-> course begins on 6/22. Refer to our announcements on [Ed](https://edstem.org/us/dashboard) in the meantime!
-
 ## Course Calendar
 
 [Skip to current week](#week-{{ 'now' | date: '%U' }}){: .btn .btn-outline .fs-3 }
