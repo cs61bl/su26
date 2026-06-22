@@ -149,7 +149,7 @@ Full details on partnerships will be released closer to Project 3.
 
 ## Grading
 
-Your course grade is computed using a point system with a total of 300 points. In other words, there is _no curving in this course_, other than the clobbering policy above. Your grade will depend on how well you do relative to the bins, and not on how well everyone else does. Though we do not usually do this, we reserve the right to lower the the grading bins for 61BL if grades are too low. We will not raise the bins.
+Your course grade is computed using a point system with a total of 300 points. In other words, there is _no curving in this course_, other than the clobbering policy above. Your grade will depend on how well you do relative to the bins, and not on how well everyone else does. Though we do not usually do this, we reserve the right to lower the grading bins for 61BL if grades are too low. We will not raise the bins.
 
 | Category                      | Percentage  | Points   |
 | ----------------------------- | ----------- | -------- |
