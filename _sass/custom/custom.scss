@@ -4,6 +4,27 @@
 
 // Begin UCB custom style
 
+code {
+  font-size: 1em;
+  font-weight: 600 !important;
+}
+
+blockquote.info {
+  background-color: #977bb333;
+}
+
+blockquote.task {
+  background-color: rgb(145 159 214 / 19%);
+}
+
+blockquote.danger {
+  background-color: #dd2e2e14;
+}
+
+blockquote.warning {
+  background-color: #fff08d33;
+}
+
 td {
   min-width: 0;
 }
