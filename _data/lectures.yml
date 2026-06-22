@@ -70,6 +70,7 @@ lecture_prefix: "/assets/lectures/cs101-sp25-lec"
 lectures:
   # Week 1
   - title: "Welcome!"
+    slides: "https://docs.google.com/presentation/d/1eQAx6fIMP98hW-VgzvHHUMVXiyze84CV4S1LQlaYt4A/edit?usp=sharing"
   - title:
     nonumber: True
     readings:
