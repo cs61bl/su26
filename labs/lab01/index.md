@@ -394,7 +394,7 @@ First, run the following command in your terminal. It will print out any SSH key
 and generate a new one if none exists: 
 
 ```shell
-curl -sS https://fa24.datastructur.es/labs/lab01/get-ssh-key.sh | bash
+curl -sS https://cs61bl.org/labs/lab01/get-ssh-key.sh | bash
 ```
 
 {: .info}
@@ -585,7 +585,7 @@ git repo that contains all the dependencies that we will use in this course.
 Then, run:
 
 ```shell
-git clone https://github.com/cs61bl/library-su26
+git clone git@github.com:cs61bl/library-su26.git
 ```
 
 Below is shown the directory structure of `library-su26`. Look inside the
