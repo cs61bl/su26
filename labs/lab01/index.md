@@ -3,11 +3,11 @@ layout: page
 title: >-
     Lab 01: Java & Git
 has_children: true
-nav_exclude: false
+nav_exclude: true
 parent: Labs
 has_toc: false
 has_right_toc: true
-released: true
+released: false
 ---
 
 ## [FAQ](faq)
