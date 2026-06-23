@@ -46,9 +46,9 @@ For projects, you can use any number of slip days to extend your deadline. Each 
 
 We define extenuating circumstances as circumstances outside of the student's control that directly inhibit the student's ability to complete assignments in a timely manner. Some examples include unforeseen physical/mental health crises, technical issues (broken laptop), family emergency, etc.
 
-In these cases, we will consider requests for extensions that are unaccounted for by your 8 slip days. You can request an extension through the [Extenuating Circumstances Form](https://forms.gle/fhgcSq54BJHhNKz66).
+In these cases, we will consider requests for extensions that are unaccounted for by your 8 slip days. You can request an extension through the [Extenuating Circumstances Form](https://forms.gle/KyXtmwkAHTqkXaF4A).
 
-If you're experiencing extenuating circumstances impacting your mental health and would like to meet with a member of course staff to work out accommodations within the course, or would like to be connected to more resources, [you can set up a meeting with us here](https://forms.gle/fhgcSq54BJHhNKz66).
+If you're experiencing extenuating circumstances impacting your mental health and would like to meet with a member of course staff to work out accommodations within the course, or would like to be connected to more resources, [you can set up a meeting with us here](https://docs.google.com/forms/d/e/1FAIpQLSdxIooBm6IFavxlnsHzHHeyXzqszbEfZKUj0LeUJuhfPOpgCg/viewform?usp=dialog).
 
 {: .warning}
 We will not be considering retroactive submissions to the extenuating circumstances form. **This means that you should proactively submit to the form before the assignment's deadline to be considered.** We also will be primarily providing extensions as a result of extenuating circumstances on projects. Exceptions will only be made in extreme cases.
