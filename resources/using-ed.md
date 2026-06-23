@@ -558,18 +558,6 @@ This is the blue (lower-right) box on the image above.
 You can also specify a range of dates that you want to search for. Less useful,
 but it exists if you need it.
 
-## Closing
-
-The guide is good for letting you know what things Ed offers, but the best way
-to learn it is to just use the thing! Remember to keep up the Ed etiquette so that all
-students can benefit from the wonderful questions you all ask :)
-
-Ed has some official resources that are subsets of what's covered in this page:
-
-- <https://edstem.org/us/help/student-discussion>
-- <https://edstem.org/quickstart/ed-discussion.pdf>
-
-
 # Gitbugs
 
 Author: Omar Khan
@@ -605,8 +593,7 @@ keep everything organized for us and make sure we don’t reject your Gitbug:
 2. Select ‘Question’ as your type of post
 3. Give a useful title to your Gitbug post, for example: “Project 1: Array
 upsizing works, but downsizing throws ArrayIndexOutOfBoundException errors”
-4. Select the Category as Gitbug and the Subcategory as whichever assignment
-this is
+4. Select the Category as 'Gitbugs (Private)'.
 5. Choosing the Gitbug category on Ed should show you a template for the
 question asking you important questions to help us debug your code. If you don’t
 see it, you didn’t do step 2. It should look like the below screenshot.
@@ -672,3 +659,14 @@ Once your Gitbug has been answered, do not reply. We won’t be doing any back a
 forth on Gitbugs. If you still have another bug, you should instead make a new
 Gitbug. The one exception is if you want to say “thank you” or something like
 that :)
+
+## Closing
+
+The guide is good for letting you know what things Ed offers, but the best way
+to learn it is to just use the thing! Remember to keep up the Ed etiquette so that all
+students can benefit from the wonderful questions you all ask :)
+
+Ed has some official resources that are subsets of what's covered in this page:
+
+- <https://edstem.org/us/help/student-discussion>
+- <https://edstem.org/quickstart/ed-discussion.pdf>
