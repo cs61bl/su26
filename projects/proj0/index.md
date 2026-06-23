@@ -3,14 +3,14 @@ layout: page
 title: >-
   Project 0: 2048
 nav_order: 0
-nav_exclude: true
+nav_exclude: false
 parent: Projects
 has_children: true
 has_toc: false
 has_right_toc: true
 description: >-
   Project 0 spec.
-released: false
+released: true
 ---
 
 **Deadline: Sunday, June 28th, 11:59 PM PT.**
