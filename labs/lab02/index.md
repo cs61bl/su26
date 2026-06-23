@@ -4,7 +4,7 @@ title: >-
   Lab 02: Conditionals, Loops, Array Preview
 nav: 1
 has_children: true
-nav_exclude: true
+nav_exclude: false
 parent: Labs
 has_toc: false
 has_right_toc: true
