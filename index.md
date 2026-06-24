@@ -55,6 +55,8 @@ unreleased_warning: false
 [Past announcements](announcements){: .btn .btn-outline .fs-3 }
 {%- endif %}
 
+Recordings will be published to [bCourses Media Gallery](https://bcourses.berkeley.edu/courses/1555175/external_tools/90481)
+
 ## Course Calendar
 
 [Skip to current week](#week-{{ 'now' | date: '%U' }}){: .btn .btn-outline .fs-3 }
