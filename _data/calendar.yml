@@ -96,8 +96,8 @@ categories:
     darkTheme:
       --event-background: "#363197"
       --event-border-color: "#CAC8EB"
-  - name: "Practical Lab"
-    match: "practical lab"
+  - name: "Lab"
+    match: "lab"
     lightTheme:
       --event-background: "#F4EFC3"
       --event-border-color: "#B4B11C"
