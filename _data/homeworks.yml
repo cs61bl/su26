@@ -83,7 +83,7 @@ homeworks:
   - title: "Homework 1"
     due: "2026/06/30"
     link: "https://www.gradescope.com/courses/1050654/assignments/6372041"
-    show_links: false
+    show_links: true
     rowspan: 5
     classes:
       - "schedule-yellow"
