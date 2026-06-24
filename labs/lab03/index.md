@@ -28,8 +28,13 @@ For this, and later labs, we strongly recommend opening up the lab in IntelliJ.
 
 Also, please note that this lab expects exposure to programming similar to that 
 obtained in a course like CS 61A. We will begin diving deep into Java, and moving 
-fast. If you are not as comfortable with this material, we recommend you take a 
-look at this [Java Crash Course](https://cs61bl.org/su23/java/) as supplemental material.
+fast. 
+
+{: .warning}
+> The link below is unfortunately broken! We will fix it soon.
+> 
+> If you are not as comfortable with this material, we recommend you take a 
+> look at this [Java Crash Course](https://cs61bl.org/su23/java/) as supplemental material.
 
 ### Learning Goals
 
@@ -969,9 +974,15 @@ public class Point {
 ```
 
 It is very important to understand the difference between the equality and
-identity of objects. We recommend you read over the
-[Identity and Equality section of the Su23 Java guide](https://cs61bl.org/su23/java/#identity-and-equality).
- Many tricky bugs can arise from this if you misuse these two related but different concepts.
+identity of objects. 
+
+{: .warning}
+> The link below is unfortunately broken! We will fix it soon.
+> 
+> We recommend you read over the
+> [Identity and Equality section of the Su23 Java guide](https://cs61bl.org/su23/java/#identity-and-equality).
+
+Many tricky bugs can arise from this if you misuse these two related but different concepts.
 
 ## Conclusion
 
