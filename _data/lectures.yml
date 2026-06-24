@@ -69,7 +69,7 @@ lecture_prefix: "/assets/lectures/cs101-sp25-lec"
 
 lectures:
   # Week 1
-  - title: "Welcome! (Sherdil)"
+  - title: "Welcome!"
     slides: "https://docs.google.com/presentation/d/1eQAx6fIMP98hW-VgzvHHUMVXiyze84CV4S1LQlaYt4A/edit?usp=sharing"
   - title:
     nonumber: True
@@ -77,6 +77,7 @@ lectures:
       - name: "Chapter 1"
         link: "https://cs61b-2.gitbook.io/cs61b-textbook/1.-introduction"
   - title: "Primitives and Objects"
+    slides: "https://docs.google.com/presentation/d/1nNBwmfmsZ2KbKZKeVpKXgNMEA9YQEb0cmDlKvxG0egU/edit?usp=sharing"
     readings:
       - name: "Chapter 2"
         link: https://cs61b-2.gitbook.io/cs61b-textbook/2.-defining-and-using-classes
