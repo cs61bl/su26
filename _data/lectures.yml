@@ -76,7 +76,8 @@ lectures:
     readings:
       - name: "Chapter 1"
         link: "https://cs61b-2.gitbook.io/cs61b-textbook/1.-introduction"
-  - title: "Primitives and Objects"
+  - title: "Primitives and Objects (Sherdil)"
+    slides: "https://docs.google.com/presentation/d/1nNBwmfmsZ2KbKZKeVpKXgNMEA9YQEb0cmDlKvxG0egU/edit?usp=sharing"
     readings:
       - name: "Chapter 2"
         link: https://cs61b-2.gitbook.io/cs61b-textbook/2.-defining-and-using-classes
