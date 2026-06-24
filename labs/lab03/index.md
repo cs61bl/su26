@@ -800,7 +800,6 @@ Account teresa = new Account(500);
 Account dom = new Account(100, teresa);
 teresa.withdraw(50);
 ```
-" %}
 
 ### Discussion: Merging Revisited
 
@@ -813,10 +812,12 @@ public void merge(Account other) {
 }
 ```
 
-This doesn't work. Explain why not. Highlight the space below to reveal the answer.
+This doesn't work. Explain why not.
 
-<p><span style="color:white"><em>When we set `other = new Account(0);`, we lose 
-information regarding the parent account of `other` and this is not intended behavior. </em></span>.</p>
+<details>
+<summary>Click to reveal answer!</summary>
+When we set `other = new Account(0);`, we lose information regarding the parent account of `other` and this is not intended behavior.
+</details>
 
 ## Exercise: Pursuit Curves
 
