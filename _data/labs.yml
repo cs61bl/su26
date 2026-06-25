@@ -84,7 +84,7 @@ labs:
   - title: "Debugging & Test-Driven Development"
     due: "2026/06/26"
     link: "/labs/lab04"
-    show_links: false
+    show_links: true
   - title: "Exam Prep 1: Introduction to Java Programming"
     examprep: true
     video: false
