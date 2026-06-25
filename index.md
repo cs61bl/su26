@@ -57,7 +57,7 @@ unreleased_warning: false
 
 Recordings will be published to [bCourses Media Gallery](https://bcourses.berkeley.edu/courses/1555175/external_tools/90481).
 
-And check the pre-lecture Spotify [playlist](https://open.spotify.com/playlist/7nKNOxHDp0r4qzlcxpHJGp?si=54fc178ca0ae4db3)!
+You can also check out the pre-lecture [Spotify playlist](https://open.spotify.com/playlist/7nKNOxHDp0r4qzlcxpHJGp?si=54fc178ca0ae4db3)! 🎧
 
 ## Course Calendar
 
