@@ -55,9 +55,9 @@ unreleased_warning: false
 [Past announcements](announcements){: .btn .btn-outline .fs-3 }
 {%- endif %}
 
-Recordings will be published to [bCourses Media Gallery](https://bcourses.berkeley.edu/courses/1555175/external_tools/90481).
+Recordings will be published to [bCourses Media Gallery](https://bcourses.berkeley.edu/courses/1555175/external_tools/90481). You can also check out the pre-lecture [Spotify playlist](https://open.spotify.com/playlist/7nKNOxHDp0r4qzlcxpHJGp?si=54fc178ca0ae4db3)! 🎧
 
-You can also check out the pre-lecture [Spotify playlist](https://open.spotify.com/playlist/7nKNOxHDp0r4qzlcxpHJGp?si=54fc178ca0ae4db3)! 🎧
+**Note:** You must be **logged into CalNet** to see many of these resources.
 
 ## Course Calendar
 
