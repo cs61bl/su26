@@ -97,7 +97,11 @@
 
 {%- capture worksheet -%}
   {%- if include.element.worksheet != "" -%}
-    <a href="{{ include.element.worksheet }}">Worksheet</a>
+    {%- if include.element.worksheet contains "://" -%}
+      <a href="{{ include.element.worksheet }}">Worksheet</a>
+    {%- else -%}
+      <a href="{{ include.element.worksheet | relative_url }}">Worksheet</a>
+    {%- endif -%}
   {%- endif -%}
 {%- endcapture -%}
 {%- if include.element.worksheet -%}
@@ -106,7 +110,11 @@
 
 {%- capture solutions -%}
   {%- if include.element.solutions != "" -%}
-    <a href="{{ include.element.solutions }}">Solutions</a>
+    {%- if include.element.solutions contains "://" -%}
+      <a href="{{ include.element.solutions }}">Solutions</a>
+    {%- else -%}
+      <a href="{{ include.element.solutions | relative_url }}">Solutions</a>
+    {%- endif -%}
   {%- endif -%}
 {%- endcapture -%}
 {%- if include.element.solutions -%}
@@ -115,7 +123,11 @@
 
 {%- capture slides -%}
   {%- if include.element.slides != "" -%}
-    <a href="{{ include.element.slides }}">Slides</a>
+    {%- if include.element.slides contains "://" -%}
+      <a href="{{ include.element.slides }}">Slides</a>
+    {%- else -%}
+      <a href="{{ include.element.slides | relative_url }}">Slides</a>
+    {%- endif -%}
   {%- endif -%}
 {%- endcapture -%}
 {%- if include.element.slides -%}

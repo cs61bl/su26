@@ -88,10 +88,8 @@ labs:
   - title: "Exam Prep 1: Introduction to Java Programming"
     examprep: true
     video: false
-    # solutions: https://drive.google.com/file/d/1RUlowvtidu4f8WJVdixrdh05K2OhvKVn/view?usp=sharing
-    # slides: https://docs.google.com/presentation/d/1YiMtbm8RpALnuNXj0yjNjy3rMwpetYHf/edit?usp=sharing&ouid=111619450380883067671&rtpof=true&sd=true
-    # worksheet: https://drive.google.com/file/d/1g5cAmAB4qYUwIp7wwRaSM8OGRhKtP4FE/view?usp=sharing
-    # link: https://docs.google.com/presentation/d/1YiMtbm8RpALnuNXj0yjNjy3rMwpetYHf/edit?slide=id.p1#slide=id.p1
+    worksheet: "/assets/discussions/exam-prep-01.pdf"
+    solutions:
     nonumber: True
     show_links: true
   - title: "Intro to Linked Lists"
