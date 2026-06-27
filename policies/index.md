@@ -102,7 +102,11 @@ Friday sessions are Exam Prep sessions that involve working through a worksheet 
 
 **Please note that Friday Exam Prep sessions are distinct from labs and will be held in different rooms shown on the main calendar.**
 
-There are 5 Friday Exam Prep sessions, and each is worth 3 points (for a total of 15 points). You can receive credit either by attending the session in person or working on the worksheet asynchronously. Asynchronous submissions must be submitted before the final exam to receive credit.
+There are 5 Friday Exam Prep sessions, and each is worth 3 points (for a total of 15 points). You can receive credit in one of two ways:
+1. **In-person checkoff**: Attending the session and getting checked off by a TA in person on the day of the session.
+2. **Gradescope upload**: Completing the worksheet asynchronously and uploading it to Gradescope up until the night before the Final Exam.
+
+We may add some **extra credit incentives** later in the term for getting checked off in person some number of times 😉
 
 #### Section Swapping
 
