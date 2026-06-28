@@ -5,9 +5,9 @@ title: >-
 has_children: true
 parent: Labs
 has_toc: false
-nav_exclude: false
+nav_exclude: true
 has_right_toc: true
-released: true
+released: false
 ---
 
 ## [FAQ](faq)
