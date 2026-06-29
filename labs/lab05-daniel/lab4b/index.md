@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 layout: page
 title: >-
   Lab 4B: Linked List Enhancements

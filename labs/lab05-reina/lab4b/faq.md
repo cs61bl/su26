@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 layout: page
 title: >-
   FAQ - Lab 4B

@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 layout: page
 title: >-
   FAQ
@@ -6,7 +7,7 @@ parent: >-
   Lab 05: Intro to Linked Lists
 grand_parent: Labs
 has_right_toc: true
-released: true
+released: false
 ---
 
 ### In lecture we were talking about IntLists; what are these Linked Lists you speak of?
