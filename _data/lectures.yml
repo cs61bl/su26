@@ -95,6 +95,7 @@ lectures:
   
   # Week 2
   - title: "ADTs + Lists"
+    slides: https://docs.google.com/presentation/d/1GMHHgNFOyDW3K4Ce72rh58XEMFrfijO8GjLVeqE0tQU/edit?usp=sharing
     readings:
     - name: "Chapter 3"
       link: https://cs61b-2.gitbook.io/cs61b-textbook/3.-references-recursion-and-lists
