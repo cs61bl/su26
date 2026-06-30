@@ -82,7 +82,7 @@ projects:
     rowspan: 4
   - title: "Project 1A: LinkedListDeque"
     link: "/projects/proj1a"
-    show_links: false
+    show_links: true
     due: "2026/07/02"
     classes:
       - "schedule-blue"

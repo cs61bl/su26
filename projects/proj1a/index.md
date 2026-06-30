@@ -15,10 +15,10 @@ has_children: true
 has_toc: false
 has_right_toc: true
 toc_exclude: true
-nav_exclude: true
+nav_exclude: false
 description: >-
   Project 1A Spec.
-released: false
+released: true
 ---
 
 ## Due: Thursday, July 2nd at 11:59 PM PT
