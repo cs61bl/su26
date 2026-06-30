@@ -16,7 +16,7 @@ The FAQ for Lab 6 is located [here](faq).
 
 ## Before You Begin
 
-Pull the skeleton code from GitHub and open it on Intellij like usual.
+Pull the skeleton code from GitHub and open it on Intellij like usual ([61B Assignment Workflow Guide](../../resources/assignment-workflow/)).
 
 ## Linked Lists
 
@@ -65,7 +65,7 @@ All operations on the list are handled through an instance of an `SLList` object
 ## Enhancement 2: Sentinel
 
 Although encapsulation shields users of our data structure from having to deal with
-cumbersome null checks, we as the implementors of our linked list class still have to handle them.
+cumbersome null checks, as the implementors of our linked list class we still have to handle them.
 However, we can eliminate null checks and simplify our code greatly with usage of a `sentinel` _node_ instead of the `head` pointer. The sentinel node always exists (even when our list is empty), and does not represent an actual node in the list. Its `next` field represents the front of the list, unless the list is empty. The sentinel's `item` is some meaningless value (in this example, we have chosen [42](https://en.wikipedia.org/wiki/42_%28number%29#The_Hitchhiker's_Guide_to_the_Galaxy), but it doesn't matter what its value is; **a sentinel's item should never be accessed**). The last node in the list should have its `next` pointing back at the `sentinel`, and an empty list is represented by just a `sentinel` node whose `next` points back to itself. In a box-and-pointer diagram, a empty singly-linked list with a sentinel looks like this:
 
 ![](img/emptyintlistsentinel.png)
@@ -122,7 +122,7 @@ public class SLList {
 
 Just like yesterday, we will want a `toString` method so that our linked lists will be displayed
 in a more readable format in the debugger or when printing to the console. We will also want
-an `equals` method that checks whether or not list A and list B **contain the same content**, rather than checking if `A` and `B` refer to the same object. Here is an illustration of this difference:
+an `equals` method that 1. uses the `instanceof` keyword to type check (as well as typecast) and 2. checks whether or not list A and list B **contain the same content**, rather than checking if `A` and `B` refer to the same object. Here is an illustration of this difference:
 
 ![](img/equals.png)
 
