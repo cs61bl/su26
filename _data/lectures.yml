@@ -111,6 +111,7 @@ lectures:
         link: https://cs61b-2.gitbook.io/cs61b-textbook/8.-arraylist
 
   - title: "Inheritance + Polymorphism"
+    slides: https://docs.google.com/presentation/d/165S535nNixh3TtFH_ZWUnFtp3ZOBSDvZkeYBNt3jDuM/edit?usp=sharing
     readings:
     - name: "Chapter 9"
       link: https://cs61b-2.gitbook.io/cs61b-textbook/9.-inheritance-i-interface-and-implementation-inheritance
