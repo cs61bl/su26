@@ -130,7 +130,7 @@ public void thoroughlyConsumeFood(Food food) {
 }
 ```
 
-The first call allows us to access Animal's eat method and invoke it. In some sense, `super` is like `this` but for the parent class.
+The first call allows us to access Animal's `eat` method and invoke it. In some sense, `super` is like `this` but for the parent class.
 
 {: .info}
 >In Java, subclasses do not directly inherit the constructor of their
@@ -337,7 +337,7 @@ This section is optional and considered out of scope for Summer 2026. If you'd l
 
 </summary>
 
-Suppose for a moment that we wanted to inherit from a partial implementation of a class. Recall the Animal example from before, but slightly rewritten:
+Suppose for a moment that we wanted to inherit from a partial implementation of a class. Recall the `Animal` example from before, but slightly rewritten:
 
 ```java
 public class Animal {
@@ -353,7 +353,7 @@ public class Animal {
 }
 ```
 
-While it was useful for us to inherit some of the functionality from Animal, it does not make sense for us to actually be able to directly instantiate an Animal. Is there any way we can prevent instantiation? The answer, as you might suspect at this point, is yes! We can declare it as an abstract class:
+While it was useful for us to inherit some of the functionality from `Animal`, it does not make sense for us to actually be able to directly instantiate an `Animal`. Is there any way we can prevent instantiation? The answer, as you might suspect at this point, is yes! We can declare it as an abstract class:
 
 ```java
 abstract class Animal {
@@ -417,7 +417,7 @@ public static void main(String[] args) {
 }
 ```
 
-Clearly, `objectA.f()` will be A’s method, and `objectB.f()` will be B’s method,
+Clearly, `objectA.f()` will be `A`’s method, and `objectB.f()` will be `B`’s method,
 but what of `mystery`’s call? To understand this, we must learn Java’s rules for
 dynamic method selection.
 
@@ -706,7 +706,7 @@ We'd like to use ADT that handles duplicate elements for us, so we can simplify
 the code that we write. This is what the `Set` ADT is for!
 
 A **set** is a collection of _unique_ items that is not necessarily ordered.
-Sets must support following operations at a minimum:
+`Set`s must support following operations at a minimum:
 
 - `add`ing an element to the set
 - `remove`ing an element from the set
@@ -749,7 +749,7 @@ Here, we really want something that relates words to counts. This is where we
 can use the `Map` ADT!
 
 A **map** is a collection of key-to-value mappings, like a dictionary from
-Python. A map is not necessarily ordered. Maps must support at least the
+Python. A map is not necessarily ordered. `Map`s must support at least the
 following operations:
 
 - Insert/change (`put`) the _value_ that a particular _key_ maps to.
