@@ -330,12 +330,9 @@ public class SLList implements SimpleList, ComplexList {
 
 ### Abstract Classes (Optional)
 
-<details markdown="block">
-<summary markdown="block">
-
-This section is optional and considered out of scope for Summer 2026. If you'd like to learn about abstract classes, click on the arrow to expand the section.
-
-</summary>
+{: .warning}
+> This section is considered out of scope for Summer 2026. In other words, you won't be tested on it.
+> However, we still recommend learning/reviewing it as this is an important concept!
 
 Suppose for a moment that we wanted to inherit from a partial implementation of a class. Recall the `Animal` example from before, but slightly rewritten:
 
@@ -385,9 +382,11 @@ keyword and therefore strictly adheres to a superclass-subclass inheritance. Bec
 abstract classes are helpful as representations of a common base class that can be
 `extend`ed and therefore avoids a lot of repeated code.
 
-</details>
+## Dynamic Method Selection (Optional)
 
-## Dynamic Method Selection 
+{: .warning}
+> This section is also considered out of scope for Summer 2026. In other words, you won't be tested on it.
+> However, again, we still recommend learning/reviewing it as this is also an important concept!
 
 From the structure of inheritance and polymorphism arises a natural question:
 when you possess a Java object, and you evoke a particular method signature
