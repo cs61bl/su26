@@ -4,8 +4,8 @@ title: >-
   Lab 08: Comparison, Iteration, and Exceptions
 has_children: true
 parent: Labs
-has_toc: false
-nav_exclude: true
+has_toc: true
+nav_exclude: false
 has_right_toc: true
 released: true
 ---
@@ -34,8 +34,8 @@ structure's behavior; and how we can implement ADTs in Java using *interfaces*.
 We'll take a look at two really common things that we want to do with our
 classes:
 
--   Making them *able to be compared* (useful for things that go in certain kinds
-    of data structures)
+-   Making them *able to be compared* (useful for data that go in certain kinds
+    of data structures such as those that require sorting)
 -   Making them *able to be iterated over* (useful for the data structures
     themselves)
 
@@ -45,8 +45,7 @@ Read Chapter 4.3 from **[Max Function](https://joshhug.gitbooks.io/hug61b/conten
 motivate the problem we're solving and the tools we'll use along the way.
 
 Remember **casting** is a bit of special syntax where you can tell the compiler that a
-specific expression has a specific compile-time type. If the `maxDog` method
-below returns an object of static type `Dog`, the code normally wouldn't compile because we'd be trying to assign `largerPoodle` to an object of static type `Dog`, when we declared that `largerPoodle` is a `Poodle` (`Poodle` is a subtype of `Dog`, so not all `Dog`s are `Poodle`s). *Casting* tells Java to treat the `Dog` as if it were a `Poodle` for the purposes of compilation because it's possible that the `Dog` returned from `maxDog` *could be* a `Poodle`.
+specific expression has a specific compile-time type. Consider `Poodle` as a subtype of `Dog`: If `maxDog` is declared to return a `Dog`, and not every `Dog` is a `Poodle`. Java won’t let you assign a `Dog` directly to a `Poodle` variable. Casting tells Java to treat the Dog as if it were a Poodle for the purposes of compilation.
 
 ```java
 Poodle largerPoodle = (Poodle) maxDog(frank, frankJr);
