@@ -15,10 +15,10 @@ has_children: true
 has_toc: false
 has_right_toc: true
 toc_exclude: true
-nav_exclude: true
+nav_exclude: false
 description: >-
   Project 1A Spec.
-released: false
+released: true
 ---
 
 ## Due: Thursday, July 2nd at 11:59 PM PT
@@ -30,9 +30,6 @@ released: false
 Each assignment will have an FAQ linked at the top. You can also access it by
 adding "/faq" to the end of the URL. The FAQ for Project 1A is located
 [here](faq).
-
-{: .warning}
-> **Warning:** this assignment is not officially released yet. This spec is subject to change until this warning disappears.
 
 ## Introduction
 
@@ -54,7 +51,7 @@ much less scaffolding.
 
 {: .info}
 >This section assumes you have watched and fully digested the lectures up till
->the Linked Lists and Generics lecture, Lecture 3.
+>the ADTS + Lists lecture, Lecture 3.
 
 {: .warning}
 >For this project, you must work alone! Please carefully read the
@@ -72,8 +69,7 @@ much less scaffolding.
 On this project, you will have a max of 4 submission tokens to the autograder, each with a refresh rate of 24 hours. Unlike previous assignments, **not all tests will be provided locally**, so it is up to you to write tests to verify the correctness of your own code. See the [Writing Tests](#writing-tests) section for more details.
 
 {: .danger}
-
-**We will not grant extensions for failing to understand the token limiting policy.** If you have questions, please ask!
+> **We will not grant extensions for failing to understand the token limiting policy.** If you have questions, please ask!
 
 ### Style
 
@@ -112,7 +108,7 @@ You can also watch Professor Hug's [demo](https://www.youtube.com/watch?v=tABtNc
 about how to get started and this [video](https://www.youtube.com/watch?v=Squ8TmG5mX0)
 if you encounter some git issues.
 
-## Deque61B: ADT and API
+## Task 1: Deque61B: ADT and API
 
 The double ended queue is very similar to the SLList and AList classes that
 we've discussed in class. Here is a definition from the
@@ -150,7 +146,7 @@ If you hover over the method name in IntelliJ, you'll see a popup that looks lik
 >are reading it as you complete the project.
 
 {: .danger}
-**Do not edit `Deque61B.java`. You may fail the autograder if you do so.**
+> **Do not edit `Deque61B.java`. You may fail the autograder if you do so.**
 
 **It is on you to read the descriptions of the other methods.**
 
@@ -169,7 +165,7 @@ To help encourage better programming habits, in Project 1A, we're going to hold
 your hand through the development process. We strongly encourage you to follow the steps outlined in
 this spec.
 
-### Creating the File
+## Task 2: Creating the File
 
 Start by creating a file called `LinkedListDeque61B`. This file should be created
 in the `proj1a/src` directory. To do this, right-click on the `src` directory,
@@ -236,7 +232,7 @@ we're going to set aside the tests for now and come back to them much later.
 
 In this test file, we've provided a few tests that check that your `LinkedListDeque61B` file to check your code structure for correctness. You do not need to understand these tests, but you should be able to run them.
 
-### Writing and Verifying the Constructor
+## Task 3: Constructor
 
 {: .info}
 >This section assumes you have watched and fully digested the lectures up to
@@ -295,7 +291,7 @@ Java Visualizer to verify that your created object matches the expected topology
 >The other tests may not work until you complete `toList`.
 
 
-### Writing and Verifying `addFirst` and `addLast`
+## Task 4: `addFirst` and `addLast`
 
 `addFirst` and `addLast` **may not** use looping or recursion. A single add
 operation must take \"constant time,\" that is, adding an element should take
@@ -315,7 +311,7 @@ your code is working correctly.
 >
 >The tests will not work until you complete the next section, `toList`.
 
-### Writing and Verifying `toList`
+## Task 5: `toList`
 
 You may have found it somewhat tedious and unpleasant to use the debugger and
 visualizer to verify the correctness of your `addFirst` and `addLast` methods.
@@ -516,7 +512,7 @@ In particular, **write tests before you implement.** This is called
 "test-driven development," and helps ensure that you know what your methods are
 supposed to do before you do them.
 
-### `isEmpty` and `size`
+## Task 6: `isEmpty` and `size`
 
 These two methods must take **constant time**. That is, the time it takes to for
 either method to finish execution should not depend on how many elements are in
@@ -538,7 +534,7 @@ to explore and find what granularity you prefer.
 >they fail. Then, implement the methods.
 
 
-### `get`
+## Task 7: `get`
 
 Write a test for the `get` method. Make sure to test the cases where `get`
 receives an invalid argument, e.g. `get(28723)` when the `Deque61B` only has 1
@@ -550,7 +546,7 @@ item, or a negative index. In these cases `get` should return `null`.
 >**Task**: **After you've written tests and verified that they fail**, implement
 >`get`.
 
-### `getRecursive`
+## Task 8: `getRecursive`
 
 Since we're working with a linked list, it is interesting to write a recursive
 get method, `getRecursive`.
@@ -564,7 +560,7 @@ in Java is a bit messy.)
 >**Task**: **After you've copy-pasted tests and verified that they fail**,
 >implement `getRecursive`.
 
-### `removeFirst` and `removeLast`
+## Task 9: `removeFirst` and `removeLast`
 
 Lastly, write some tests that test the behavior of `removeFirst` and
 `removeLast`, and again ensure that the tests fail. **For these tests you'll
@@ -587,6 +583,58 @@ for more information on what this means.
 >**Task**: **After you've written tests and verified that they fail**, implement
 >`removeFirst` and `removeLast`.
 
+## Task 10: Testing your Tests
+
+For the **test coverage** component, we will run your
+tests against a staff solution and check how many scenarios and edge cases are
+tested. You can receive partial credit for this component. You can find the list of scenarios here.
+
+### Flags for add tests
+
+- "add_first_from_empty": Check that `addFirst` works on an empty deque.
+- "add_last_from_empty": Check that `addLast` works on an empty deque.
+- "add_first_nonempty": Check that `addFirst` works on a non-empty deque.
+- "add_last_nonempty": Check that `addLast` works on a non-empty deque.
+
+### Flags for add after remove tests
+
+- "add_first_after_remove_to_empty": Add some elements to a deque and remove them all, then check that `addFirst` still works.
+- "add_last_after_remove_to_empty": Add some elements to a deque and remove them all, then check that `addLast` still works.
+
+### Flags for remove tests
+
+- "remove_first": Check that `removeFirst` works.
+- "remove_last": Check that `removeLast` works.
+- "remove_first_to_empty": Add some elements to a deque and remove almost all of them. Check that removing the last element with `removeFirst` works.
+- "remove_last_to_empty": Add some elements to a deque and remove almost all of them. Check that removing the last element with `removeLast` works.
+- "remove_first_to_one": Add some elements to a deque and remove almost all of them. Check that removing the second to last element with `removeFirst` works.
+- "remove_last_to_one": Add some elements to a deque and remove almost all of them. Check that removing the second to last element with `removeLast` works.
+
+### Flags for get tests
+
+- "get_valid": Check that `get` works on a valid index.
+- "get_oob_large": Check that `get` works on a large, out of bounds index.
+- "get_oob_neg": Check that `get` works on a negative index.
+- "get_recursive_valid": Check that `getRecursive` works on a valid index.
+- "get_recursive_oob_large": Check that `getRecursive` works on a large, out of bounds index.
+- "get_recursive_oob_neg": Check that `getRecursive` works on a negative index.
+
+### Flags for size tests
+
+- "size": Check that `size` works.
+- "size_after_remove_to_empty": Add some elements to a deque and remove them all, then check that `size` still works.
+- "size_after_remove_from_empty": Remove from an empty deque, then check that `size` still works.
+
+### Flags for isEmpty tests
+
+- "is_empty_true": Check that isEmpty works on an empty deque.
+- "is_empty_false": Check that isEmpty works on a non-empty deque.
+
+### Flags for toList tests
+
+- "to_list_empty": Check that toList works with empty LinkedListDeque61B.
+- "to_list_nonempty": Check that toList works with non-empty LinkedListDeque61B.
+
 ## Submit to the Autograder
 
 Once you've written local tests and passed them, try submitting to the
@@ -597,7 +645,7 @@ autograder. You may or may not pass everything.
 - If you fail any of the timing tests, it means that your implementation does
   not meet the timing constraints described above.
 - You will have a token limit of 4 tokens every 24 hours. **We will not reinstate tokens for failing to add/commit/push your code, run style, etc.**
-- 
+
 ## Scoring
 
 This project, similar to Project 0, is divided into individual components, each
@@ -613,10 +661,6 @@ of which you must implement _completely correctly_ to receive credit.
 6. **Removing (25%)**: Correctly implement `removeFirst` and `removeLast`.
 7. **Integration (15%)**: Pass an integration test suite that randomly calls all the methods.
 8. **Test Coverage (10%)**: Write tests to capture a sufficient number of flags.
-
-For the **test coverage** component, we will run your
-tests against a staff solution and check how many scenarios and edge cases are
-tested. You can receive partial credit for this component. You can find the list of scenarios [here](./flags).
 
 ### Credits
 

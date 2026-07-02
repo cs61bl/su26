@@ -89,42 +89,42 @@ homeworks:
       - "schedule-yellow"
   - title: "Homework 2"
     due: "2026/07/07"
-    link: "https://www.gradescope.com/courses/1050654/assignments/6389510"
-    show_links: false
+    link: "https://www.gradescope.com/courses/1318601/assignments/8278550/"
+    show_links: true
     rowspan: 5
     classes:
       - "schedule-yellow"
   - title: "Homework 3"
     due: "2026/07/14"
-    link: "https://www.gradescope.com/courses/1050654/assignments/6402518"
+    link: ""
     show_links: false
     rowspan: 5
     classes:
       - "schedule-yellow"
   - title: "Homework 4"
     due: "2026/07/21"
-    link: "https://www.gradescope.com/courses/1050654/assignments/6417280"
+    link: ""
     show_links: false
     rowspan: 5
     classes:
       - "schedule-yellow"
   - title: "Homework 5"
     due: "2026/07/28"
-    link: "https://www.gradescope.com/courses/1050654/assignments/6426965"
+    link: ""
     show_links: false
     rowspan: 5
     classes:
       - "schedule-yellow"
   - title: "Homework 6"
     due: "2026/08/04"
-    link: "https://www.gradescope.com/courses/1050654/assignments/6446201"
+    link: ""
     show_links: false
     rowspan: 5
     classes:
       - "schedule-yellow"
   - title: "Homework 7"
     due: "2026/08/10"
-    link: "https://www.gradescope.com/courses/1050654/assignments/6454137"
+    link: ""
     show_links: false
     rowspan: 4
     classes:

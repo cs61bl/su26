@@ -30,20 +30,49 @@ If an exam doesn't have the reference card or clarifications linked, it means we
 </thead>
 <tbody>
   <tr>
-    <td>Summer 2025</td>
+    <td>Spring 2026</td>
     <td>
-      <a href="/../../su25/assets/exam/cs61bl-su25-midterm.pdf" aria-label="Questions for Summer 2025 Midterm">exam</a> /
-      <a href="/../../su25/assets/exam/cs61bl-su25-midterm-solutions.pdf" aria-label="Solutions for Summer 2025 Midterm">sols</a>
+      CBTF Midterm (No Paper Materials)
     </td>
     <td>
-      Only 1 Midterm
+      <a href="https://drive.google.com/file/d/19VDARqJvnlj-r2B6D0LCI8C2UarRPEA0/view?usp=sharing" aria-label="Questions for Spring 2026 Midterm 2">exam</a> /
+      <a href="https://drive.google.com/file/d/1H89HDdt1d-mjn_jA3Q_P6YHyHCbULG2D/view?usp=sharing" aria-label="Solutions for Spring 2026 Midterm 2">sols</a>
     </td>
     <td>
-      <a href="https://drive.google.com/file/d/1IQdbMNtb1fSsSz12mX0ynx81vePv7Jz7/view?usp=sharing" aria-label="Questions for Summer 2025 Midterm">exam</a> /
-      <a href="https://drive.google.com/file/d/1rphNyn2Tz95H0avRMfciWVyYkICFufX5/view?usp=sharing" aria-label="Solutions for Summer 2025 Midterm">sols</a>
+      <a href="https://drive.google.com/file/d/1_hEpsaaXXBzYc7Q_-f6vNZ1Wp2wjSAIx/view?usp=sharing" aria-label="Questions for Spring 2026 Final">exam</a> /
+      <a href="https://drive.google.com/file/d/1MQJcbLOn8YJD0sOyVpUsWvONps5nEWTl/view?usp=sharing" aria-label="Solutions for Spring 2026 Final">sols</a>
     </td>
   </tr>
-    <tr>
+ <tr>
+    <td>Fall 2025</td>
+    <td>
+      <a href="https://drive.google.com/file/d/1JgeEzo5QL3UxhZnQufMjTuL3LvuS7M3u/view" aria-label="Questions for Fall 2025 Midterm 1">exam</a> /
+      <a href="https://drive.google.com/file/d/1UMUQrPH8VGi7Rg4Y41txtG-D2ebfFUSz/view" aria-label="Solutions for Spring 2026 Midterm 1">sols</a>
+    </td>
+    <td>
+      <a href="https://drive.google.com/file/d/1WNOhO4rwocWlMyz0bLerBfYCdgkTu7CH" aria-label="Questions for Fall 2025 Midterm 2">exam</a> /
+      <a href="https://drive.google.com/file/d/1fzNkhodp76K2_Nhvh2jOFexdyty52_lv" aria-label="Solutions for Spring 2026 Midterm 2">sols</a>
+    </td>
+    <td>
+      <a href="https://drive.google.com/file/d/1f2Vp4dEXxLWpKct8qxU5emecELb3-7G3" aria-label="Questions for Fall 2025 Final">exam</a> /
+      <a href="https://drive.google.com/file/d/1re5hHbeSyoKX0zQBjMLxi74P7cXduNA1" aria-label="Solutions for Spring 2026 Final">sols</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Summer 2025</td>
+    <td>
+      <a href="https://cs61bl.github.io/su25/assets/exam/cs61bl-su25-midterm.pdf" aria-label="Questions for Summer 2025 Midterm 1">exam</a> /
+      <a href="https://cs61bl.github.io/su25/assets/exam/cs61bl-su25-midterm-solutions.pdf" aria-label="Solutions for Summer 2025 Midterm 1">sols</a>
+    </td>
+    <td>
+      No Midterm 2
+    </td>
+    <td>
+      <a href="https://drive.google.com/file/d/1IQdbMNtb1fSsSz12mX0ynx81vePv7Jz7/view?usp=sharing" aria-label="Questions for Summer 2026 Final">exam</a> /
+      <a href="https://drive.google.com/file/d/16B-MEKccTohl1gGyvSumwFVbzghtv-5E/view?usp=sharing" aria-label="Solutions for Summer 2026 Final">sols</a>
+    </td>
+  </tr>
+  <tr>
       <td>Spring 2025</td>
       <td>
         <a href="https://drive.google.com/file/d/14XrrtR40_1CgEe_YySzUg7zsrS_EgqsW" aria-label="Questions for Spring 2025 Midterm 1">exam</a> / 

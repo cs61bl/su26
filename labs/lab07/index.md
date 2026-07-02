@@ -5,7 +5,7 @@ title: >-
 has_children: true
 parent: Labs
 has_toc: false
-nav_exclude: true
+nav_exclude: false
 has_right_toc: true
 released: true
 ---
@@ -80,11 +80,11 @@ public class Cat extends Animal {
 Here, we introduce the new keyword `extends`. This keyword goes after the declaration of a class, and indicates that the declared class "inherits" from the following class, which we call the **superclass**. In this case, `Cat` inherits from `Animal`. What does inheritance actually provide? An inheriting class implicitly contains, or "inherits", all of the non-private variables and methods from its superclass.
 
 {: .info}
->Note that a class can only `extend`, or inherit from, one other class. This is because, if inheriting from two or more were allowed, then it would be possible to inherit conflicting definitions of a method, and impossible to resolve that (which class would get priority in having its definition utilized).
+>Note that a class can only `extend`, or inherit from, one other class. This is because, if inheriting from two or more were allowed, then it would be possible to inherit conflicting definitions of a method, and it would be impossible to resolve which parent class's method should actually be executed.
 
 ### Overriding Methods
 
-One thing we might want to do is replace the superclass's implementation of a method. For example, suppose we preferred to have the following eat method for the Cat class:
+One thing we might want to do is replace the superclass's implementation of a method. For example, suppose we preferred to have the following `eat` method for the `Cat` class:
 
 ```java
 public void eat(Food food) {
@@ -94,7 +94,7 @@ public void eat(Food food) {
 }
 ```
 
-How can we have Cat use this method instead? As it turns out, it is as simple as simply plopping the method down into the class:
+How can we have `Cat` use this method instead? As it turns out, it is as simple as plopping the method down into the class:
 
 ```java
 public class Cat extends Animal {
@@ -121,7 +121,7 @@ And that is all we need to do!
 
 ## The `super` keyword
 
-Suppose we added the change from the previous section and overrode the `eat` method. Can we still call the original method? The answer is yes! Consider the following code example that adds a new method to Cat:
+Suppose we added the change from the previous section and overrode the `eat` method. Can we still call the original method? The answer is yes! Consider the following code example that adds a new method to `Cat`:
 
 ```java
 public void thoroughlyConsumeFood(Food food) {
@@ -130,13 +130,13 @@ public void thoroughlyConsumeFood(Food food) {
 }
 ```
 
-The first call allows us to access Animal's eat method and invoke it. In some sense, `super` is like `this` but for the parent class.
+The first call allows us to access Animal's `eat` method and invoke it. In some sense, `super` is like `this` but for the parent class.
 
 {: .info}
-In Java, subclasses do not directly inherit the constructor of their
+>In Java, subclasses do not directly inherit the constructor of their
 superclass. Rather, we have to directly reference the constructor of the parent class.
 We do this with the keyword `super`, which is treated as an invocation of the parent
-class' constructor. Thus, in the parentheses following `super`, you must supply the
+class's constructor. Thus, in the parentheses following `super`, you must supply the
 correct number and type of arguments.
 **This call to super must be the first line of the constructor.**
 
@@ -222,7 +222,7 @@ with the exception of the `tailSize` instance variable, which is private.
 
 ## Overloading Methods
 
-As an aside, let us talk about overloading methods. Suppose we wanted to have two variants of the method grow:
+As an aside, let us talk about overloading methods. Suppose we wanted to have two variants of the method `grow`:
 
 ```java
 public void grow() {
@@ -234,7 +234,7 @@ public void grow(int size) {
 }
 ```
 
-Would Java permit this, even though these two distinct methods have the same name? The answer is yes, because of **method overloading**! The idea behind method overloading is that we can have methods with the same name, as long as they have different method signatures. The **method signature** consists of the method name and parameters. Thus, because these two versions of `grow` have different parameters, it is possible to have both of them at the same time. We will formally cover method selection later, but for now intuitively see that, if we were to make a function call to `grow`, it would not be ambiguous which one we are referring to even at compile time because of the parameters being passed into the call.
+Would Java permit this, even though these two distinct methods have the same name? The answer is yes, because of **method overloading**! The idea behind method overloading is that we can have methods with the same name, as long as they have different method signatures. The **method signature** consists of the method name and parameters. Thus, because these two versions of `grow` have different parameters, it is possible to have both of them at the same time. We will formally cover method selection later, but for now, intuitively see that, if we were to make a function call to `grow`, it would not be ambiguous which one we are referring to even at compile time because of the parameters being passed into the call.
 
 ## Interfaces
 
@@ -330,14 +330,11 @@ public class SLList implements SimpleList, ComplexList {
 
 ### Abstract Classes (Optional)
 
-<details markdown="block">
-<summary markdown="block">
+{: .warning}
+> This section is considered out of scope for Summer 2026. In other words, you won't be tested on it.
+> However, we still recommend learning/reviewing it as this is an important concept!
 
-This section is optional and considered out of scope for Summer 2026. If you'd like to learn about abstract classes, click on the arrow to expand the section.
-
-</summary>
-
-Suppose for a moment that we wanted to inherit from a partial implementation of a class. Recall the Animal example from before, but slightly rewritten:
+Suppose for a moment that we wanted to inherit from a partial implementation of a class. Recall the `Animal` example from before, but slightly rewritten:
 
 ```java
 public class Animal {
@@ -353,7 +350,7 @@ public class Animal {
 }
 ```
 
-While it was useful for us to inherit some of the functionality from Animal, it does not make sense for us to actually be able to directly instantiate an Animal. Is there any way we can prevent instantiation? The answer, as you might suspect at this point, is yes! We can declare it as an abstract class:
+While it was useful for us to inherit some of the functionality from `Animal`, it does not make sense for us to actually be able to directly instantiate an `Animal`. Is there any way we can prevent instantiation? The answer, as you might suspect at this point, is yes! We can declare it as an abstract class:
 
 ```java
 abstract class Animal {
@@ -385,9 +382,11 @@ keyword and therefore strictly adheres to a superclass-subclass inheritance. Bec
 abstract classes are helpful as representations of a common base class that can be
 `extend`ed and therefore avoids a lot of repeated code.
 
-</details>
+## Dynamic Method Selection (Optional)
 
-## Dynamic Method Selection 
+{: .warning}
+> This section is also considered out of scope for Summer 2026. In other words, you won't be tested on it.
+> However, again, we still recommend learning/reviewing it as this is also an important concept!
 
 From the structure of inheritance and polymorphism arises a natural question:
 when you possess a Java object, and you evoke a particular method signature
@@ -417,7 +416,7 @@ public static void main(String[] args) {
 }
 ```
 
-Clearly, `objectA.f()` will be A’s method, and `objectB.f()` will be B’s method,
+Clearly, `objectA.f()` will be `A`’s method, and `objectB.f()` will be `B`’s method,
 but what of `mystery`’s call? To understand this, we must learn Java’s rules for
 dynamic method selection.
 
@@ -503,7 +502,7 @@ public static void main(String[] args) {
 The static type of `cat` is `Animal`, so the compiler references `Animal` when checking
 method signatures. Thus, we are able to find the method `cat.eat()` and lock it in during compile time, but not
 `cat.meow()` because there is no `meow()` method in `Animal`. So, despite this object
-in reality being a `Cat`, we are unable to invoke one of its method. Luckily, Java
+in reality being a `Cat`, we are unable to invoke one of its methods. Luckily, Java
 has a built-in way to get around this. Recall casting. Casting allows
 us to tell the compiler that a certain object is of another type, and the compiler
 will simply trust us on it as long as it could reasonably be of that other type, based on whether or not the actual type has a
@@ -537,7 +536,7 @@ found, and the code throws a compiler error.
 So, the code has passed compile time. What happens in runtime, when the code
 is actually executed? Again, we have a three step sequence:
 
-1. Check that all casts were correct (ie. that the dynamic type of the variable is actually a valid subtype of the class we cast it to)
+1. Check that all casts were correct (i.e., that the dynamic type of the variable is actually a valid subtype of the class we cast it to).
 2. If the method locked in at compile time is `static`, simply execute it. Do
    not check for overridden methods.
 3. Otherwise, check for any overridden non-static methods.
@@ -556,7 +555,7 @@ the dynamic type.
 If the method identified at compile time is non-static, then in runtime there
 will be a lookup based on the dynamic type for any overriding methods that
 match the function signature (function name, number of arguments, argument type).
-For example, consider yet again Animal and Cat.
+For example, consider yet again `Animal` and `Cat`.
 Suppose `Animal` has a method `play` that takes in an `Animal` as parameter, and
 that `Cat` has a method with the exact same name and input. Then, if we have
 an object that is statically an `Animal` and dynamically a `Cat`, it will invoke
@@ -660,7 +659,7 @@ know _how_ its implementation works, we know that it can do _everything_ a `List
 
 ## ADTs in Java
 
-We've talked about the list ADT. What other ADTs are commonly used, and in
+We've talked about the `List` ADT. What other ADTs are commonly used, and in
 what kinds of situations? What are their implementations in Java?
 
 ### Lists
@@ -694,19 +693,19 @@ List<String> = new LinkedList<>();
 
 ### Sets
 
-When might we want something other than a list? Consider (but don't
+When might we want something other than a `List`? Consider (but don't
 implement) the following problem:
 
 > Write a program that counts the number of unique words in a large text file
 > (such as the entire text of "War and Peace"). The program should output
 > the number of unique words in the text file.
 
-We could use a list, but the list ADT allows duplicate elements.
+We could use a `List`, but the `List` ADT allows duplicate elements.
 We'd like to use ADT that handles duplicate elements for us, so we can simplify
-the code that we write. This is what the set ADT is for!
+the code that we write. This is what the `Set` ADT is for!
 
 A **set** is a collection of _unique_ items that is not necessarily ordered.
-Sets must support following operations at a minimum:
+`Set`s must support following operations at a minimum:
 
 - `add`ing an element to the set
 - `remove`ing an element from the set
@@ -746,10 +745,10 @@ Let's modify the above problem slightly:
 > in the book.
 
 Here, we really want something that relates words to counts. This is where we
-can use the map ADT!
+can use the `Map` ADT!
 
 A **map** is a collection of key-to-value mappings, like a dictionary from
-Python. A map is not necessarily ordered. Maps must support at least the
+Python. A map is not necessarily ordered. `Map`s must support at least the
 following operations:
 
 - Insert/change (`put`) the _value_ that a particular _key_ maps to.
@@ -793,11 +792,11 @@ _add_ elements, _remove_ elements, check if the ADT _contains_ a certain
 element, and get the _size_. This looks like somewhere we can define a separate
 ADT!
 
-The collection ADT represents a _collection of data_. Most of the data
+The `Collection` ADT represents a _collection of data_. Most of the data
 structures we will study the rest of this class are used to implement
 collections. At the most general level, pretty much anything you use to store
 multiple items at once is going to fulfill the requirements to be a
-_collection_. Throughout this course, we will continue to
+`Collection`. Throughout this course, we will continue to
 see implementations of these collections.
 
 So, what does it mean (in Java) for a `List` (an ADT) to be a `Collection`
@@ -821,7 +820,7 @@ particular kind of collection, rather than the `Collection` interface itself.
 
 ### Maps and Collections
 
-Unlike **set** and **list**, `Map` is not a direct extension of the Java
+Unlike `Set` and `List`, `Map` is not a direct extension of the Java
 `Collection` interface. This is because `Collection` specifies collections of
 a single element type, but `Map` operates on key-value pairs. Instead, from
 [Java's `Map` documentation][Map], "The Map
