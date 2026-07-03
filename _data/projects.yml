@@ -89,8 +89,8 @@ projects:
     rowspan: 4
   - title: "Project 1B: ArrayDeque"
     link: "/projects/proj1b"
-    show_links: false
-    due: "2026/07/08"
+    show_links: true
+    due: "2026/07/09"
     classes:
       - "schedule-blue"
     rowspan: 4
