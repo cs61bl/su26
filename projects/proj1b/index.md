@@ -48,11 +48,11 @@ By the end of Project 1B, you will...
   the correctness of these data structures.
 
 {: .info}
-Check out the [Project 1B slides](https://docs.google.com/presentation/d/1kjbO8X7-i63NwQ_9wIt4HXr6APp2qc9PkghD-GO7_is/edit#slide=id.g1094ff4355_0_466) for some additional visually oriented tips.
+> Check out the [Project 1B slides](https://docs.google.com/presentation/d/1kjbO8X7-i63NwQ_9wIt4HXr6APp2qc9PkghD-GO7_is/edit#slide=id.g1094ff4355_0_466) for some additional visually oriented tips.
 
 
 {: .info}
-Check out the [Getting Started Video](https://www.youtube.com/watch?v=m1zy1tuA6o8) for an overview of this project.
+> Check out the [Getting Started Video](https://www.youtube.com/watch?v=m1zy1tuA6o8) for an overview of this project.
 
 We will provide relatively little scaffolding. In other words, we'll say what
 you should do, but not how.
@@ -189,10 +189,10 @@ underlying array). This will result in far fewer headaches than non-circular
 approaches.
 
 {: .info}
->See the [Project 1B demo slides](https://docs.google.com/presentation/d/1kjbO8X7-i63NwQ_9wIt4HXr6APp2qc9PkghD-GO7_is/edit#slide=id.g1094ff4355_0_466)
->for more details. In particular, note that
->while the conceptual deque and the array contain the same elements, they do not
->contain them in the same order.
+> See the [Project 1B demo slides](https://docs.google.com/presentation/d/1kjbO8X7-i63NwQ_9wIt4HXr6APp2qc9PkghD-GO7_is/edit#slide=id.g1094ff4355_0_466)
+> for more details. In particular, note that
+> while the conceptual deque and the array contain the same elements, they do not
+> contain them in the same order.
 
 We recommend using the `floorMod(int a, int b)` method from Java's built-in `Math` class to assist you in 
 designing a circular approach. Whereas `a % b` might return negative numbers when a is negative, `floorMod(int a, int b)` always return non-negative numbers. In practice, this means that the output will have the same sign as the divisor. Here are a few examples
@@ -208,12 +208,12 @@ You can use the `floorMod(int a, int b)` method by adding the following import s
 `import java.lang.Math;`.
 
 {: .warning}
-You cannot create an array of generics (e.g. `new T[1000]`) in Java for [reasons beyond the scope of this course](https://openjdk.org/projects/valhalla/). You will instead need to use the syntax `(T[]) new Object[1000]`.
+> You cannot create an array of generics (e.g. `new T[1000]`) in Java for [reasons beyond the scope of this course](https://openjdk.org/projects/valhalla/). You will instead need to use the syntax `(T[]) new Object[1000]`.
 
 {: .task}
->Declare the necessary instance variables, and implement the constructor.
+> Declare the necessary instance variables, and implement the constructor.
 >
->The starting size of your backing array **must** be `8`.
+> The starting size of your backing array **must** be `8`.
 
 ### `addFirst` and `addLast`
 
@@ -233,8 +233,8 @@ negative). You should disregard the skeleton code comments for `Deque61B.java`
 for this case.
 
 {: .task}
->**After you've written tests and verified that they fail**, implement
->`get`.
+> **After you've written tests and verified that they fail**, implement
+> `get`.
 
 
 ### `isEmpty` and `size`
@@ -244,8 +244,8 @@ either method to finish execution should not depend on how many elements are in
 the deque.
 
 {: .task}
->**Write tests** for the `isEmpty` and `size` methods, and check that
->they fail. Then, implement the methods.
+> **Write tests** for the `isEmpty` and `size` methods, and check that
+> they fail. Then, implement the methods.
 
 ### `toList`
 
@@ -256,17 +256,16 @@ like `List<T> returnList = new ArrayList<>()`. **This is one location where you
 are allowed to use a Java data structure.**
 
 {: .warning}
->Some later methods might seem easy if you use `toList`.
->**You may not call `toList` inside `ArrayDeque61B`**; there is a test that
->checks for this.
+> Some later methods might seem easy if you use `toList`.
+> **You may not call `toList` inside `ArrayDeque61B`**; there is a test that
+> checks for this.
 
 {: .info}
->**Hint** One of the other methods may be helpful for implementing this method.
->
+> **Hint** One of the other methods may be helpful for implementing this method.
 
 {: .task}
->Implement `toList`. You are not given tests this time, so you will
->need to write them!
+> Implement `toList`. You are not given tests this time, so you will
+> need to write them!
 
 
 
@@ -303,12 +302,12 @@ This method technically shouldn't be in the interface, but it's here to make tes
 ```
 
 {: .task}
-"Implement" `getRecursive`.
+> "Implement" `getRecursive`.
 
 ### Resizing
 
 {: .warning}
-We recommend you complete the other methods first, verify that they are working correctly without resizing, and come back to resizing after.
+> We recommend you complete the other methods first, verify that they are working correctly without resizing, and come back to resizing after.
 
 ### Resizing Up
 
@@ -324,17 +323,17 @@ implementation is **by you alone**.
 Make sure to resize by a geometric factor.
 
 {: .danger}
->We **do not** recommend using `arraycopy` with a circular implementation. It
->will work, but results in a significantly more complex (and harder to debug!)
->implementation than necessary.
+> We **do not** recommend using `arraycopy` with a circular implementation. It
+> will work, but results in a significantly more complex (and harder to debug!)
+> implementation than necessary.
 >
->Instead, we suggest thinking forward to how you might implement `get` and using
->a `for` loop in some way.
+> Instead, we suggest thinking forward to how you might implement `get` and using
+> a `for` loop in some way.
 
 {: .task}
->Remember to implement `addFirst` and `addLast` first, and write tests to verify that
->they are correct. Make sure to add enough elements so that
->your backing array resizes! For more info on resizing, check out [these slides](https://docs.google.com/presentation/d/1AUaNTKX0f-nFqmqEWEEecLxIQh9hrpTDtz_lWVMl5Fw/edit#slide=id.g625dc7e36_0943).
+> Remember to implement `addFirst` and `addLast` first, and write tests to verify that
+> they are correct. Make sure to add enough elements so that
+> your backing array resizes! For more info on resizing, check out [these slides](https://docs.google.com/presentation/d/1AUaNTKX0f-nFqmqEWEEecLxIQh9hrpTDtz_lWVMl5Fw/edit#slide=id.g625dc7e36_0943).
 
 
 ### Resizing Down
@@ -349,18 +348,18 @@ length of the array, you should resize the array down. For arrays
 length 15 or less, your usage factor can be arbitrarily low.
 
 {: .danger}
->We, again, **do not** recommend using `arraycopy` with a circular
->implementation. If you followed our advice above to use a `for` loop to resize
->up, resizing down should look **very similar** to resizing up (perhaps a helper
->method?).
+> We, again, **do not** recommend using `arraycopy` with a circular
+> implementation. If you followed our advice above to use a `for` loop to resize
+> up, resizing down should look **very similar** to resizing up (perhaps a helper
+> method?).
 
 {: .task}
->**After you've written tests and verified that they fail**, implement
->`removeFirst` and `removeLast`.
+> **After you've written tests and verified that they fail**, implement
+> `removeFirst` and `removeLast`.
 
 {: .danger}
->For the intended experience, follow these steps in order. If you do something
->else and ask us for help, we will refer you back to these steps.
+> For the intended experience, follow these steps in order. If you do something
+> else and ask us for help, we will refer you back to these steps.
 
 ### Writing Tests
 
@@ -437,8 +436,8 @@ public interface Deque61B<T> extends Iterable<T> {
 Next, implement the `iterator()` method using the techniques described in lecture 10.
 
 {: .task}
->**Task**: Implement the `iterator()` method in both `LinkedListDeque61B` and
->`ArrayDeque61B` according to lecture.
+> **Task**: Implement the `iterator()` method in both `LinkedListDeque61B` and
+> `ArrayDeque61B` according to lecture.
 
 {: .danger}
 You are not allowed to call `toList` here.
@@ -485,25 +484,25 @@ That is, the equals method simply checks to see if the addresses of the two obje
 Override the equals method in the `ArrayDeque61B` and `LinkedListDeque61B` classes. For guidance on writing an `equals` method, see the [lecture slides](https://docs.google.com/presentation/d/1lIR4--P9NrBqRL9xqP_RQYyK1WJBrBEbriLVpatrRqk/edit#slide=id.g4f922fa56b_2_47) or the [lecture code repository](https://github.com/Berkeley-CS61B/lectureCode-sp23/blob/main/lec12_inheritance4/ArraySet.java).
 
 {: .info}
->Note: You might ask why we're implementing the same method in two classes rather than providing a `default` method in
->the `Deque61B` interface. Interfaces are not allowed to provide `default` methods that override `Object` methods. For more
->see [https://stackoverflow.com/questions/24595266/why-is-it-not-allowed-add-tostring-to-interface-as-default-method](https://stackoverflow.com/questions/24595266/why-is-it-not-allowed-add-tostring-to-interface-as-default-method).
+> Note: You might ask why we're implementing the same method in two classes rather than providing a `default` method in
+> the `Deque61B` interface. Interfaces are not allowed to provide `default` methods that override `Object` methods. For more
+> see [https://stackoverflow.com/questions/24595266/why-is-it-not-allowed-add-tostring-to-interface-as-default-method](https://stackoverflow.com/questions/24595266/why-is-it-not-allowed-add-tostring-to-interface-as-default-method).
 >
->However, one workaround for this is to provide a `default`, non-`Object` helper method in the `Deque61B` interface and have the implementing classes call it.
+> However, one workaround for this is to provide a `default`, non-`Object` helper method in the `Deque61B` interface and have the implementing classes call it.
 
 {: .task}
-Override the `equals()` method in the `LinkedListDeque61B` and `ArrayDeque61B` classes.
+> Override the `equals()` method in the `LinkedListDeque61B` and `ArrayDeque61B` classes.
 
 {: .warning}
->Important: You should not use `getClass`, and there's no need to do any casting in your `equals` method. That is, you shouldn't be doing `(ArrayDeque61B) o`. Such `equals` methods are old fashioned and overly complex. Use `instanceof` instead.
+> Important: You should not use `getClass`, and there's no need to do any casting in your `equals` method. That is, you shouldn't be doing `(ArrayDeque61B) o`. Such `equals` methods are old fashioned and overly complex. Use `instanceof` instead.
 >
->Note: The `instanceof` operator behaves a little strangely with generic types, for reasons beyond the scope of this course. For example, if you want to check if `lst` is an instance of a `List<Integer>`, you should use `lst instanceof List<?>` rather than `lst instanceof List<Integer>`. Unfortunately, this is not able to check the types of the elements, but it's the best we can do.
+> Note: The `instanceof` operator behaves a little strangely with generic types, for reasons beyond the scope of this course. For example, if you want to check if `lst` is an instance of a `List<Integer>`, you should use `lst instanceof List<?>` rather than `lst instanceof List<Integer>`. Unfortunately, this is not able to check the types of the elements, but it's the best we can do.
 
 {: .warning}
-Important: Make sure you use the `@Override` tag when overriding methods. A common mistake in student code is to try to override `equals(ArrayList<T> other)` rather than `equals(Object other)`. Using the optional `@Override` tag will prevent your code from compiling if you make this mistake. `@Override` is  a great safety net.
+> Important: Make sure you use the `@Override` tag when overriding methods. A common mistake in student code is to try to override `equals(ArrayList<T> other)` rather than `equals(Object other)`. Using the optional `@Override` tag will prevent your code from compiling if you make this mistake. `@Override` is  a great safety net.
 
 {: .danger}
-You are not allowed to call `toList` here.
+> You are not allowed to call `toList` here.
 
 ### `toString()`
 
@@ -530,14 +529,14 @@ This code outputs something like `deque.proj1a.LinkedListDeque61B@1a04f701`. Thi
 In turn the `hashCode` method, which you have also not overridden, simply returns the address of the object, which in the example above was `1a04f701`.
 
 {: .task}
-**Task**: Override the `toString()` method in the `LinkedListDeque61B` and `ArrayDeque61B` classes, such that the code above prints out `[front, middle, back]`.
+> Override the `toString()` method in the `LinkedListDeque61B` and `ArrayDeque61B` classes, such that the code above prints out `[front, middle, back]`.
 
 {: .warning}
->Hint: Java's implementation of the `List` interface has a `toString` method.
+> Hint: Java's implementation of the `List` interface has a `toString` method.
 >
->Hint: There is a one line solution (see hint 1).
+> Hint: There is a one line solution (see hint 1).
 >
->Hint: Your implementation for `LinkedListDeque61B` and `ArrayDeque61B` should be exactly the same.
+> Hint: Your implementation for `LinkedListDeque61B` and `ArrayDeque61B` should be exactly the same.
 
 ### Testing The Object Methods
 
@@ -591,11 +590,11 @@ have to fill your `Deque61B` buffer with zeros in the `GuitarString` constructor
 `GuitarString` class. You are only required to complete the tasks labeled with `TODO`.
 
 {: .danger}
->Do not call `StdAudio.play` in `GuitarString.java`. This will cause the
->autograder to break. `GuitarPlayer.java` does this for you already.
+> Do not call `StdAudio.play` in `GuitarString.java`. This will cause the
+> autograder to break. `GuitarPlayer.java` does this for you already.
 
 {: .info}
-Make sure to add the libraries, as usual, otherwise IntelliJ won't be able to find `StdAudio`.
+> Make sure to add the libraries, as usual, otherwise IntelliJ won't be able to find `StdAudio`.
 
 For example, the provided `TestGuitarString` class provides a sample test
 `testPluckTheAString` that attempts to play an A-note on a guitar string. If you run the test should hear an A-note when
