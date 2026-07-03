@@ -59,7 +59,7 @@ you should do, but not how.
 
 {: .info}
 >This section assumes you have watched and fully digested the lectures up till
->the `ADTs and Inheritance` lecture, Lecture 5.
+>the `ADTs and Inheritance` lecture — Lecture 5.
 
 
 {: .task}
@@ -318,8 +318,7 @@ can take "linear time" to resize the array before adding the element.
 
 Correctly resizing your array is very tricky, and will require some deep
 thought. Try drawing out various approaches by hand. It may take you quite some
-time to come up with the right approach, and we encourage you to debate the big
-ideas with your fellow students or TAs. Make sure that your actual
+time to come up with the right approach. While we highly encourage you to debate your ideas with fellow students or staff, make sure that your actual
 implementation is **by you alone**.
 
 Make sure to resize by a geometric factor.
@@ -427,7 +426,7 @@ public void addLastTestBasicWithoutToList() {
 }
 ```
 
-Again the issue is that our item cannot be iterated over. The `Truth` library works by iterating over our object (as in the first example), but our `LinkedListDeque61B` does not support iteration.
+Again, the issue is that our item cannot be iterated over. The `Truth` library works by iterating over our object (as in the first example), but our `LinkedListDeque61B` does not support iteration.
 
 To fix this, you should first modify the `Deque61B` interface so that the declaration reads:
 
