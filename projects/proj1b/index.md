@@ -62,7 +62,7 @@ you should do, but not how.
 >the `ADTs and Inheritance` lecture — Lecture 5.
 
 
-{: .task}
+{: .warning}
 >For this project, you must work alone! Please carefully read the
 >[Policy on Collaboration](../../policies/#collaboration-and-llm-policy)
 >to see what this means exactly. In particular, do not look for solutions online.
@@ -116,19 +116,22 @@ You can also watch Professor Hug's [demo](https://www.youtube.com/watch?v=tABtNc
 about how to get started and this [video](https://www.youtube.com/watch?v=Squ8TmG5mX0)
 if you encounter some git issues.
 
-## Deque61B: ADT and API
+### Deque61B: ADT and API
 
 If you need a refresher on `Deque61B`s, refer to the
 [Project 1A spec](../proj1a/#deque61b-adt-and-api)
 and the `Deque61B.java` file.
 
-## Creating the File
+## Task 1: Creating the File
 
-Start by creating a file called `ArrayDeque61B`. This file should be created
+{: .task}
+> Start by creating a file called `ArrayDeque61B`.
+
+This file should be created
 in the `proj1b/src/deque` directory. To do this, right-click on the `deque` directory,
 navigate to "New -> Java Class", and give it the name `ArrayDeque61B`.
 
-Just like you did in Project 1A We want our `ArrayDeque61B` to be able to hold several different types. To enable this, you should edit the declaration of your class so that it reads:
+Just like you did in Project 1A, we want our `ArrayDeque61B` to be able to hold several different types. To enable this, you should edit the declaration of your class so that it reads:
 
 ```java
 public class ArrayDeque61B<T>
@@ -155,8 +158,6 @@ methods in the list are highlighted, and click "OK". Now, your class should
 be filled with a bunch of empty method declarations. These are the methods that you'll
 need to implement for this project!
 
-
-
 Lastly, you should create an empty constructor. To do this, add the following
 code to your file, leaving the constructor blank for now.
 
@@ -170,7 +171,7 @@ then "Constructor", though I prefer the typing the code yourself approach.
 
 Now you're ready to get started!
 
-## `ArrayDeque61B`
+### `ArrayDeque61B`
 
 As your second deque implementation, you'll build the `ArrayDeque61B` class. This
 deque **must** use a Java array as the backing data structure.
@@ -178,7 +179,7 @@ deque **must** use a Java array as the backing data structure.
 You may add any private helper classes or methods in `ArrayDeque61B.java` if you
 deem it necessary.
 
-### Constructor
+## Task 2: Constructor
 
 You will need to somehow keep track of what array indices hold the deque's
 front and back elements. We **strongly recommend** that you treat your array as
@@ -213,18 +214,24 @@ You can use the `floorMod(int a, int b)` method by adding the following import s
 {: .task}
 > Declare the necessary instance variables, and implement the constructor.
 >
-> The starting size of your backing array **must** be `8`.
+> For autograder purposes, the starting size of your backing array **must** be `8`.
 
-### `addFirst` and `addLast`
+## Task 3: `addFirst` and `addLast`
 
-As before, implement `addFirst` and `addLast`. These two methods **must not**
+These two methods **must not**
 use looping or recursion. A single add operation must take "constant time,"
 that is, adding an element should take approximately the same amount of time no
 matter how large the deque is (with one exception). This means that you cannot
 use loops that iterate through all / most elements of the deque.
 
+{: .task}
+> Implement `addFirst` and `addLast`.
+>
+> You will need to complete Task 7: toList before writing tests for `addFirst` and `addLast` since a working `toList` is needed to test these methods. Once you’ve done so, write tests and verify your implementation.
 
-### `get`
+For the intended experience, don’t worry about resizing the array yet. We will implement resizing in a later task.
+
+## Task 4: `get`
 
 Unlike in `LinkedListDeque61B`, this method must take **constant time**.
 
@@ -233,63 +240,8 @@ negative). You should disregard the skeleton code comments for `Deque61B.java`
 for this case.
 
 {: .task}
-> **After you've written tests and verified that they fail**, implement
+> After you've written tests and verified that they fail, implement
 > `get`.
-
-
-### `isEmpty` and `size`
-
-These two methods must take **constant time**. That is, the time it takes to for
-either method to finish execution should not depend on how many elements are in
-the deque.
-
-{: .task}
-> **Write tests** for the `isEmpty` and `size` methods, and check that
-> they fail. Then, implement the methods.
-
-### `toList`
-
-`toList` will continue to be useful to test your `Deque61B`.
-
-Write the `toList` method. The first line of the method should be something
-like `List<T> returnList = new ArrayList<>()`. **This is one location where you
-are allowed to use a Java data structure.**
-
-{: .warning}
-> Some later methods might seem easy if you use `toList`.
-> **You may not call `toList` inside `ArrayDeque61B`**; there is a test that
-> checks for this.
-
-{: .info}
-> **Hint** One of the other methods may be helpful for implementing this method.
-
-{: .task}
-> Implement `toList`. You are not given tests this time, so you will
-> need to write them!
-
-
-
-All that's left is to test and implement all the remaining methods. For the
-rest of this project, we'll describe our suggested steps at a high level. We
-**strongly encourage** you to follow the remaining steps in the order given.
-In particular, **write tests before you implement the method's functionality.**
-This is called "test-driven development," and helps ensure that you know what
-your methods are supposed to do before you do them.
-
-
-
-### `removeFirst` and `removeLast`
-
-Lastly, write some tests that test the behavior of `removeFirst` and
-`removeLast`, and again ensure that the tests fail.
-
-Do not maintain references to items that are no longer in the deque.
-
-`removeFirst` and `removeLast` **may not** use looping or recursion. Like `addFirst` and `addLast`,
-these operations must take \"constant time.\" Refer to the section on writing `addFirst` and `addLast` 
-for more information on what this means.
-
-### `getRecursive`
 
 Although we are not using a linked list anymore for this project, it is still required to implement this method to keep consistent with our interface.
 This method technically shouldn't be in the interface, but it's here to make testing nice. You can just use this code block for it:
@@ -302,14 +254,62 @@ This method technically shouldn't be in the interface, but it's here to make tes
 ```
 
 {: .task}
-> "Implement" `getRecursive`.
+> "Implement" `getRecursive` by copying the code block above.
 
-### Resizing
+## Task 5: `isEmpty` and `size`
+
+These two methods must take **constant time**. That is, the time it takes to for
+either method to finish execution should not depend on how many elements are in
+the deque.
+
+{: .task}
+> Write tests for the `isEmpty` and `size` methods, and check that
+> they fail. Then, implement the methods.
+
+## Task 6: `toList`
+
+`toList` will continue to be useful to test your `Deque61B`.
+
+{: .task}
+> Write tests for the `toList` method, and check that they fail. Then, implement the method. You are not given tests this time, so you will need to write them!
+
+The first line of the method should be something
+like `List<T> returnList = new ArrayList<>()`. **This is one location where you
+are allowed to use a Java data structure.**
+
+{: .warning}
+> Some later methods might seem easy if you use `toList`.
+> You may not call `toList` inside `ArrayDeque61B`; there is a test that
+> checks for this.
+
+{: .info}
+> **Hint** One of the other methods may be helpful for implementing this method.
+> 
+> **Hint**: Your `toList` method should return a list with the elements in ArrayDeque61B and in the order that the elements were added (i.e. the “conceptual version of the Deque”). Also, be sure to return only values added as elements into the deque (e.g. don’t return null unless it was explicitly added as an element)
+
+## Task 7: `removeFirst` and `removeLast`
+
+All that's left is to test and implement all the remaining methods. For the
+rest of this project, we'll describe our suggested steps at a high level. We
+**strongly encourage** you to follow the remaining steps in the order given.
+In particular, **write tests before you implement the method's functionality.**
+This is called "test-driven development," and helps ensure that you know what
+your methods are supposed to do before you do them.
+
+{: .task}
+> Write some tests that test the behavior of `removeFirst` and
+> `removeLast`, and again ensure that the tests fail.
+
+Do not maintain references to items that are no longer in the deque.
+
+`removeFirst` and `removeLast` **may not** use looping or recursion. Like `addFirst` and `addLast`,
+these operations must take \"constant time.\" Refer to the section on writing `addFirst` and `addLast` 
+for more information on what this means.
+
+## Task 8: Resizing Up
 
 {: .warning}
 > We recommend you complete the other methods first, verify that they are working correctly without resizing, and come back to resizing after.
-
-### Resizing Up
 
 The exception to an Array Deque's "constant time" requirement is when the array fills, and
 you need to "resize" to have enough space to add the next element. In this case, you
@@ -331,12 +331,11 @@ Make sure to resize by a geometric factor.
 > a `for` loop in some way.
 
 {: .task}
-> Remember to implement `addFirst` and `addLast` first, and write tests to verify that
-> they are correct. Make sure to add enough elements so that
-> your backing array resizes! For more info on resizing, check out [these slides](https://docs.google.com/presentation/d/1AUaNTKX0f-nFqmqEWEEecLxIQh9hrpTDtz_lWVMl5Fw/edit#slide=id.g625dc7e36_0943).
+> After you have a working `addFirst` and `addLast` (without resizing), modify the methods so they support resizing. Use tests to verify that they are correct.
 
+In your tests, make sure to add enough elements so that your backing array resizes! For more info on resizing, check out [these slides](https://docs.google.com/presentation/d/1AUaNTKX0f-nFqmqEWEEecLxIQh9hrpTDtz_lWVMl5Fw/edit#slide=id.g625dc7e36_0943).
 
-### Resizing Down
+## Task 9: Resizing Down
 
 The amount of memory that your program uses at any given time must be
 proportional to the number of items. For example, if you add 10,000 items to
@@ -354,14 +353,9 @@ length 15 or less, your usage factor can be arbitrarily low.
 > method?).
 
 {: .task}
-> **After you've written tests and verified that they fail**, implement
-> `removeFirst` and `removeLast`.
+> After you have a working `removeFirst` and `removeLast` (without resizing), modify the methods so they support resizing. Use tests to verify that they are correct.
 
-{: .danger}
-> For the intended experience, follow these steps in order. If you do something
-> else and ask us for help, we will refer you back to these steps.
-
-### Writing Tests
+## Task 10: Writing Tests
 
 Refer to the [Project 1A spec](../proj1a/#writing-tests) for
 a review of how to write tests. Similar to Project 1A, you will be scored on
@@ -376,10 +370,9 @@ copy them over!
 > enough coverage.
 > 
 > You can test your coverage by submitting to the `[UNGRADED] Project 1B: 
-> ArrayDeque Test Coverage` assignment, which will not be graded and has no
+> ArrayDequet61B Test Coverage` assignment, which will not be graded and has no
 > velocity limit. Your final test coverage grade component will be determined 
 > from your submission to the main `Project 1B: ArrayDeque` assignment.
-
 
 ### Suggestions
 
@@ -387,6 +380,57 @@ copy them over!
 - Once you are confident working solution for a fixed-size array, try resizing - consider having a helper method for it!
 - **DO NOT** modify `Deque61B` interface.
 - When in doubt, draw it out! We suggest drawing box-and-pointer diagrams (or diagrams in general) when faced with issues in your methods, it will help you understand both your code as well as the intended logic better.
+
+### Flags for add tests
+
+- `add_first_from_empty`: Check that `addFirst` works on an empty deque.
+- `add_last_from_empty`: Check that `addLast` works on an empty deque.
+- `add_first_nonempty`: Check that `addFirst` works on a non-empty deque.
+- `add_last_nonempty`: Check that `addLast` works on a non-empty deque.
+- `add_first_trigger_resize`: Check that `addFirst` works when called on a full underlying array
+- `add_last_trigger_resize`: Check that `addLast` works when called on a full underlying array
+
+### Flags for add after remove tests
+
+- `add_first_after_remove_to_empty`: Add some elements to a deque and remove them all, then check that `addFirst` still works.
+- `add_last_after_remove_to_empty`: Add some elements to a deque and remove them all, then check that `addLast` still works.
+
+### Flags for remove Tests
+
+- `remove_first`: Check that `removeFirst` works.
+- `remove_last`: Check that `removeLast` works.
+- `remove_first_to_empty`: Add some elements to a deque and remove almost all of them. Check that removing the last element with `removeFirst` works.
+- `remove_last_to_empty`: Add some elements to a deque and remove almost all of them. Check that removing the last element with `removeLast` works.
+- `remove_first_to_one`: Add some elements to a deque and remove almost all of them. Check that removing the second to last element with `removeFirst` works.
+- `remove_last_to_one`: Add some elements to a deque and remove almost all of them. Check that removing the second to last element with `removeLast` works.
+- `remove_first_trigger_resize`: Called when usage factor is <= 25% and array size > 8. Checks that the array resizes appropriately.
+- `remove_last_trigger_resize`: Called when usage factor is <= 25% and array size > 8. Checks that the array resizes appropriately.
+
+### Flags for get Tests
+
+- `get_valid`: Check that get works on a valid index.
+- `get_oob_large`: Check that get works on a large, out of bounds index.
+- `get_oob_neg`: Check that get works on a negative index.
+
+### Flags for size tests
+
+- `size`: Check that size works.
+- `size_after_remove_to_empty`: Add some elements to a deque and remove them all, then check that size still works.
+- `size_after_remove_from_empty`: Remove from an empty deque, then check that size still works.
+
+### Flags for isEmpty Tests
+
+- `is_empty_true`: Check that size works on an empty deque.
+- `is_empty_false`: Check that size works on a non- empty deque.
+
+### Flags for toList tests
+
+- `to_list_empty`: Check that `toList` works with empty `ArrayDeque`.
+- `to_list_nonempty`: Check that `toList` works with non-empty `ArrayDeque`.
+
+### Flags for advanced resize tests
+
+- `resize_up_and_resize_down`: Trigger a resize up and then a resize down in the same test.
 
 ## `Deque61B` Enhancements
 
@@ -397,7 +441,7 @@ In this section of the project, you are going to expand upon the functionality o
 In order to implement the following methods, you should start by copying and pasting your Project 1A
 implementation of `LinkedListDeque61B` into the `src` directory.
 
-### `iterator()`
+## Task 11: `iterator()`
 
 One shortcoming of our `Deque61B` interface is that it can not be iterated over. That is, the code below fails to compile with the error "foreach not applicable to type".
 
@@ -436,13 +480,13 @@ public interface Deque61B<T> extends Iterable<T> {
 Next, implement the `iterator()` method using the techniques described in lecture 10.
 
 {: .task}
-> **Task**: Implement the `iterator()` method in both `LinkedListDeque61B` and
+> Implement the `iterator()` method in both `LinkedListDeque61B` and
 > `ArrayDeque61B` according to lecture.
 
 {: .danger}
 You are not allowed to call `toList` here.
 
-### `equals()`
+## Task 12: `equals()`
 
 Consider the following code:
 
@@ -504,7 +548,7 @@ Override the equals method in the `ArrayDeque61B` and `LinkedListDeque61B` class
 {: .danger}
 > You are not allowed to call `toList` here.
 
-### `toString()`
+## Task 13: `toString()`
 
 Consider the code below, which prints out a `LinkedListDeque61B`.
 
@@ -634,7 +678,7 @@ autograder. You may or may not pass everything.
   local tests did not cover, despite having sufficient coverage for flags.
   This is **expected**. Coverage flags are an approximation! They also do not
   provide describe every single behavior that needs to be tested, nor do they
-  guarantee that you assert everything. [Here](./flags) is a list of them!
+  guarantee that you assert everything.
 - If you fail any of the timing tests, it means that your implementation does
   not meet the timing constraints described above.
 - You will have a token limit of 4 tokens every 24 hours. **We will not reinstate tokens for failing to add/commit/push your code, run style, etc.**
@@ -658,6 +702,6 @@ of which you must implement _completely correctly_ to receive credit.
 
 For the **test coverage** component, we will run your
 tests against a staff solution and check how many scenarios and edge cases are
-tested. You can receive partial credit for this component. [Here](./flags) is a list of them!
+tested. You can receive partial credit for this component.
 
 Finally, again, all components inside the `gh2` package are optional and will not be scored.
