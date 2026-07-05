@@ -39,6 +39,15 @@ own design.
 
 You can view the staff solution to the project at [ngordnet.datastructur.es](https://ngordnet.datastructur.es).
 
+### Style
+
+As in Project 1A, **we will be enforcing style**. You must follow the
+[style guide](../../resources/style-guide), or you will be penalized on the
+autograder. Note that style penalties do **not** apply to test files.
+
+You can and should check your style locally with the CS 61B plugin. **We will
+not remove the velocity limit for failing to check style.**
+
 ## Getting Started
 
 To get started, use `git pull skeleton main` as usual.
@@ -323,7 +332,7 @@ Now it's time to implement the HistoryText button!
 - Use the `.toString()` method built into the `TimeSeries` class that gets inherited from `TreeMap`.
 - For your `HistoryTextHandler` to be able to do something useful, it's going to need to be able to access the data
   stored in your `NGramMap`. **DO NOT MAKE THE NGRAM MAP INTO A STATIC VARIABLE!** This is known as a "global variable"
-  and is rarely the appropriate solution for any problem. Hint: Your `HistoryTextHandler` class can have a constructor.
+  and is rarely the appropriate solution for any problem.
 - If word is invalid, think about how `NGramMap` is handling this situation.
 
 ## HistoryHandler

@@ -56,7 +56,7 @@ If you find yourself copy-pasting or repeating a lot of the same code you've alr
 In past semesters, some inefficient implementations of `NGramMap` and `TimeSeries` passed the 2A autograder, but failed on 2B. **We recommend restoring to the staff solution for 2A if you are experiencing autograder timeouts.**
 
 {: .info}
-If you replaced `NGramMap` with your own implementation but realized later that you would prefer to use the staff solution, you should `git restore` back to the original skeleton version (inspect your `git log`). You can read more about this in [Lab 4](https://sp25.datastructur.es/labs/lab04/). Alternatively, you can copy and paste from this part of the [skeleton repo](https://github.com/Berkeley-CS61B/skeleton-sp25/blob/main/proj2b/src/ngrams/NGramMap.java).
+If you replaced `NGramMap` with your own implementation but realized later that you would prefer to use the staff solution, you should `git restore` back to the original skeleton version (inspect your `git log`). You can read more about this in [Lab 4](https://sp25.datastructur.es/labs/lab04/).
 
 Once you are done, your `proj2b` directory should look like this:
 
@@ -77,6 +77,15 @@ proj2b
 ├── static
 └── tests
 ```
+
+### Style
+
+As in Project 1A, **we will be enforcing style**. You must follow the
+[style guide](../../resources/style-guide), or you will be penalized on the
+autograder. Note that style penalties do **not** apply to test files.
+
+You can and should check your style locally with the CS 61B plugin. **We will
+not remove the velocity limit for failing to check style.**
 
 ## Getting Started
 
@@ -127,7 +136,7 @@ above.
 
 Synsets may include not just words, but also what are known as [collocations](http://en.wikipedia.org/wiki/Collocation).
 You can think of these as single words that occur next to each other so often that they are considered a single word,
-e.g. [nasal_decongestant](http://wordnetweb.princeton.edu/perl/webwn?s=nasal+decongestant+&sub=Search+WordNet&o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&h=)
+e.g. nasal_decongestant
 . To avoid ambiguity, we will represent the constituent words of collocations as being separated with an underscore \_
 instead of the usual convention in English of separating them with spaces. For simplicity, we will refer to collocations
 as simply "words" throughout this document.
