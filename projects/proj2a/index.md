@@ -26,7 +26,7 @@ provided the front end code (in Javascript and HTML) that collects user inputs a
 be the back end for this tool, accepting input and generating appropriate output for display.
 
 A video introduction to this project can be
-found below (or [at this link](https://www.youtube.com/watch?v=ri9BzE723QA&list=PL8FaHk7qbOD7-899l1hKEd5aICB9u1wrm&index=1)).
+found below (or [at this link](https://www.youtube.com/embed/ri9BzE723QA?list=PL8FaHk7qbOD7-899l1hKEd5aICB9u1wrm&index=1)).
 
 <p align="center">
     <iframe width=600 height=400 src="https://www.youtube.com/embed/watch?v=ri9BzE723QA&list=PL8FaHk7qbOD7-899l1hKEd5aICB9u1wrm&index=1" title="Project 2A Intro"></iframe>
@@ -63,7 +63,7 @@ proj2a
 │   └── ngrams
 ├── src
 ├── static
-├── tests
+└── tests
 ```
 
 Note that we've set up hidden [`.gitignore`](https://help.github.com/articles/ignoring-files/) files
@@ -87,7 +87,7 @@ the [Google Ngram Viewer on the web](https://books.google.com/ngrams/graph?conte
 , allowing users to visualize the relative historical popularity of words and phrases. For example, the link above plots
 the **weighted popularity history** of the phrases "global warming" (a 2gram) and "to the moon" (a 3gram).
 
-In Project 2A, you will be build a version of this tool that only handles 1grams. In other words, you'll only be able to
+In Project 2A, you will be building a version of this tool that only handles 1grams. In other words, you'll only be able to
 handle individual words. We'll only use a small subset (around 300 megabytes) of the full 1grams dataset, as larger
 datasets will require more sophisticated techniques that are out of scope for this class.
 
@@ -112,7 +112,7 @@ The `TimeSeries` class provides some additional utility methods to the `TreeMap`
 > Fill out the `TimeSeries` class (located in the `src/ngrams/TimeSeries.java` file) according to
 > the API provided in the file. Be sure to read the comments above each method.
 
-{: .warning}
+{: .info}
 
 > For an example of how `TimeSeries` objects are used, check out the test named `testFromSpec()` in the `TimeSeriesTest.java`
 > file that we've provided.
@@ -151,7 +151,7 @@ since `"adopt"` has no data during those years.
 > Fill out the `NGramMap` class (located in the `src/ngrams/NGramMap.java` file) according to
 > the API provided in the file. Once again, be sure to read the comments above each method.
 
-{: .warning}
+{: .info}
 
 > For an example of an `NGramMap` at work, the `testOnLargeFile()` in `NGramMapTest` creates an `NGramMap` from the
 > `top_14377_words.csv` and `total_counts.csv` files (described below). It then performs various operations related to the
