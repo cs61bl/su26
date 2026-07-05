@@ -11,14 +11,13 @@ description: >-
   Project 2B spec.
 released: false
 ---
+## Due Sunday, 7/26 at 11:59 PM
 
 ## [FAQ](faq.md)
 
 Each assignment will have an FAQ linked at the top. You can also access it by adding "/faq" to the end of the URL. The
 FAQ for Project 2B is located
 [here](faq.md).
-
-## Due Sunday, 7/26 at 11:59 PM
 
 In this project, you'll complete your implementation of the NGordNet tool.
 
