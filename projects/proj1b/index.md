@@ -56,7 +56,7 @@ you should do, but not how.
 
 {: .info}
 >This section assumes you have watched and fully digested the lectures up till
->the `Inheritance + Polymorphism` lecture — Lecture 4.
+>the `ADTs + Lists` lecture — Lecture 3.
 
 
 {: .warning}
