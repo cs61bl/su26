@@ -209,6 +209,78 @@ the 10 and the 1 are irrelevant.
 You may wonder why one file is tab separated and the other is comma separated. I didn't do it, Google did. Luckily, this
 difference won't be too hard to handle.
 
+### NGramMap Methods
+
+Your constructor parsed the data files, and stored the data in some data structures. Now, the methods in NGramMap can compute interesting results from that data. For example, consider these data files (only relevant rows/columns shown):
+
+```
+word_history_size3.csv:
+-----------------------------
+Word        Year    Frequency
+airport     2007    175702
+airport     2008    173294
+wandered    2005    83769
+wandered    2006    87688
+wandered    2007    108634
+wandered    2008    171015
+...
+```
+
+```
+year_history.csv:
+-----------------------------
+Year    Total number of words
+2005,   26609986084
+2006,   27695491774
+2007,   28307904288
+2008,   28752030034
+...
+```
+
+<table>
+    <tr>
+        <th style="width:20%">Method</th>
+        <th style="width:30%">Description</th>
+        <th style="width:50%">Example</th>
+    </tr>
+    <tr>
+        <td><code>countHistory</code></td>
+        <td>
+            Takes in a word. For each year, return the frequency of the word in that year.
+        </td>
+        <td>
+            <code>countHistory("wandered", 2006, 2007)</code><br>should return<br><code>{2006: 87688, &nbsp;&nbsp; 2007: 108634}</code>.
+        </td>
+    </tr>
+    <tr>
+        <td><code>totalCountHistory</code></td>
+        <td>
+            For each year, return the total number of words in that year.
+        </td>
+        <td>
+            <code>totalCountHistory()</code> should return<br><code>{2005: 26609986084, &nbsp;&nbsp; 2006: 27695491774, ...}</code>.
+        </td>
+    </tr>
+    <tr>
+        <td><code>weightHistory</code></td>
+        <td>
+            Takes in a word. For each year, return the frequency of the word in that year, divided by the total number of words in that year.
+        </td>
+        <td>
+            <code>weightHistory("wandered", 2006, 2007)</code><br>should return<br><code>{2006: 87688 / 27695491774,<br>&nbsp;2007: 108634 / 28307904288}</code>.
+        </td>
+    </tr>
+    <tr>
+        <td><code>summedWeightHistory</code></td>
+        <td>
+            Takes in multiple words. For each year, return the summed frequency of all the input words in that year, divided by the total number of words in that year.
+        </td>
+        <td>
+            <code>summedWeightHistory(["wandered", "airport"], 2006, 2007)</code><br>should return<br><code>{2006: (87688 + 0) / 27695491774,<br>&nbsp;2007: (108634 + 175702) / 28307904288}</code>.
+        </td>
+    </tr>
+</table>
+
 ### NGramMap Tips
 
 There is a lot to think about for this part of the project. We're trying to mimic the situation in the real world where
