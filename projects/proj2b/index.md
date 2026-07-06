@@ -11,14 +11,13 @@ description: >-
   Project 2B spec.
 released: false
 ---
+## Due Sunday, 7/26 at 11:59 PM
 
 ## [FAQ](faq.md)
 
 Each assignment will have an FAQ linked at the top. You can also access it by adding "/faq" to the end of the URL. The
 FAQ for Project 2B is located
 [here](faq.md).
-
-## Due Sunday, 7/26 at 11:59 PM
 
 In this project, you'll complete your implementation of the NGordNet tool.
 
@@ -56,7 +55,7 @@ If you find yourself copy-pasting or repeating a lot of the same code you've alr
 In past semesters, some inefficient implementations of `NGramMap` and `TimeSeries` passed the 2A autograder, but failed on 2B. **We recommend restoring to the staff solution for 2A if you are experiencing autograder timeouts.**
 
 {: .info}
-If you replaced `NGramMap` with your own implementation but realized later that you would prefer to use the staff solution, you should `git restore` back to the original skeleton version (inspect your `git log`). You can read more about this in [Lab 4](https://sp25.datastructur.es/labs/lab04/). Alternatively, you can copy and paste from this part of the [skeleton repo](https://github.com/Berkeley-CS61B/skeleton-sp25/blob/main/proj2b/src/ngrams/NGramMap.java).
+If you replaced `NGramMap` with your own implementation but realized later that you would prefer to use the staff solution, you should `git restore` back to the original skeleton version (inspect your `git log`). You can read more about this in [Lab 4](https://sp25.datastructur.es/labs/lab04/).
 
 Once you are done, your `proj2b` directory should look like this:
 
@@ -77,6 +76,15 @@ proj2b
 ├── static
 └── tests
 ```
+
+### Style
+
+As in Project 1A, **we will be enforcing style**. You must follow the
+[style guide](../../resources/style-guide), or you will be penalized on the
+autograder. Note that style penalties do **not** apply to test files.
+
+You can and should check your style locally with the CS 61B plugin. **We will
+not remove the velocity limit for failing to check style.**
 
 ## Getting Started
 
@@ -127,7 +135,7 @@ above.
 
 Synsets may include not just words, but also what are known as [collocations](http://en.wikipedia.org/wiki/Collocation).
 You can think of these as single words that occur next to each other so often that they are considered a single word,
-e.g. [nasal_decongestant](http://wordnetweb.princeton.edu/perl/webwn?s=nasal+decongestant+&sub=Search+WordNet&o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&h=)
+e.g. nasal_decongestant
 . To avoid ambiguity, we will represent the constituent words of collocations as being separated with an underscore \_
 instead of the usual convention in English of separating them with spaces. For simplicity, we will refer to collocations
 as simply "words" throughout this document.
@@ -419,9 +427,9 @@ which is why they return empty lists for this query.)
 Be sure you are getting the words that appear with the highest _counts_, not the highest _weights_. Otherwise, you will run into issues that are very difficult to debug!
 
 Note that if the frontend doesn't supply a year, default values of startYear = 1900 and endYear = 2020 are provided by
-`NGordnetQueryHandler.readQueryMap`.
+`NgordnetQueryHandler.readQueryMap`.
 
-It might be hard to figure out the hyponyms of words with `k != 0` on the big files, so we are providing data that is easier to visualize! Below, you'll see a modified version of EECS class requirements, inspired by [HKN](https://hkn.eecs.berkeley.edu/courseguides). We have also provided the data that represents the graph below (`frequency-EECS.csv`, `hyponyms-EECS.txt`, `synsets-EECS.txt`). If someone entered `words = ["CS61A"]`, `startYear = 2010`, `endYear = 2020`, and `k = 4`, you should receive `"[CS170, CS61A, CS61B, CS61C]"`. This `frequency-EECS.csv` is a bit different from the previous one since it has values with the same frequencies. We highly recommend that you take a look at `frequency-EECS.csv`. While you are designing your implementation, in mind that we can give you words with the same frequencies.
+It might be hard to figure out the hyponyms of words with `k != 0` on the big files, so we are providing data that is easier to visualize! Below, you'll see a modified version of EECS class requirements, inspired by [HKN](https://hkn.eecs.berkeley.edu/courseguides). We have also provided the data that represents the graph below (`frequency-EECS.csv`, `hyponyms-EECS.txt`, `synsets-EECS.txt`). If someone entered `words = ["CS61A"]`, `startYear = 2010`, `endYear = 2020`, and `k = 4`, you should receive `"[CS170, CS61A, CS61B, CS61C]"`. This `frequency-EECS.csv` is a bit different from the previous one since it has values with the same frequencies. We highly recommend that you take a look at `frequency-EECS.csv`. While you are designing your implementation, keep in mind that we can give you words with the same frequencies.
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FFw2oz5FIMrFRhh9yL8Ylun%2F2C%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3Dn6fDDOrwY4Lb9Gbi-1" allowfullscreen></iframe>
 
