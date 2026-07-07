@@ -26,7 +26,7 @@ provided the front end code (in Javascript and HTML) that collects user inputs a
 be the back end for this tool, accepting input and generating appropriate output for display.
 
 A video introduction to this project can be
-found below (or [at this link](https://www.youtube.com/watch?v=ri9BzE723QA&list=PL8FaHk7qbOD7-899l1hKEd5aICB9u1wrm&index=1)).
+found below (or [at this link](https://www.youtube.com/embed/ri9BzE723QA?list=PL8FaHk7qbOD7-899l1hKEd5aICB9u1wrm&index=1)).
 
 <p align="center">
     <iframe width=600 height=400 src="https://www.youtube.com/embed/watch?v=ri9BzE723QA&list=PL8FaHk7qbOD7-899l1hKEd5aICB9u1wrm&index=1" title="Project 2A Intro"></iframe>
@@ -38,6 +38,15 @@ telling you exactly what functions to write and classes to create. The later par
 own design.
 
 You can view the staff solution to the project at [ngordnet.datastructur.es](https://ngordnet.datastructur.es).
+
+### Style
+
+As in Project 1A, **we will be enforcing style**. You must follow the
+[style guide](../../resources/style-guide), or you will be penalized on the
+autograder. Note that style penalties do **not** apply to test files.
+
+You can and should check your style locally with the CS 61B plugin. **We will
+not remove the velocity limit for failing to check style.**
 
 ## Getting Started
 
@@ -63,7 +72,7 @@ proj2a
 │   └── ngrams
 ├── src
 ├── static
-├── tests
+└── tests
 ```
 
 Note that we've set up hidden [`.gitignore`](https://help.github.com/articles/ignoring-files/) files
@@ -87,7 +96,7 @@ the [Google Ngram Viewer on the web](https://books.google.com/ngrams/graph?conte
 , allowing users to visualize the relative historical popularity of words and phrases. For example, the link above plots
 the **weighted popularity history** of the phrases "global warming" (a 2gram) and "to the moon" (a 3gram).
 
-In Project 2A, you will be build a version of this tool that only handles 1grams. In other words, you'll only be able to
+In Project 2A, you will be building a version of this tool that only handles 1grams. In other words, you'll only be able to
 handle individual words. We'll only use a small subset (around 300 megabytes) of the full 1grams dataset, as larger
 datasets will require more sophisticated techniques that are out of scope for this class.
 
@@ -112,7 +121,7 @@ The `TimeSeries` class provides some additional utility methods to the `TreeMap`
 > Fill out the `TimeSeries` class (located in the `src/ngrams/TimeSeries.java` file) according to
 > the API provided in the file. Be sure to read the comments above each method.
 
-{: .warning}
+{: .info}
 
 > For an example of how `TimeSeries` objects are used, check out the test named `testFromSpec()` in the `TimeSeriesTest.java`
 > file that we've provided.
@@ -151,7 +160,7 @@ since `"adopt"` has no data during those years.
 > Fill out the `NGramMap` class (located in the `src/ngrams/NGramMap.java` file) according to
 > the API provided in the file. Once again, be sure to read the comments above each method.
 
-{: .warning}
+{: .info}
 
 > For an example of an `NGramMap` at work, the `testOnLargeFile()` in `NGramMapTest` creates an `NGramMap` from the
 > `top_14377_words.csv` and `total_counts.csv` files (described below). It then performs various operations related to the
@@ -199,6 +208,78 @@ the 10 and the 1 are irrelevant.
 
 You may wonder why one file is tab separated and the other is comma separated. I didn't do it, Google did. Luckily, this
 difference won't be too hard to handle.
+
+### NGramMap Methods
+
+Your constructor parsed the data files, and stored the data in some data structures. Now, the methods in NGramMap can compute interesting results from that data. For example, consider these data files (only relevant rows/columns shown):
+
+```
+word_history_size3.csv:
+-----------------------------
+Word        Year    Frequency
+airport     2007    175702
+airport     2008    173294
+wandered    2005    83769
+wandered    2006    87688
+wandered    2007    108634
+wandered    2008    171015
+...
+```
+
+```
+year_history.csv:
+-----------------------------
+Year    Total number of words
+2005,   26609986084
+2006,   27695491774
+2007,   28307904288
+2008,   28752030034
+...
+```
+
+<table>
+    <tr>
+        <th style="width:20%">Method</th>
+        <th style="width:30%">Description</th>
+        <th style="width:50%">Example</th>
+    </tr>
+    <tr>
+        <td><code>countHistory</code></td>
+        <td>
+            Takes in a word. For each year, return the frequency of the word in that year.
+        </td>
+        <td>
+            <code>countHistory("wandered", 2006, 2007)</code><br>should return<br><code>{2006: 87688, &nbsp;&nbsp; 2007: 108634}</code>.
+        </td>
+    </tr>
+    <tr>
+        <td><code>totalCountHistory</code></td>
+        <td>
+            For each year, return the total number of words in that year.
+        </td>
+        <td>
+            <code>totalCountHistory()</code> should return<br><code>{2005: 26609986084, &nbsp;&nbsp; 2006: 27695491774, ...}</code>.
+        </td>
+    </tr>
+    <tr>
+        <td><code>weightHistory</code></td>
+        <td>
+            Takes in a word. For each year, return the frequency of the word in that year, divided by the total number of words in that year.
+        </td>
+        <td>
+            <code>weightHistory("wandered", 2006, 2007)</code><br>should return<br><code>{2006: 87688 / 27695491774,<br>&nbsp;2007: 108634 / 28307904288}</code>.
+        </td>
+    </tr>
+    <tr>
+        <td><code>summedWeightHistory</code></td>
+        <td>
+            Takes in multiple words. For each year, return the summed frequency of all the input words in that year, divided by the total number of words in that year.
+        </td>
+        <td>
+            <code>summedWeightHistory(["wandered", "airport"], 2006, 2007)</code><br>should return<br><code>{2006: (87688 + 0) / 27695491774,<br>&nbsp;2007: (108634 + 175702) / 28307904288}</code>.
+        </td>
+    </tr>
+</table>
 
 ### NGramMap Tips
 
@@ -323,7 +404,7 @@ Now it's time to implement the HistoryText button!
 - Use the `.toString()` method built into the `TimeSeries` class that gets inherited from `TreeMap`.
 - For your `HistoryTextHandler` to be able to do something useful, it's going to need to be able to access the data
   stored in your `NGramMap`. **DO NOT MAKE THE NGRAM MAP INTO A STATIC VARIABLE!** This is known as a "global variable"
-  and is rarely the appropriate solution for any problem. Hint: Your `HistoryTextHandler` class can have a constructor.
+  and is rarely the appropriate solution for any problem.
 - If word is invalid, think about how `NGramMap` is handling this situation.
 
 ## HistoryHandler

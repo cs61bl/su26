@@ -641,7 +641,7 @@ Once you've written local tests and passed them, try submitting to the
 autograder. You may or may not pass everything.
 
 - If you fail any of the coverage tests, it means that there is a case that
-  your local tests did not cover. [Here](./flags) is a list of test cases that you should cover.
+  your local tests did not cover. Task 10 details the list of test cases that you should cover.
 - If you fail any of the timing tests, it means that your implementation does
   not meet the timing constraints described above.
 - You will have a token limit of 4 tokens every 24 hours. **We will not reinstate tokens for failing to add/commit/push your code, run style, etc.**
