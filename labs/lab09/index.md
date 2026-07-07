@@ -1001,4 +1001,4 @@ A quick recap of what you need to do to finish today's lab:
 came up with.
 - Read through the content on asymptotic analysis (big-theta, O, and omega)
   focusing on how to handle logarithmic, iterative, and recursive algorithms.
-- **Complete the online assessment on [Gradescope](https://www.gradescope.com/courses/1050654/assignments/6390614). There is no coding submission.**
+- **Complete the online assessment on [Gradescope](https://www.gradescope.com/courses/1318601/assignments/8287871). There is no coding submission.**
