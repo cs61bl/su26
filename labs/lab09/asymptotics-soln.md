@@ -10,6 +10,8 @@ has_right_toc: true
 released: false
 ---
 
+<!--not sure why this in lab09 folder, may delete soon -->
+
 ## Asymptotics Problems Solutions
 
 1. False. Worst case is $\Theta(N)$, for a spindly BST
