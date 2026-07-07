@@ -122,7 +122,7 @@ labs:
   - title: "Runtime Analysis"
     due: "2026/07/08"
     link: labs/lab09
-    show_links: false
+    show_links: true
   - title: "Trees and Traversals"
     due: "2026/07/09"
     link: labs/lab10
