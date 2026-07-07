@@ -149,6 +149,11 @@ nasal_decongestant", since "actifed" is both of these things.
 > by [using the web interface](http://wordnetweb.princeton.edu/perl/webwn?o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&r=1&s=sturgeon&i=3&h=1000#c)
 > , though this is not necessary for this project.
 
+## Checkpoint
+
+[Project 2B: Wordnet Checkpoint](https://www.gradescope.com/courses/1318601/assignments/8287569/) is a conceptual 
+assignment testing your understanding of Wordnet. Although this is optional, We highly recommend completing this before designing your project to ensure you have the correct understanding of wordnets.
+
 ## Hyponyms (Basic Case)
 
 ### Setting up a HyponymsHandler
