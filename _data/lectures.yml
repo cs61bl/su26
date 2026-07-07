@@ -135,6 +135,7 @@ lectures:
 
   #Week 3
   - title: "Asymptotic Analysis"
+    slides: "https://docs.google.com/presentation/d/1R7iwc2sZwrbnHdV8f3jHe6N465XI76tP5PUbCLSPttk/edit?usp=sharing"
     readings:
     - name: "Chapter 13"
       link: https://cs61b-2.gitbook.io/cs61b-textbook/13.-asymptotics-i

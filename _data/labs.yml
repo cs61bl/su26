@@ -89,7 +89,7 @@ labs:
     examprep: true
     video: false
     worksheet: "/assets/discussions/exam-prep-01.pdf"
-    solutions:
+    solutions: "/assets/discussions/exam-prep-01-sols.pdf"
     nonumber: True
     show_links: true
   - title: "Intro to Linked Lists"
@@ -114,9 +114,8 @@ labs:
   - title: "Recitation 1: Object Oriented Programming and Abstract Data Types"
     recitation: True
     video: false
-    # worksheet: https://drive.google.com/file/d/1V9Q8Tkek8xYb63GfpJBCTSS3n0xRlxHJ/view
-    # slides: https://docs.google.com/presentation/d/1oSwJGeHD92B3sGSSqCiV4k8NcKXLda3E
-    # solutions: https://drive.google.com/file/d/14I-Fywo_7SPpuJAwPD0dAKXH5JNMzyKX/view?usp=sharing
+    worksheet: "/assets/discussions/recitation-01.pdf"
+    solutions:
     link: 
     show_links: true
     nonumber: True
