@@ -562,7 +562,7 @@ of tests alone does not mean that those tests are doing anything:
 
 ```java
 @Test
-public static void uselessTest() {
+public void uselessTest() {
     assertThat(true).isEqualTo(true);
 }
 ```
