@@ -510,4 +510,4 @@ Once you have implemented `AmoebaBFSIterator`, all the provided tests in `Amoeba
 To finish this lab, make sure to finish the following:
 
 - Read through the lab spec and understand obtain a good understanding of these topics: tree definitions, traversals, stacks and queues.
-- Complete the Lab 10 assignment on Gradescope. **There is no coding submission required for this lab, but all the tests are provided locally if you'd like to check your work.**
+- Complete the Lab 10 assignment on [Gradescope](https://www.gradescope.com/courses/1318601/assignments/8287985). **There is no coding submission required for this lab, but all the tests are provided locally if you'd like to check your work.**
