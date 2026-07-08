@@ -65,8 +65,9 @@ These following terms are defined with respect to a particular node.
 | Depth         | The length of the path from the node to the root. The depth of the root node is 0. |
 
 Sometimes we'll refer to the height and depth of a tree as a whole. In these
-cases, it's usually assumed that we're referring to the height of the root node
-and the depth of the deepest leaf, respectively.
+cases, it's usually assumed that we're referring to the height of the root node e
+and the depth of the deepest leaf, respectively. Both describe the same value: the
+length of the longest path from the root to a leaf.
 
 ### Definition of a Tree
 
