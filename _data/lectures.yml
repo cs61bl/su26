@@ -147,6 +147,7 @@ lectures:
         link: https://cs61b-2.gitbook.io/cs61b-textbook/15.-asymptotics-ii
 
   - title: "BSTs + Traversals"
+    slides: "https://docs.google.com/presentation/d/1TcWqMwW2_aANDAOEj9_dblM5lf81l0deoNXwpK-WzkI/edit?usp=sharing"
     readings:
     - name: "Chapters 22.1-22.2"
       link: https://cs61b-2.gitbook.io/cs61b-textbook/22.-tree-traversals-and-graphs/22.1-tree-recap
