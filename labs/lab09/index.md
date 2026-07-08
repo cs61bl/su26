@@ -5,13 +5,14 @@ title: >-
 has_children: true
 parent: Labs
 has_toc: false
-nav_exclude: true
+nav_exclude: false
 has_right_toc: true
 released: true
 ---
 ## [FAQ](faq)
 
-The FAQ for Lab 9 is located [here](faq).
+This assignment has an [FAQ page](faq).
+
 
 ## Before You Begin
 
@@ -20,7 +21,7 @@ Pull the files for lab 9 from the skeleton.
 {: .info}
 >Lab 9 does not have any coding deliverables, but the ungraded exercise with `Sorter.java` may help with your understanding of asymptotics. The deliverable for this lab is a Gradescope multiple choice assignment, which you have unlimited attempts to submit. When you complete a subquestion, you can click the "Save Answer" button, which will tell you if your answer is incorrect or correct. An explanation should also pop up (you will only see an explanation if your answer is correct).
 
-The online textbook readings in for this lab are optional. The lab covers the same content as Chapter [8.2][], [8.3][], and [8.4][]. You still may want to refer back to the textbook if you prefer watching videos or reading more about the topic. Feel free to skip around the spec if you feel like you already have a good understanding of the content. 
+The lab covers the same content as Chapter [8.2][], [8.3][], and [8.4][]. You still may want to refer back to the textbook if you prefer watching videos or reading more about the topic. Feel free to skip around the spec if you feel like you already have a good understanding of the content. 
 
 [8.2]: https://joshhug.gitbooks.io/hug61b/content/chap8/chap82.html
 [8.3]: https://joshhug.gitbooks.io/hug61b/content/chap8/chap83.html
@@ -266,9 +267,14 @@ the loop, after we increment `k` such that `k` now equals $$N$$, we spend one
 more step checking the loop condition again to figure out that we need to
 finally exit the loop, so the final number of steps is $$1 + 5N + 1$$.
 
-<!-- removing since this is pretty much useless and just hard to read -->
+{: .info}
+>The two worked examples below (`remove` and `removeZeroes`) are the most
+>tedious hand-counting we'll do in this lab. **Feel free to skim them** — focus
+>on the *setup* and the *final runtime expressions* rather than every line of
+>arithmetic. The payoff is the expression we derive at the end, which we'll
+>reuse when we start simplifying step counts into orders of growth.
 
-<!-- ### Example: `remove`
+### Example: `remove`
 
 Now consider code for the `remove` method, which removes the item at a given position of an array `values` by shifting over all the remaining elements. We notice here that things become slightly more complicated as the number of steps performed matters both on `pos` and `len`, the number of items contained in `values`. We now count the number of steps performed in terms of these two variables.
 
@@ -385,7 +391,7 @@ We often prefer to simplify this by substituting `len` for a symbolic name like 
 
 $$5 \frac{N(N + 1)}{2} + 3N + 2$$
 
-That took... a while. -->
+That took... a while.
 
 ## Abbreviated Estimates
 
@@ -813,7 +819,7 @@ int fib(int N) {
     if (N <= 1) {
         return 1;
     }
-    return fib(n - 1) + fib(n - 2);
+    return fib(N - 1) + fib(N - 2);
 }
 ```
 
@@ -833,7 +839,7 @@ multiply by the constant number of operations to find the overall runtime of
 `fib`.
 
 For a tree with branching
-factor $$b$$ and height $$h$$ we can compute the number of nodes as $$b^{h+1}-1$$ (if we think of the root as height 0). For the sake of asymptotic analysis, it is sufficient to use $$b^{h}$$ or $$b^{h+1}$$ as we will below (as an exercise, can you justify why?).
+factor $$b$$ and height $$h$$ we can compute the number of nodes as $$\frac{b^{h+1}-1}{b-1}$$ (if we think of the root as height 0). For a binary tree ($$b = 2$$), this is $$2^{h+1}-1$$. For the sake of asymptotic analysis, it is sufficient to use $$b^{h}$$ or $$b^{h+1}$$ as we will below (as an exercise, can you justify why?).
 
 Spend a little time thinking about the maximum height of this tree: when does the base
 case tell us the tree recursion will stop?
@@ -848,10 +854,12 @@ two recursive calls to `mitosis(N / 2)`.
 ![N-time tree](img/n-tree.png)
 
 Like before, we want to identify both the branching factor and the height of
-the tree. In this case, the branching factor is 2 like before. Recall that the
-series $$N, N/2, \cdots , 4, 2, 1$$ contains $$\log_{2} N$$ elements since, if
-we start at $$N$$ and break the problem down in half each time, it will take us
-approximately $$\log_{2} N$$ steps to completely reduce down to 1, so the height of the tree will be $$\log_{2} N$$.
+the tree. In this case, the branching factor is 2 like before. Recall that if
+we start at $$N$$ and break the problem down in half each time, it takes us
+approximately $$\log_{2} N$$ halvings to completely reduce $$N$$ down to 1 (the
+series $$N, N/2, \cdots , 4, 2, 1$$ has $$\log_{2} N + 1$$ elements, but there
+are $$\log_{2} N$$ steps between them). Since each halving corresponds to
+descending one more level, the height of the tree will be $$\log_{2} N$$.
 
 Plugging into the formula, we get $$2^{\log_{2} N}$$ nodes which simplifies to
 $$N$$. Therefore, $$N$$ nodes performing a constant amount of work each will
@@ -931,8 +939,8 @@ quadratically, the order of growth of the runtime is quadratic.
 Big-Theta
 :   To formalize our intuitive simplifications, we introduce big-theta
 notation. We say that a function $$R(N) \in \Theta(f(N))$$ if there exists
-positive constants $$k_1$$ and $$k_2$$ such that $$k_1 \cdot f_1(N) \leq R(N)
-\leq k_2 \cdot f_2(N)$$.
+positive constants $$k_1$$ and $$k_2$$ such that $$k_1 \cdot f(N) \leq R(N)
+\leq k_2 \cdot f(N)$$.
 
     When using $$\Theta$$ to capture a function's asymptotic scaling, we avoid
 unnecessary terms in our $$\Theta$$ expression. For example, while $$4N^2 + 3N +
@@ -993,4 +1001,4 @@ A quick recap of what you need to do to finish today's lab:
 came up with.
 - Read through the content on asymptotic analysis (big-theta, O, and omega)
   focusing on how to handle logarithmic, iterative, and recursive algorithms.
-- **Complete the online assessment on [Gradescope](https://www.gradescope.com/courses/1050654/assignments/6390614). There is no coding submission.**
+- **Complete the online assessment on [Gradescope](https://www.gradescope.com/courses/1318601/assignments/8287871). There is no coding submission.**
