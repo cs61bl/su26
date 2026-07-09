@@ -44,7 +44,7 @@ brief breakdown of what you will have to do in this course.
 
 ### Remote Policy
 
-This is, per university policy, an in-person course. **We will not have remote Lectures, Labs, or Exam Prep Sessions this semester.** However, attendance at Lecture, our regular Lab sections (Monday through Thursday), and our Friday Exam Prep sessions is not strictly required: as you can earn credit for assignments and Exam Prep sessions asynchronously. **You must take the exams in person.** Everything other than exams can be completed remotely.
+This is, per university policy, an in-person course. **We will not have remote Lectures, Labs, or Exam Prep Sessions this semester.** However, attendance at Lecture, our regular Lab sections (Monday through Thursday), and our Friday Exam Prep sessions is not strictly required: as you can earn credit for assignments, Recitations, and Exam Prep sessions asynchronously. **You must take the exams in person.** Everything other than exams can be completed remotely.
 
 ### Alternatives
 
@@ -96,17 +96,20 @@ Note that some labs will be used to solve theoretical problems similar to what y
 
 Your overall lab grade is capped such that **you can miss up to 1 lab without penalty** and still receive full credit (40 points) for this category.
 
-### Friday Exam Prep Sessions
+### Exam Prep Sessions and Recitations
 
-Friday sessions are Exam Prep sessions that involve working through a worksheet with your classmates and TA. Friday Exam Prep sessions will have a small attendance/participation credit (see grading breakdown below).
+Friday sessions are Exam Prep sessions that involve working through a worksheet with your classmates and TA. **Please note that Friday Exam Prep sessions are distinct from labs and will be held in different rooms shown on the main calendar.**
 
-**Please note that Friday Exam Prep sessions are distinct from labs and will be held in different rooms shown on the main calendar.**
+Recitations are normal lab sections (Monday through Thursday) where we spend the time solving problems from a worksheet instead of coding.
 
-There are 5 Friday Exam Prep sessions, and each is worth 3 points (for a total of 15 points). You can receive credit in one of two ways:
-1. **In-person checkoff**: Attending the session and getting checked off by a TA in person on the day of the session.
+You can use Recitations (i.e. lab-time problem solving) in place of any of your required Friday Exam Prep sessions. You can receive credit for up to **5 sessions total** combined between Recitations and Friday Exam Preps. Each session is worth 3 points (for a total of 15 points, representing 5% of your grade). You do not get more than the full 15 points for claiming more than 5 sessions.
+
+For both Friday Exam Preps and Recitations, you can receive credit in one of two ways:
+1. **In-person checkoff**: Attending the session in person and getting checked off by a staff member on the day of the session.
 2. **Gradescope upload**: Completing the worksheet asynchronously and uploading it to Gradescope up until the night before the Final Exam.
 
-We may add some **extra credit incentives** later in the term for getting checked off in person some number of times 😉
+#### Extra Credit Opportunity
+If you get checked off in person for at least **four sessions combined** between the remaining Exam Preps + Recitations (starting from July 6th, 2026), you will receive **1 point of extra credit**!
 
 #### Section Swapping
 
@@ -158,7 +161,7 @@ Your course grade is computed using a point system with a total of 300 points. I
 | Category                      | Percentage  | Points   |
 | ----------------------------- | ----------- | -------- |
 | Lab Assignments               | 13%         | 40       |
-| Friday Exam Prep Attendance   | 5%          | 15       |
+| Exam Prep / Recitation Credit | 5%          | 15       |
 | Homeworks                     | 5%          | 15       |
 | Project 0                     | 5%          | 15       |
 | Project 1                     | 8%          | 24       |
