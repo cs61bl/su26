@@ -474,7 +474,7 @@ To fix this, you should first modify the `Deque61B` interface so that the declar
 public interface Deque61B<T> extends Iterable<T> {
 ```
 
-Next, implement the `iterator()` method using the techniques described in lecture 10.
+Next, implement the `iterator()` method. It may be useful to reference the code you wrote for Lab 8.
 
 {: .task}
 > Implement the `iterator()` method in both `LinkedListDeque61B` and
