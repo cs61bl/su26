@@ -56,7 +56,7 @@ You'll also need to download the Project 2 data files (not provided via GitHub f
 
 {: .task}
 
-> Download the data files [at this link](https://drive.google.com/file/d/1ZhMrVODwvW4h-Cl5QoZtCIYwP3aO8uGh/view?usp=sharing).
+> Download the data files [at this link](https://drive.google.com/file/d/1uy-Lz0i5DRXvetPcLOIlSdak1g8BBZVm/view?usp=sharing).
 >
 > You should unzip this file into the proj2 directory such that the `data` folder is at the same level as the `src`
 > and `static` folders.
@@ -80,6 +80,9 @@ in the skeleton code so that Git will avoid uploading these data files. This is 
 
 {: .danger}
 > Uploading the data files to GitHub will result in a lot of headaches for everybody, so please don't mess with any files called `.gitignore`. If you need to work on multiple machines, you should download the `.zip` file once for each machine.
+
+{: .info}
+> The README.txt will say the data is from Spring 2026. The data is the same for Summer 2026.
 
 If `NgordnetQuery` doesn't compile, make sure you are using Java version 15 (preview) or higher (preferably 17+).
 
