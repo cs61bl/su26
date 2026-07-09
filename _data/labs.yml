@@ -130,7 +130,7 @@ labs:
   - title: "Binary Search Trees"
     due: "2026/07/10"
     link: labs/lab11
-    show_links: false
+    show_links: true
   - title: "Exam Prep 2: Asymptotics and Trees"
     examprep: true
     video: false
