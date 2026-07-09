@@ -20,7 +20,7 @@ FAQ for Project 2A is located
 [here](faq).
 
 {: .info}
-All students will be required to complete a **code interview** for Project 2. Read the [relevant section of the spec](https://cs61bl.org/projects/proj2a/#code-interview) for more info.
+> All students will be required to complete a **code interview** for Project 2. Read the [relevant section of the spec](https://cs61bl.org/projects/proj2a/#code-interview) for more info.
 
 ## Introduction
 
