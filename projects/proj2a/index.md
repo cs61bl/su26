@@ -13,11 +13,11 @@ released: true
 ---
 ## Due: Wednesday, July 15th at 11:59 PM PT
 
-## [FAQ](faq.md)
+## [FAQ](faq)
 
 Each assignment will have an FAQ linked at the top. You can also access it by adding "/faq" to the end of the URL. The
 FAQ for Project 2A is located
-[here](faq.md).
+[here](faq).
 
 ## Introduction
 
@@ -32,7 +32,7 @@ found below (or [at this link](https://www.youtube.com/embed/ri9BzE723QA?list=PL
     <iframe width=600 height=400 src="https://www.youtube.com/embed/watch?v=ri9BzE723QA&list=PL8FaHk7qbOD7-899l1hKEd5aICB9u1wrm&index=1" title="Project 2A Intro"></iframe>
 </p>
 
-To support this tool, you will write a series of Java packages that will allow for data analysis. Along the way we'll
+To support this tool, you will write a series of Java packages that will allow for data analysis. Along the way, we'll
 get lots of experience with different useful data structures. The early part of the project (proj2a) will start by
 telling you exactly what functions to write and classes to create. The later part (proj2b) will be more open to your
 own design.
@@ -48,9 +48,9 @@ autograder. Note that style penalties do **not** apply to test files.
 You can and should check your style locally with the CS 61B plugin. **We will
 not remove the velocity limit for failing to check style.**
 
-## Getting Started
+## Task 1: Getting Started
 
-To get started, use `git pull skeleton main` as usual.
+To get started, ensure you are in your `su26-s***` repository directory and run `git pull skeleton main` as usual.
 
 You'll also need to download the Project 2 data files (not provided via GitHub for space reasons).
 
@@ -79,7 +79,7 @@ Note that we've set up hidden [`.gitignore`](https://help.github.com/articles/ig
 in the skeleton code so that Git will avoid uploading these data files. This is intentional.
 
 {: .danger}
-Uploading the data files to GitHub will result in a lot of headaches for everybody, so please don't mess with any files called `.gitignore`. If you need to work on multiple machines, you should download the zip file once for each machine.
+> Uploading the data files to GitHub will result in a lot of headaches for everybody, so please don't mess with any files called `.gitignore`. If you need to work on multiple machines, you should download the `.zip` file once for each machine.
 
 If `NgordnetQuery` doesn't compile, make sure you are using Java version 15 (preview) or higher (preferably 17+).
 
@@ -100,7 +100,7 @@ In Project 2A, you will be building a version of this tool that only handles 1gr
 handle individual words. We'll only use a small subset (around 300 megabytes) of the full 1grams dataset, as larger
 datasets will require more sophisticated techniques that are out of scope for this class.
 
-## TimeSeries
+## Task 2: TimeSeries
 
 A `TimeSeries` is a special purpose extension of the existing `TreeMap` class where the key type parameter is
 always `Integer`, and the value type parameter is always `Double`. Each key will correspond to a year, and each value a
@@ -129,7 +129,7 @@ The `TimeSeries` class provides some additional utility methods to the `TreeMap`
 > that there is no value for 1993 because that year does not appear in either `TimeSeries`.
 
 {: .danger}
-You may not add additional public methods to this class. You're welcome to add additional private methods.
+> You **may not** add additional public methods to this class. You're welcome to add additional private methods.
 
 ### TimeSeries Tips
 
@@ -146,7 +146,7 @@ You may not add additional public methods to this class. You're welcome to add a
   true as long as `x` and `y` are within $10^{-10}$ of each other.
 - You may assume that the `dividedBy` operation never divides by zero.
 
-## NGramMap
+## Task 3: NGramMap
 
 The `NGramMap` class will provide various convenient methods for interacting with Google's NGrams dataset. This task is
 more open-ended and challenging than the creation of the `TimeSeries` class. As with `TimeSeries`, you'll be filling in
@@ -167,7 +167,7 @@ since `"adopt"` has no data during those years.
 > occurrences of the words \"fish\" and \"dog\" in the period between 1850 and 1933.
 
 {: .danger}
-You may not add additional public methods to this class. You're welcome to add additional private methods.
+> You **may not** add additional public methods to this class. You're welcome to add additional private methods.
 
 ### Input File Formats
 
@@ -185,9 +185,13 @@ provides tab separated information about the history of a particular word in Eng
     wandered    2007    108634  40101
     wandered    2008    171015  64395
 
-The first entry in each row is the word. The second entry is the year. The third entry is the number of times that the
-word appeared in any book that year. The fourth entry is the number of distinct sources that contain that word. **Your
-program should ignore this fourth column.** For example, from the text file above, we can observe that the word "wandered"
+- The **first entry** in each row is the word.
+- The **second entry** is the year.
+- The **third entry** is the number of times that the word appeared in any book that year.
+- The **fourth entry** is the number of distinct sources that contain that word.
+  - Your program should **ignore** this fourth column.
+
+For example, from the text file above, we can observe that the word "wandered"
 appeared 171,015 times during the year 2008, and these appearances were spread across 64,395 distinct texts. For this
 project, we never care about the fourth entry (total number of volumes).
 
@@ -200,11 +204,14 @@ total corpus of data available for each calendar year.
     1476,20502,186,2
     1477,376341,2479,2
 
-The first entry in each row is the year. The second is the total number of words recorded from all texts that year. The
-third number is the total number of pages of text from that year. The fourth is the total number of distinct sources
-from that year. Your program should ignore the third and fourth columns. For example, we see that Google has exactly one
-English language text from the year 1470, and that it contains 984 words and 10 pages. For the purposes of our project
-the 10 and the 1 are irrelevant.
+- The **first entry** in each row is the year.
+- The **second entry** is the total number of words recorded from all texts that year.
+- The **third entry** is the total number of pages of text from that year.
+  - Your program should **ignore** this third column.
+- The **fourth entry** is the total number of distinct soures from that year.
+  - Your program should **ignore** this fourth column.
+
+For example, we see that Google has exactly one English language text from the year 1470, and that it contains 984 words and 10 pages. For the purposes of our project the 10 and the 1 are irrelevant.
 
 You may wonder why one file is tab separated and the other is comma separated. I didn't do it, Google did. Luckily, this
 difference won't be too hard to handle.
@@ -314,16 +321,16 @@ load `top_49887_words.csv`.
   write additional tests.
   - Rather than using one of the large input files (e.g. `top_14377_words.csv`), we recommend starting with one of the
     smaller input files, either `very_short.csv` or `words_that_start_with_q.csv`.
-- **Like in TimeSeries, you should not have any code which fills in a zero if a value is unavailable.**
+- **Like in `TimeSeries`, you should not have any code which fills in a zero if a value is unavailable.**
 - If it helps speed up your code, you can assume year arguments are between 1400 and 2100. These variables are stored as constants `MIN_YEAR` and `MAX_YEAR` in the `TimeSeries` class.
 - `NGramMap` should not extend any other class.
 - Your methods should be simple! If you pick the right data structures, the methods should be relatively short.
 - If the word is invalid, return an empty `TimeSeries`.
 
-## HistoryTextHandler
+## Task 4: HistoryTextHandler
 
 In this final part of Project 2A, we'll do a bit of software engineering to set up a web server that can handle
-NgordnetQueries. While this content isn't strictly related to
+`NgordnetQuery`s. While this content isn't strictly related to
 data structures, it is incredibly important to be able to take projects and deploy them for real world use.
 
 **Note:** You should only begin this part when you are fairly confident that `TimeSeries` and `NGramMap` are working properly.
@@ -407,7 +414,7 @@ Now it's time to implement the HistoryText button!
   and is rarely the appropriate solution for any problem.
 - If word is invalid, think about how `NGramMap` is handling this situation.
 
-## HistoryHandler
+## Task 5: HistoryHandler
 
 The text based history from the previous section is not useful for much other than auto-grading your work. Actually using
 our tool to discover interesting things will require visualization.
@@ -430,7 +437,7 @@ string of bits. This website knows how to decode this string into the correspond
 If you look at the plotting library, this code relies on the `ngordnet.Plotter.generateTimeSeriesChart` method, which
 takes two arguments. The first is a list of strings, and the second is a `List<TimeSeries>`. The `TimeSeries` are all
 plotted in a different color, and each is assigned the label given in the list of strings. Both lists must be of the
-same length (since the ith string is the label for the ith time series).
+same length (since the $i$th string is the label for the $i$th time series).
 
 The `ngordnet.Plotter.generateTimeSeriesChart` method returns an object of type `XYChart`. This object can in turn
 either be converted into base 64 by the `ngordnet.Plotter.encodeChartAsString` method, or can be displayed to the screen
@@ -446,7 +453,7 @@ open `DummyHistoryHandler`, you'll see why.
 
 {: .task}
 
-> Create a new file called `HistoryHandler.java` that takes the given `NgordnetQuery` and returns a String that contains
+> Create a new file called `HistoryHandler.java` that takes the given `NgordnetQuery` and returns a `String` that contains
 > a base-64 encoded image of the appropriate plot.
 >
 > Then, modify the `Main.java` so that your `HistoryHandler` is called when someone clicks the `History` button.

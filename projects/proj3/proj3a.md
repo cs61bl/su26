@@ -333,7 +333,7 @@ Here are some examples of valid worlds, where `#` is wall, dot/quote is floor, a
 
 **Note on grading:** We know that some of these requirements are subjective, and we'll try to be generous as long as your worlds follow the spirit of the requirements.
 
-Staff cannot answer questions like "is my world valid" or "is my world good enough" on Ed or in office hours. In Project 3A, you'll turn in some worlds for us to grade, and if they aren't valid, we'll give you a second chance to fix any problems for full credit.
+Staff cannot answer questions like "is my world valid" or "is my world good enough" on Ed or in lab sections. In Project 3A, you'll turn in some worlds for us to grade, and if they aren't valid, we'll give you a second chance to fix any problems for full credit.
 
 **Miscellaneous edge case FAQ:**
 
