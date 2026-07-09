@@ -5,11 +5,11 @@ nav_order: 3
 parent: Projects
 has_children: true
 has_toc: false
-nav_exclude: true
+nav_exclude: false
 has_right_toc: true
 description: >-
   Project 2A spec.
-released: false
+released: true
 ---
 ## Due: Wednesday, July 15th at 11:59 PM PT
 
@@ -466,6 +466,21 @@ You are responsible for implementing four classes:
 - **NGramMap Weight (30%)**: Correctly implement `weightHistory()` and `summedWeightHistory()` in `NGramMap.java`.
 - **HistoryTextHandler (10%)**: Correctly implement `HistoryTextHandler.java`.
 - **HistoryHandler (10%)**: Correctly implement `HistoryHandler.java`.
+
+You are also responsible for completing the code interview detailed below.
+
+## Code Interview
+
+All students who submit Project 2 must complete a code interview. The interview will be about 15 minutes in length, and will test your conceptual understanding of the project and the code that you wrote. You will have access to your Project 2 code during the interview.
+
+You are expected to complete this interview in-person. Interviews will take place from 7/27 to 7/31.
+
+If you cannot demonstrate understanding of the project (or fail to complete a code interview at all), your **project grade will be replaced with a 0**.
+
+We want to stress that we **don’t want you to fail**. The interview will be structured such that, if you are able to demonstrate a reasonable level of understanding, you will pass.
+
+If you have any concerns about completing this interview, please email [cs61bl@berkeley.edu](mailto:cs61bl@berkeley.edu) before the 7/26 deadline. Otherwise, we cannot guarantee any accommodations.
+
 
 ### Submission
 
