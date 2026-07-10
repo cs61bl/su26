@@ -152,12 +152,12 @@ labs:
     due: "2026/07/19"
     link: labs/lab12
     show_links: false
+  - title: "Project 2A Office Hours"
+    nonumber: True
+    rowspan: 1
   - title: "Past Midterm Walkthroughs"
     link: labs/lab13
     show_links: false
-  - title: "Office Hours"
-    nonumber: True
-    rowspan: 1
   - title: "None"
     nonumber: True
     rowspan: 1
@@ -226,10 +226,10 @@ labs:
     due: "2026/08/07"
     link: labs/lab22
     show_links: false
+  - title: "BYOW OH & Checkoffs"
+    nonumber: True
   - title: "Exam Prep 5: Final Exam Review"
     examprep: true
-    nonumber: True
-  - title: None
     nonumber: True
   - title: "BYOW OH & Checkoffs"
     nonumber: True
