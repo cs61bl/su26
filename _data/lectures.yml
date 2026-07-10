@@ -162,7 +162,7 @@ lectures:
     nonumber: true
 
   #Week 4
-  - title: "B-Trees + Red-Black Trees"
+  - title: "Balanced Search Trees"
     readings:
     - name: "Chapter 17"
       link: https://cs61b-2.gitbook.io/cs61b-textbook/17.-b-trees
@@ -173,7 +173,7 @@ lectures:
     - name: "Chapter 18"
       link: https://cs61b-2.gitbook.io/cs61b-textbook/18.-red-black-trees
 
-  - title: "Midterm Review (TAs & Tutors)"
+  - title: "Midterm Review (TAs)"
 
   - title:
     nonumber: true
@@ -260,7 +260,7 @@ lectures:
   - title:
     nonumber: true
 
-  - title: "Final Review (TAs & Tutors)"
+  - title: "Final Review (TAs)"
 
   - title: "**Final Exam (3pm - 6pm)**"
     exam: true

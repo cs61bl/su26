@@ -19,6 +19,9 @@ Each assignment will have an FAQ linked at the top. You can also access it by ad
 FAQ for Project 2A is located
 [here](faq).
 
+{: .info}
+> All students will be required to complete a **code interview** for Project 2. Read the [relevant section of the spec](https://cs61bl.org/projects/proj2a/#code-interview) for more info.
+
 ## Introduction
 
 In this project, we will build a browser based tool for exploring the history of word usage in English texts. We have
