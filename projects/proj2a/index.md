@@ -166,7 +166,7 @@ since `"adopt"` has no data during those years.
 {: .info}
 
 > For an example of an `NGramMap` at work, the `testOnLargeFile()` in `NGramMapTest` creates an `NGramMap` from the
-> `top_14377_words.csv` and `total_counts.csv` files (described below). It then performs various operations related to the
+> `word_history_size14377_words.csv` and `year_history.csv` files (described below). It then performs various operations related to the
 > occurrences of the words \"fish\" and \"dog\" in the period between 1850 and 1933.
 
 {: .danger}
@@ -299,9 +299,8 @@ likely take some time and a lot of experimentation to figure out how to proceed.
 difficult, we've at least provided a list of methods to implement. Keep in mind that in the real world (and in proj2b
 and proj3), even the list of methods will be your choice.
 
-Your code should be fast enough that you can create an `NGramMap` using `top_14377_words.csv`. Loading should take less than
-60 seconds (maybe a bit longer on an older computer). If your computer has enough memory, you should also be able to
-load `top_49887_words.csv`.
+Your code should be fast enough that you can create an `NGramMap` using `word_history_size14377.csv`. Loading should take less than
+60 seconds (maybe a bit longer on an older computer).
 
 - The bulk of your work in this class will be implementing the constructor. You'll need to parse through the provided
   data files and store this data in a data structure (or structures) of your choice.
@@ -315,15 +314,15 @@ load `top_49887_words.csv`.
   or some other class you come up with might be useful to keep in mind instead.
 - We have not taught you how to read files in Java. We recommend using the `In` class. The official documentation can be
   found [here](https://introcs.cs.princeton.edu/java/stdlib/javadoc/In.html). However, you're welcome to use whatever
-  technique you'd like that you learn about online. We provide an example class `FileReaderDemo.java` that gives
+  technique you'd like that you learn about online. We provide an example class `FileReadDemo.java` that gives
   examples of how to use `In`.
 - If you use `In`, don't use `readAllLines` or `readAllStrings`. These methods are slow. Instead, read inputs one chunk
-  at a time. See `src/main/FileReaderDemo.java` for an example.
+  at a time. See `src/main/FileReadDemo.java` for an example.
   - Additionally, to check if there are any lines left in a file, you should use `hasNextLine` (and not `isEmpty`).
 - Our provided tests only cover some methods, but some methods are only tested on a very large file. You will need to
   write additional tests.
-  - Rather than using one of the large input files (e.g. `top_14377_words.csv`), we recommend starting with one of the
-    smaller input files, either `very_short.csv` or `words_that_start_with_q.csv`.
+  - Rather than using one of the large input files (e.g. `word_history_size14377.csv`), we recommend starting with one of the
+    smaller input files, either `word_history_size3.csv` or `word_history_size4.csv`.
 - **Like in `TimeSeries`, you should not have any code which fills in a zero if a value is unavailable.**
 - If it helps speed up your code, you can assume year arguments are between 1400 and 2100. These variables are stored as constants `MIN_YEAR` and `MAX_YEAR` in the `TimeSeries` class.
 - `NGramMap` should not extend any other class.
