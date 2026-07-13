@@ -115,7 +115,7 @@ labs:
     recitation: True
     video: false
     worksheet: "/assets/discussions/recitation-01.pdf"
-    solutions: "/assets/discussions/rectiation-01-sols.pdf"
+    solutions: "/assets/discussions/recitation-01-sols.pdf"
     link: 
     show_links: true
     nonumber: True
