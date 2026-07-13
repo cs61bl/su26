@@ -278,8 +278,8 @@ If an exam doesn't have the reference card or clarifications linked, it means we
   <tr>
       <td class="is-even">Summer 2022</td>
       <td class="is-even">
-        <a href="https://drive.google.com/file/d/1hmuydX_JDPkUW6B3SaoIp1HJrRb1iZEE/view" aria-label="Questions for Summer 2022 Midterm">exam</a> / 
-        <a href="https://drive.google.com/file/d/1W0yiZkfMn8AVMgVKBndcsMXaVkvlQZdo/view" aria-label="Solutions for Summer 2022 Midterm">sols</a> /
+        <a href="https://drive.google.com/file/d/1J2X_vwaacG30rTQJC_55iyjivEEPqIdT/view" aria-label="Questions for Summer 2022 Midterm">exam</a> / 
+        <a href="https://drive.google.com/file/d/1w341YP7bVlpeZIUxWoiEypsA3TgSJxuM/view?usp=sharing" aria-label="Solutions for Summer 2022 Midterm">sols</a> /
         <a href="https://www.youtube.com/playlist?list=PL102eBoiAo8nY_fml71MSRSruLfxKjleJ" aria-label="Videos for Summer 2022 Midterm">videos</a>
       </td>
       <td class="is-even">
