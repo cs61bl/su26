@@ -163,6 +163,7 @@ lectures:
 
   #Week 4
   - title: "Balanced Search Trees"
+    slides: "https://docs.google.com/presentation/d/1b_IRwbyZljJgYAgM2U_EByIjvBMrEftAY4zP2VDbx2Y/edit?usp=sharing"
     readings:
     - name: "Chapter 17"
       link: https://cs61b-2.gitbook.io/cs61b-textbook/17.-b-trees
