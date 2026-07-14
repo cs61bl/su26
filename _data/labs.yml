@@ -135,8 +135,7 @@ labs:
     examprep: true
     video: false
     worksheet: "/assets/discussions/exam-prep-02.pdf"
-    # slides: https://docs.google.com/presentation/d/1JsPsh9N6LRPc8OhfKOiK4Jt8p2EGxL8j/edit?usp=sharing&rtpof=true&sd=true
-    # solutions: https://drive.google.com/file/d/1dE7zMUGDkRv-WB0IxeIo1dQbtUlCCwW2/view?usp=sharing
+    solutions: "/assets/discussions/exam-prep-02-sols.pdf"
     link: 
     show_links: True
     nonumber: True
