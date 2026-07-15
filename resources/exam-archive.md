@@ -37,6 +37,7 @@ If an exam doesn't have the reference card or clarifications linked, it means we
     <td>
       <a href="https://drive.google.com/file/d/19VDARqJvnlj-r2B6D0LCI8C2UarRPEA0/view?usp=sharing" aria-label="Questions for Spring 2026 Midterm 2">exam</a> /
       <a href="https://drive.google.com/file/d/1H89HDdt1d-mjn_jA3Q_P6YHyHCbULG2D/view?usp=sharing" aria-label="Solutions for Spring 2026 Midterm 2">sols</a>
+      /<a href="https://drive.google.com/file/d/1TuTkoA74XQVftLJ1Y5zHxFLhbAp18eZE/view" aria-label="Reference for Spring 2026 Midterm 1">ref</a>
     </td>
     <td>
       <a href="https://drive.google.com/file/d/1_hEpsaaXXBzYc7Q_-f6vNZ1Wp2wjSAIx/view?usp=sharing" aria-label="Questions for Spring 2026 Final">exam</a> /
