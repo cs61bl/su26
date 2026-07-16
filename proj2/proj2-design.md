@@ -103,8 +103,8 @@ the rubric.
 
 Once you have submitted to both assignments below, you're done!
 
-1. [Project 2B: Wordnet Checkpoint](https://www.gradescope.com/courses/1318601/assignments/8287569/) (10 points)
-2. [Project 2B: Wordnet Design](https://www.gradescope.com/courses/1318601/assignments/8308497/) (15 points)
+1. [Project 2B: Wordnet Checkpoint](https://www.gradescope.com/courses/1318601/assignments/8287569/) (0 points)
+2. [Project 2B: Wordnet Design](https://www.gradescope.com/courses/1318601/assignments/8308497/) (0 points)
 
 The score you receive on Gradescope is your final score for this assignment (assuming you followed the [collaboration policy](/policies/#collaboration-policy)).
 
