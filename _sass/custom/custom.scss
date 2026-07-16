@@ -1,6 +1,10 @@
 // Just the Class styles
 @import 'announcement';
 @import 'staffer';
+@import 'alerts';
+
+// [CS61B] Custom alert for project tasks (not in the default alert set).
+@include green-alert(TASK, "Task");
 
 // Begin UCB custom style
 
@@ -68,7 +72,9 @@ iframe {
 }
 
 .main-content {
-  blockquote {
+  // Only reset plain blockquotes; alert blockquotes (.NOTE, .WARNING, etc.)
+  // keep their colored left bar.
+  blockquote:not([class]) {
     border-left-width: 0px;
   }
 }
