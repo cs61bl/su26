@@ -117,7 +117,7 @@ In [Project 2B](/proj2/proj2b/), you'll be working with Wordnet data consisting 
 > - [How to unzip folders on Windows](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc#:~:text=To%20unzip%20files,folder%20to%20a%20new%20location.)
 > - [How to unzip folders on Mac](<https://support.apple.com/guide/mac-help/zip-and-unzip-files-and-folders-on-mac-mchlp2528/mac#:~:text=Unzip%20(expand)%20a%20compressed%20item,zip%20file.>)
 >
-> Move the `data` folder underneath `proj4cd` such that it is on the same level as `src` and `tests`.
+> Move the `data` folder underneath `proj2b` such that it is on the same level as `src` and `tests`.
 >
 > ```sh
 > proj2b
@@ -156,7 +156,7 @@ extensively by computational linguists and cognitive scientists; for example, it
 
 One such relationship is the is-a relationship, which connects a **hypo**nym (more specific synset) to a **hyper**nym (more general synset). For example, "change" is a **hypernym** of "demotion", since "demotion" is-a (type of) "change". "change" is in turn a **hyponym** of "action", since "change" is-a (type of) "action". A visual depiction of some hyponym relationships in English is given below:
 
-![WordNet]({{ "/assets/projects/proj4c/1-wordnet-fig.webp" | relative_url }} "WordNet")
+![WordNet]({{ "/assets/projects/proj2b/1-wordnet-fig.webp" | relative_url }} "WordNet")
 
 Each node in the graph above is a **synset**. Synsets consist of one or more words in English that all have the same meaning. For example, one synset
 is "jump, parachuting", which represents the act of descending to the ground with a parachute. "jump, parachuting" is a hyponym of "descent", since "jump, parachuting" is-a "descent".

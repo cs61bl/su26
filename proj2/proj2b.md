@@ -83,7 +83,7 @@ In Project 2B, your primary objective is to implement this button, which will re
 
 {: .TASK}
 > 1. Start by opening your `Main.java` file.
-> 2. Create a new file called `HyponymsHandler` that simply returns the word "Hello!" when the user clicks the Hyponyms button in the browser. You'll need to create a new `HyponymsHandler` class that extends the `NgordnetQueryHandler` class. See the Handler classes from project 4A for examples. Make sure when you register your handler that you use the string "hyponyms" as the first argument to the `register` method, and not "hyponym".
+> 2. Create a new file called `HyponymsHandler` that simply returns the word "Hello!" when the user clicks the Hyponyms button in the browser. You'll need to create a new `HyponymsHandler` class that extends the `NgordnetQueryHandler` class. See the Handler classes from Project 2A for examples. Make sure when you register your handler that you use the string "hyponyms" as the first argument to the `register` method, and not "hyponym".
 > 3. Once you've modified `Main` so that your new handler is registered to handle hyponyms requests, start up `Main` and try clicking the Hyponyms button in your web browser again. You should see text appear that says "Hello".
 
 {: .NOTE}
@@ -191,7 +191,7 @@ If you over-engineer and write methods that you end up not needing, that's fine.
 Just like NGramMap, you'll want your helper classes to only parse the input files once. Do not create methods that have to read the entire Wordnet file every time they are called. This will be too slow!
 
 {: .WARNING}
-Also, a reminder from Project 4A: Deeply nested generics are a warning sign that you are doing something too complicated. Either find a simpler way or create a helper class to help manage the complexity. For example, if you find yourself trying to use something like `Map<Set<Set<...`, you have started a walk down an unnecessarily difficult path.
+Also, a reminder from Project 2A: Deeply nested generics are a warning sign that you are doing something too complicated. Either find a simpler way or create a helper class to help manage the complexity. For example, if you find yourself trying to use something like `Map<Set<Set<...`, you have started a walk down an unnecessarily difficult path.
 
 If you have a design that is painful and with which you cannot make progress, don't be afraid to delete your existing instance variables and try again. The hard part of this project is the design, not the programming. You can always use git to recover your old design if you decide you actually liked it.
 
@@ -279,7 +279,7 @@ Modify your `HyponymsHandler` and the rest of your implementation to deal with t
 This task will be a little trickier since you'll need to figure out how to pass information around such that the
 `HyponymsHandler` knows how to access a "useful" `NGramMap`.
 
-In addition, we recommend handling the `k != 0` case separately from the `k == 0 case`, as your implementation will be building off of what you've already done in Project 4C.
+In addition, we recommend handling the `k != 0` case separately from the `k == 0 case`, as your implementation will be building off of what you've already done in Project 2B.
 
 This means your code should still be able to handle the `k == 0` case.
 
