@@ -89,7 +89,7 @@ A: We will send you an email with the final grade and breakdown from cs61b-incom
 
 A: We will calculate your z-score based on scores from next semester's final (e.g. if you take the Fall 2026 final, your z-score is calculated relative to the Fall 2026 scores). That z-score will be used when clobbering your midterm scores from the current semester.
 
-You can find the exact calculation formula of your exam score [here](https://cs61bl.org/su26/policies/exams/#final-exam-clobbering).
+You can find the exact calculation formula of your exam score [here](/policies/exams/#final-exam-clobbering).
 
 **Q: How will my exam grade be calculated if the semester I'm resolving incomplete has a different policy ?**
 
