@@ -184,6 +184,18 @@ lectures:
     exam: true
     nonumber: true
 
+  - title: "Graph Traversals, DAGs, Topological Sorts"
+    readings:
+      - name: "Chapters 22.3-22.4"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/22.-tree-traversals-and-graphs/22.3-graphs
+      - name: "Chapter 23"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/23.-graph-traversals-and-implementations
+      - name: "Chapter 28.1"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/28.-reductions-and-decomposition/28.1-topological-sorts-and-dags
+  
+  - title:
+    nonumber: true
+
   - title: "Hashing, Heaps, and Priority Queues"
     readings:
       - name: "Chapter 19"
@@ -196,26 +208,14 @@ lectures:
     readings:
       - name: "Chapter 21"
 
-  - title: "Disjoint Sets / Introduction to Graphs"
+  - title:
+    nonumber: true
+
+  - title: "Disjoint Sets + Introduction to Shortest Paths"
     readings:
       - name: "Chapter 14"
         link: https://cs61b-2.gitbook.io/cs61b-textbook/14.-disjoint-sets
 
-  - title:
-    nonumber: true
-
-  - title:
-    nonumber: true
-
-  - title: "Graph Traversals, DAGs, Topological Sorts"
-    readings:
-      - name: "Chapters 22.3-22.4"
-        link: https://cs61b-2.gitbook.io/cs61b-textbook/22.-tree-traversals-and-graphs/22.3-graphs
-      - name: "Chapter 23"
-        link: https://cs61b-2.gitbook.io/cs61b-textbook/23.-graph-traversals-and-implementations
-      - name: "Chapter 28.1"
-        link: https://cs61b-2.gitbook.io/cs61b-textbook/28.-reductions-and-decomposition/28.1-topological-sorts-and-dags
-  
   - title:
     nonumber: true
     readings:

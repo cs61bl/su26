@@ -3,7 +3,7 @@ layout: page
 title: >-
   Exercise: Trade-offs
 parent: >-
-  Lab 15: Graphs
+  Lab 14: Graphs
 nav_order: 2
 grand_parent: Labs
 has_right_toc: true
