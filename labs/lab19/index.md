@@ -21,7 +21,7 @@ adding "/faq" to the end of the URL. The FAQ for Lab 19 is located
 Pull the skeleton, as usual. 
 
 {: .task}
->Copy your implementation of the following methods of `Graph.java` file from [Lab 17](../lab17) into `src/Graph.java`:
+>Copy your implementation of the following methods of `Graph.java` file from [Lab 14](../lab14) into `src/Graph.java`:
 - `addEdge`
 - `addUndirectedEdge`
 - `isAdjacent`
@@ -30,7 +30,7 @@ Pull the skeleton, as usual.
 
 ## More Graph Algorithms
 
-In [Lab 17](../lab17), we introduced graphs and their representations, and then we moved to
+In [Lab 14](../lab14), we introduced graphs and their representations, and then we moved to
 basic graph iteration. A variety of algorithms for processing graphs are based
 on this kind of iteration, and we've already seen the following algorithms:
 
@@ -47,7 +47,7 @@ We're now going to investigate an algorithm where the ordering of the fringe
 
 ### Storing Extra Information
 
-Recall the [exercise from Lab 17](../lab17/#exercise-path) where you determined the path from a `start`
+Recall the [exercise from Lab 14](../lab14/#exercise-path) where you determined the path from a `start`
 vertex to a `stop` vertex. A solution to this exercise involved building a
 traversal, and then filtering the vertices that were not on the path.
 
@@ -201,7 +201,7 @@ infinite distance, as a path to it has not yet been found.
 ### Runtime
 
 Implemented properly using a priority queue backed by a binary heap, Dijkstra's
-algorithm should run in $$O((|V| + |E|) log |V|)$$ time, where $$|V|$$ represents the number of vertices, and $$|E|$$ represents the number of edges. This is because for our heap, we make at most $$|V|$$ inserts/removals and $$|E|$$ updates requiring heap operations, which take $$log|V|$$ time (as discussed in [Lab 15](../lab15/#runtimes)).
+algorithm should run in $$O((|V| + |E|) log |V|)$$ time, where $$|V|$$ represents the number of vertices, and $$|E|$$ represents the number of edges. This is because for our heap, we make at most $$|V|$$ inserts/removals and $$|E|$$ updates requiring heap operations, which take $$log|V|$$ time (as discussed in [Lab 16](../lab16/#runtimes)).
 
 For connected graphs, the runtime can be simplified to `O(|E| log |V|)`, as the
 number of edges must be at least `|V| - 1`. Using alternative implementations of
