@@ -173,12 +173,6 @@ labs:
     due: "2026/07/24"
     link: labs/lab16
     show_links: false
-  - title: "Disjoint Sets"
-    due: "2026/07/25"
-    link: labs/lab17
-    show_links: false
-  - title: "Office Hours"
-    nonumber: True
   - title: "Exam Prep 3: Hashing, Heaps, and Union Find"
     examprep: True
     video: false
@@ -188,16 +182,20 @@ labs:
     link: 
     show_links: false
     nonumber: True
+  - title: "Disjoint Sets"
+    due: "2026/07/28"
+    link: labs/lab17
+    show_links: false
   - title: "Build Your Own World Introduction"
-    due: "2026/07/30"
+    due: "2026/07/29"
     link: labs/lab18
     show_links: false
   - title: "Shortest Path Trees"
-    due: "2026/07/31"
+    due: "2026/07/30"
     link: labs/lab19
     show_links: false
   - title: "Minimum Spanning Trees"
-    due: "2026/08/01"
+    due: "2026/07/31"
     link: labs/lab20
     show_links: false
   - title: "Exam Prep 4: Graphs"
@@ -219,7 +217,7 @@ labs:
     show_links: false
     nonumber: True
   - title: "Comparison Sorts"
-    due: "2026/08/06"
+    due: "2026/08/05"
     link: labs/lab21
     show_links: false
   - title: "Counting Sorts"

@@ -208,16 +208,13 @@ lectures:
     readings:
       - name: "Chapter 21"
 
+  - title:
+    nonumber: true
+
   - title: "Disjoint Sets / Introduction to Graphs"
     readings:
       - name: "Chapter 14"
         link: https://cs61b-2.gitbook.io/cs61b-textbook/14.-disjoint-sets
-
-  - title:
-    nonumber: true
-
-  - title:
-    nonumber: true
 
   - title:
     nonumber: true
