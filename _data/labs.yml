@@ -159,12 +159,12 @@ labs:
   - title: "None"
     nonumber: True
     rowspan: 1
-  - title: "Office Hours"
-    nonumber: True
   - title: "Graphs"
-    due: "2026/07/22"
+    due: "2026/07/21"
     link: labs/lab14
     show_links: false
+  - title: "Project 2B Office Hours"
+    nonumber: True
   - title: "Hashing"
     due: "2026/07/23"
     link: labs/lab15
