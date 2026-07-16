@@ -173,7 +173,7 @@ labs:
     due: "2026/07/24"
     link: labs/lab16
     show_links: false
-  - title: "Exam Prep 3: Hashing, Heaps, and Union Find"
+  - title: "Exam Prep 3: Hashing, Heaps, and Graphs"
     examprep: True
     video: false
     # worksheet: https://drive.google.com/file/d/1vwl6F3T8W_-ws_UY8NKSuTWqcRahI3IS/view?usp=sharing
@@ -198,7 +198,7 @@ labs:
     due: "2026/07/31"
     link: labs/lab20
     show_links: false
-  - title: "Exam Prep 4: Graphs"
+  - title: "Exam Prep 4: Disjoint Sets, MSTs, and SPTs"
     examprep: true
     video: false
     # worksheet: https://drive.google.com/file/d/1e5--z-MvpO7D8RukzloS13xeRm1NrVaP/view?usp=sharing
