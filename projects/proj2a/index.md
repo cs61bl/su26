@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Project 2A: Ngordnet (NGrams)"
+title: "Project 2A: NGrams"
 nav_order: 3
 parent: Projects
 has_children: true

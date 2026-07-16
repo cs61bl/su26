@@ -68,15 +68,17 @@ You may have also noticed that the `Plotter` class and the other handlers are no
 {: .TASK}
 > Follow the instructions in the [Data](/proj2/proj2-data/#wordnet) spec to get the Wordnet data. There, you'll find descriptions of the dataset. Make sure you understand how each file is structured so you can read and parse it.
 
-## Optional Task: Checkpoint
+## Optional Tasks: Design and Checkpoint
 
 {: .TASK}
-[Project 2B: Wordnet Checkpoint](https://www.gradescope.com/courses/1318601/assignments/8287569/) is a conceptual assignment testing your understanding of Wordnet. Although this is optional, we highly recommend completing this before designing your project to ensure you have a correct understanding of Wordnet.
+> [Project 2B: Wordnet Design](/proj2/proj2-design) is a design assignment for you to plan your approach for Wordnet before implementing it. Although this is optional, we highly recommend attempting this to ensure you have a plan before coding Wordnet.
+>
+> Additionally, [Project 2B: Wordnet Checkpoint](https://www.gradescope.com/courses/1318601/assignments/8287569/) is a conceptual assignment testing your understanding of Wordnet. We highly recommend completing this to ensure you have a correct understanding of Wordnet.
 
 ## Task 1: Dummy HyponymsHandler
 
 {: .TASK}
-> 1. Open the `ngordnet.html` file in the `static` folder in your **web browser**, just like how you did for Project 2A. Go [here](/proj2/proj2a/#task-3-historytexthandler) for a refresher on how to do this. You'll see two new things: "Hyponyms" button and `k` input. Ignore the `k` input for now.
+> 1. Open the `ngordnet.html` file in the `static` folder in your **web browser**, just like how you did for Project 2A. Go [here](/projects/proj2a/#task-4-historytexthandler) for a refresher on how to do this. You'll see two new things: "Hyponyms" button and `k` input. Ignore the `k` input for now.
 > 2. Try clicking the Hyponyms button. You'll see nothing happens (and if you open the developer tools feature of your web browser, you'll see that your browser shows an error).
 
 In Project 2B, your primary objective is to implement this button, which will require reading in a different type of dataset and synthesizing the results with the dataset from Project 2A. Unlike 2A, it will be entirely up to you to decide what classes/methods you create to help with this task.
