@@ -242,6 +242,9 @@ If you want to check your work, consider using [this visualization tool][] from 
 appropriately (degree = 3 for 2-3 trees). They have a few more interesting visualizations on their site
 if you want to use as a resource at a later point.
 
+{: .WARNING}
+> Unfortunately, this resource has been removed. As an alternative, feel free to use Josh's LLRB [visualization tool](https://joshh.ug/61b/llrb/index.html).
+
 To get the starting tree for (1), a sequence of insertions is
 3, 5, 7, 1, 9, 4, 8.
 
