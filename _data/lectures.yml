@@ -185,6 +185,7 @@ lectures:
     nonumber: true
 
   - title: "Graph Traversals, DAGs, Topological Sorts"
+    slides: "https://docs.google.com/presentation/d/1YV3Mx9ze_zvtlZryONPLICRgiAYEelOoWXJGg4ey_Ew/edit?usp=sharing"
     readings:
       - name: "Chapters 22.3-22.4"
         link: https://cs61b-2.gitbook.io/cs61b-textbook/22.-tree-traversals-and-graphs/22.3-graphs
