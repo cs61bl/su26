@@ -11,6 +11,10 @@ toc_max_heading: 2 # hide h3 headings from table of contents
 {% capture update %}{% include proj2-update.html %}{% endcapture %}
 {{ update | markdownify }}
 
+## Please Do Not Cheat in CS61BL
+
+<iframe width="560" height="315" src="https://drive.google.com/file/d/1-9aZe262NR4d91HpiWxYbTLqY8XGZuLv/preview" title="Please Do Not Cheat in CS61BL" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+
 ## Code Interview
 
 {: .IMPORTANT}
