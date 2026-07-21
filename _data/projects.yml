@@ -97,7 +97,7 @@ projects:
   # - nonumber: true
   #   rowspan: 4
   - title: "Project 2A: NGrams"
-    link: "/projects/proj2a"
+    link: "/proj2/proj2a"
     show_links: true
     due: "2026/07/15"
     classes:

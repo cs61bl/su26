@@ -1,24 +1,16 @@
 ---
 layout: page
-title: "DO NOT USE: Project 2A: NGrams"
+title: "Project 2A: NGrams"
+parent: Project 2
 nav_order: 1
 toc_max_heading: 2 # hide h3 headings from table of contents
-nav_exclude: true
+nav_exclude: false
 ---
 
 ## Spec Update
 
 {% capture update %}{% include proj2-update.html %}{% endcapture %}
 {{ update | markdownify }}
-
-## Unreleased
-
-{: .IMPORTANT}
-> Since some students may still be working on Project 2A: NGrams, we are leaving the original Project 2A spec
-> up [here](/projects/proj2a/). Please refer to this one for now.
->
-> The new spec below will replace the original one once we are finished running the Project 2A: NGrams assignment (e.g. when
-> no one is actively working on it).
 
 # Project 2A: NGrams
 
