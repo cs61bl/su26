@@ -197,7 +197,8 @@ lectures:
   - title:
     nonumber: true
 
-  - title: "Hashing, Heaps, and Priority Queues"
+  - title: "Hashing, Heaps, and Priority Queues (Daniel Wang)"
+    slides: "https://docs.google.com/presentation/d/1Dd8q-E1PddAR-9TzzZ0FaWG4VupklMy7UHtKJxsQ-qU/edit?usp=sharing"
     readings:
       - name: "Chapter 19"
         link: https://cs61b-2.gitbook.io/cs61b-textbook/19.-hashing-i
