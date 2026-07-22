@@ -168,7 +168,7 @@ labs:
   - title: "Hashing"
     due: "2026/07/23"
     link: labs/lab15
-    show_links: false
+    show_links: true
   - title: "Heaps and Priority Queues"
     due: "2026/07/24"
     link: labs/lab16
