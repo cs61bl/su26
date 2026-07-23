@@ -110,8 +110,8 @@ homeworks:
       - "schedule-yellow"
   - title: "Homework 5"
     due: "2026/07/28"
-    link: ""
-    show_links: false
+    link: "https://www.gradescope.com/courses/1318601/assignments/8321271/"
+    show_links: true
     rowspan: 5
     classes:
       - "schedule-yellow"
