@@ -12,6 +12,18 @@ nav_exclude: false
 {% capture update %}{% include proj2-update.html %}{% endcapture %}
 {{ update | markdownify }}
 
+## Code Interview
+
+All students who submit Project 2 must complete a code interview. The interview will be about 15 minutes in length, and will test your conceptual understanding of the project and the code that you wrote. You will have access to your Project 2 code during the interview.
+
+You are expected to complete this interview in-person. Interviews will take place from 7/27 to 7/31.
+
+If you cannot demonstrate understanding of the project (or fail to complete a code interview at all), your **project grade will be replaced with a 0**.
+
+We want to stress that we **don’t want you to fail**. The interview will be structured such that, if you are able to demonstrate a reasonable level of understanding, you will pass.
+
+If you have any concerns about completing this interview, please email [cs61bl@berkeley.edu](mailto:cs61bl@berkeley.edu) before the 7/26 deadline. Otherwise, we cannot guarantee any accommodations.
+
 # Project 2A: NGrams
 
 {: .NOTE}
