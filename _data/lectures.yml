@@ -209,6 +209,7 @@ lectures:
     nonumber: true
     readings:
       - name: "Chapter 21"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/21.-heaps-and-priority-queues
 
   - title:
     nonumber: true
