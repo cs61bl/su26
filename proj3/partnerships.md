@@ -5,7 +5,7 @@ parent: Project 3
 ---
 
 ## Policies and Deadlines
-Partnerships are **due April 10th** at 11:59 PM. After this time, if you do not have a partner yet, you will be randomly assigned.
+Partnerships are **due July 26thth** at 11:59 PM. After this time, if you do not have a partner yet, you will be randomly assigned.
 
 + If you are in 61B, you are required to and may only partner with other 61B students
 + If you are in 47B, partners are optional, but you may only partner with other 47B students
