@@ -5,9 +5,9 @@ title: >-
 has_children: true
 parent: Labs
 has_toc: false
-nav_exclude: true
+nav_exclude: false
 has_right_toc: true
-released: false
+released: true
 ---
 
 ## [FAQ](faq)
@@ -523,9 +523,6 @@ and/or `bubbleDown`, and when you implement `bubbleUp` and `bubbleDown`, you
 should be using the methods you wrote above (such as `getLeft`, `getRight`,
 `getParent`, and `min`) and the ones provided in the skeleton (such as `swap`
 and `setElement`).
-
-{: .warning}
->**Do not use the `removeLast` method for `ArrayList`s!** The autograder is running on an older version of Java that doesn't recognize this method, so you will get a compilation error. Instead, use the `remove(int index)` or `remove(Object o)` methods.
 
 {: .warning}
 >**It is highly recommended to use the `swap` and `setElement` methods if you
