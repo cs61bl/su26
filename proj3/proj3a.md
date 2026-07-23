@@ -37,7 +37,7 @@ The system you build can either use graphical tiles (as shown above), or it can 
 
 <img alt="Screenshot of Brogue." src="/assets/projects/proj3a/2-brogue.webp">
 
-We will provide a tile renderer and a small set of starter tiles for you to use. This will be the same tile renderer you used in Project 0 and 3.
+We will provide a tile renderer and a small set of starter tiles for you to use.
 
 ### Project Roadmap
 
