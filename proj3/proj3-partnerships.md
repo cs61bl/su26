@@ -17,7 +17,7 @@ toc_max_heading: 3 # hide h4 headings from table of contents
 Follow the instructions below to create your group in beacon!
 
 {: .WARNING}
-This is due on **August 2nd at 12:00 PM**. If you do not create a partnership by then, you will be **randomly assigned**, so make sure you get this done!
+This is due on **July 26th at 12:00 PM**. If you do not create a partnership by then, you will be **randomly assigned**, so make sure you get this done!
 
 {: .NOTE}
 For policies, tips and general FAQ regarding partnerships, checkout the [Partnership Guide](/proj3/partnerships) for more info.
