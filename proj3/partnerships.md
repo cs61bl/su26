@@ -13,12 +13,12 @@ Partnerships are **due July 26th** at 11:59 PM. After this time, if you do not h
 
 ## Partnership Structure
 
-For Project 5, we require that you work in pairs (optional for 47B
+For Project 3, we require that you work in pairs (optional for 47B
 ), unless you have a special
 reason that prevents you from doing so. This term, we are not allowing
 partnerships on any other assignments.
 
-### Why Partnerships on Project 5?
+### Why Partnerships on Project 3?
 
 The process of working on a team can be quite different than working alone, and
 it's great practice to learn how to efficiently work with other people,
@@ -122,9 +122,9 @@ into a new group.
 
 Please keep in mind:
 - A new group repo will be created for both of you to work in.
-- You will be required to submit a new design document for Project 5A by the      
-  Project 5B deadline. If you do not, you will not be awarded points for Project 5A.
-- All re-pair requests will be processed by the Project 5A deadline, please      
+- You will be required to submit a new design document for Project 3A by the      
+  Project 3B deadline. If you do not, you will not be awarded points for Project 3A.
+- All re-pair requests will be processed by the Project 3A deadline, please      
   submit your request before then.
 
 If we find that your reason for re-pairing is not within reason, we will treat it
