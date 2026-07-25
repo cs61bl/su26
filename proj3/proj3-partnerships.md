@@ -29,7 +29,7 @@ For policies, tips and general FAQ regarding partnerships, checkout the [Partner
 
    After sending the request, it will appear as **pending** until your partner responds.
 
-2. Your partner will see an **Incoming Group Request** by navigating to the same [Beacon](https://beacon.datastructur.es/groups/) page, where they can either Accept or Reject the request.
+2. Your partner will see an **Incoming Group Request** by navigating to the same [Beacon](https://beacon.datastructur.es/partners/) page, where they can either Accept or Reject the request.
 
    <img alt="Beacon Accept or Reject Request." src="/assets/projects/proj3a/7-ptnrships2.webp">
 
