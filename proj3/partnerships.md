@@ -105,7 +105,7 @@ for you.
 
 {: .NOTE}
 We will not be accepting anymore partnership dissolution requests after the Project
-5B deadline.
+3B deadline.
 
 ### Re-Pairings
 
@@ -132,4 +132,4 @@ as [academic misconduct](/policies/academic-misconduct).
 
 {: .NOTE}
 We will not be accepting anymore partnership re-pairing requests after the Project
-5A deadline.
+3A deadline.
