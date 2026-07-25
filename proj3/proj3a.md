@@ -124,7 +124,7 @@ Once you’ve completed the above steps, you should see your new group repo call
 {: .NOTE}
 > [A walkthrough of the skeleton code and demos is available here.](https://youtu.be/2VMoC4eMj7Y) 
 > 
-> We also highly recommend watching [Lecture 31](https://youtu.be/BRsuHSQ800U) before beginning this project.
+> We also highly recommend watching [This Lecture](https://youtu.be/BRsuHSQ800U) before beginning this project.
 
 In the `TileEngine` package, you'll find the following useful files:
 
