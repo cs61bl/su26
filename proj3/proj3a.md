@@ -26,8 +26,6 @@ In accordance with this, the grading of this project will be different from othe
 2. Recognize and mitigate code complexity. Inevitably, whenever a team builds a large software system, they'll make some bad design decisions and cut corners, resulting in "technical debt". Your code becomes complicated to understand and modify, which in the real world translates to software that becomes stale and expensive to maintain. It is *very likely* that your code will feel sort of hacked together by the end of this project. As you grow as a programmer over the course of your career, arguably the main skill you'll be building is to avoid such hacks. However, the only way to know and defeat this is to suffer from it.
 3. Exploring and experimenting with resources. Know that there are no right and wrong answers, as this is a very open-ended project. In fact, it is not required to use any of the data structures from class, but it will likely make your solution significantly simpler and more efficient. You will likely go through several iterations before settling on your final implementation
 
-{: .NOTE}
-*Don't miss the Software Engineering I lecture*, in which I'll go through John Ousterhout's great book about managing software complexity.
 
 [A video playlist (from Spring 2018) discussing tips for working on this project can be found at this link](https://www.youtube.com/playlist?list=PL8FaHk7qbOD6REWjsJd5jz9fpXO5_3ebY&disable_polymer=true) Note: The tour through the skeleton code is a bit out of date, for example, the `playWithKeyboard` and `playWithInputString` methods are gone.
 
@@ -39,7 +37,7 @@ The system you build can either use graphical tiles (as shown above), or it can 
 
 <img alt="Screenshot of Brogue." src="/assets/projects/proj3a/2-brogue.webp">
 
-We will provide a tile renderer and a small set of starter tiles for you to use. This will be the same tile renderer you used in Project 0 and 3.
+We will provide a tile renderer and a small set of starter tiles for you to use.
 
 ### Project Roadmap
 
@@ -126,7 +124,7 @@ Once you’ve completed the above steps, you should see your new group repo call
 {: .NOTE}
 > [A walkthrough of the skeleton code and demos is available here.](https://youtu.be/2VMoC4eMj7Y) 
 > 
-> We also highly recommend watching [Lecture 31](https://youtu.be/BRsuHSQ800U) before beginning this project.
+> We also highly recommend watching [This Lecture](https://youtu.be/BRsuHSQ800U) before beginning this project.
 
 In the `TileEngine` package, you'll find the following useful files:
 
