@@ -228,7 +228,7 @@ lectures:
 
   - title: "Shortest Paths + MSTs"
     readings:
-      - name: "Chapter 24"
+      - name: "Chapter 24 (Ignore A*)"
         link: https://cs61b-2.gitbook.io/cs61b-textbook/24.-shortest-paths
   
   - title:
