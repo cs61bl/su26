@@ -1,9 +1,9 @@
 <td class="{{ include.element.classes | join ' ' }}" rowspan="{{ include.rowspan }}">
 {%- for reading in include.element.readings -%}
-  {% if forloop.last == false %}
-    <a href="{{ reading.link | relative_url }}">{{ reading.name }},</a>
-  {% else %}
-    <a href="{{ reading.link | relative_url }}">{{ reading.name }}</a>
-  {% endif %}
+  {%- if forloop.last == false -%}
+    <a href="{{ reading.link | relative_url }}">{{ reading.name }}</a>{% if reading.note %}<br><small style="font-size: 0.85em; display: inline-block;">({{ reading.note }})</small>{% endif %},
+  {%- else -%}
+    <a href="{{ reading.link | relative_url }}">{{ reading.name }}</a>{% if reading.note %}<br><small style="font-size: 0.85em; display: inline-block;">({{ reading.note }})</small>{% endif %}
+  {%- endif -%}
 {%- endfor -%}
 </td>

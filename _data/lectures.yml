@@ -230,6 +230,7 @@ lectures:
     readings:
       - name: "Chapter 24"
         link: https://cs61b-2.gitbook.io/cs61b-textbook/24.-shortest-paths
+        note: "(Ignore A*)"
   
   - title:
     nonumber: true
