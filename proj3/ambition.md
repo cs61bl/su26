@@ -21,10 +21,10 @@ released: true
 
 ## Ambition Features
 
-90 points of your project score will be based on features of your choosing, which we call your "ambition score". The big idea is that beyond the base requirements of this project, we want you to try to polish your product a bit more and add some cool features. Below is a list of features worth either 60 points (primary feature) or 30 points (secondary feature).
+12 points of your project score will be based on features of your choosing, which we call your "ambition score". The big idea is that beyond the base requirements of this project, we want you to try to polish your product a bit more and add some cool features. Below is a list of features worth either 60 points (primary feature) or 30 points (secondary feature).
 
-From these two categories, you need to implement 90 points of features, and at least one of your features must be a primary feature. There will be no extra credit beyond
-the 90 points for this. Here are some ways to achieve this:
+From these two categories, you need to implement 12 points of features, and at least one of your features must be a primary feature. There will be no extra credit beyond
+the 12 points for this. Here are some ways to achieve this:
 - One primary feature and one secondary feature. This is the most common way.
 - Two primary features.
 
@@ -38,11 +38,14 @@ Under the description of some primary features, we've provided some GIFS that wo
 
 ### Custom Ambition Features
 
-You are not restricted to the features we list below! We strongly encourage you to come up with your own. We have an Ed megathread ([Custom Ambition Feature Request Ed thread](https://edstem.org/us/courses/91787/discussion/7903607)) where you can run your ideas by us to confirm that it meets our standards.
+You are not restricted to the features we list below! We strongly encourage you to come up with your own. We have an Ed megathread ([Custom Ambition Feature Request Ed thread](https://edstem.org/us/courses/99666/discussion/8178005)) where you can run your ideas by us to confirm that it meets our standards.
+
+{: .WARNING}
+As a reminder, you may only receive points for custom ambition features that we **approve** in the [Custom Ambition Feature Request Ed thread](https://edstem.org/us/courses/99666/discussion/8178005).
 
 {: .NOTE}
-> We cannot guarantee custom ambition feature approvals after the 5A deadline, April 15, though we will try our best to get through every request.
-> We will officially close responses to the thread after the 5B deadline, April 21.
+> We cannot guarantee custom ambition feature approvals after the Project 3A deadline, though we will try our best to get through every request.
+> We will officially close responses to the thread after the Project 3B deadline.
 
 ### Files
 
@@ -52,39 +55,39 @@ In addition, use *relative file paths* instead of absolute file paths. For insta
 
 Doing both of these steps will allow anyone who has your project on their laptop to be able to view and use your files.
 
-## Primary Features (80 points)
+## Primary Features (8 points)
 
 - **Line of Sight**: Create a system so that the tile renderer only displays tiles on the screen that are within the line of sight of the avatar. The line of sight must be able to be toggled on and off with a keypress. Note the line of sight should NOT go through walls although it is fine to be able to wrap around walls/corners. This also means that the line of sight must be long enough such that we can tell if it goes through a wall or not. Here are two examples of line of sight features that we will NOT accept:
 
-    [![line-of-sight](/assets/projects/proj5c/line-of-sight-bad1.gif)](/assets/projects/proj5c/line-of-sight-bad1.gif)
+    [![line-of-sight](/assets/projects/proj3b/line-of-sight-bad1.gif)](/assets/projects/proj3b/line-of-sight-bad1.gif)
 
-    [![line-of-sight](/assets/projects/proj5c/line-of-sight-bad2.gif)](/assets/projects/proj5c/line-of-sight-bad2.gif)
+    [![line-of-sight](/assets/projects/proj3b/line-of-sight-bad2.gif)](/assets/projects/proj3b/line-of-sight-bad2.gif)
 
     On the other hand, here is what an acceptable solution would look like:
 
-    [![line-of-sight](/assets/projects/proj5c/line-of-sight-good.gif)](/assets/projects/proj5c/line-of-sight-good.gif)
+    [![line-of-sight](/assets/projects/proj3b/line-of-sight-good.gif)](/assets/projects/proj3b/line-of-sight-good.gif)
 
     Note how the correct one isn't based on any certain shape (the example is a diamond but a width by height box also will not be allowed) but rather "moves" along with how the character moves. Solutions that are based on showing a box/diamond centered on the character will not be allowed/given full credit.
 
 - **Light Sources**: Add the ability for light sources to affect how the world is rendered, with at least one light source that can be turned on and off with a keypress. The intensity of the light must diminish in a gradient as the distance from the source increases. Light sources should fill a majority of the room it belongs to, and light should not pass through walls.
 
-    [![toggle-lights](/assets/projects/proj5c/toggle-lights.gif)](/assets/projects/proj5c/toggle-lights.gif)
+    [![toggle-lights](/assets/projects/proj3b/toggle-lights.gif)](/assets/projects/proj3b/toggle-lights.gif)
 
 - **Encounters**: Create a system for “encounters”, where a new interface appears when the avatar interacts with entities in the world, returning the avatar to the original interface when the encounter ends (e.g. Pokémon). Note that the world must be in the same state it was before the encounter, after the encounter ends. It's okay if save/load is not available during encounters.
 
-    [![encounter](/assets/projects/proj5c/encounter.gif)](/assets/projects/proj5c/encounter.gif)
+    [![encounter](/assets/projects/proj3b/encounter.gif)](/assets/projects/proj3b/encounter.gif)
 
 - **Undo, Redo and Restart**: Add the ability to undo moves, redo moves, and reset your world using three different keypresses. The redo key should do nothing if the most recent action was not an undo.
 
 - **Perspective**: Add the ability for the user to change the perspective of their view (first-person, isometric 2.5D, 3D, etc.) (We've never seen anyone do isometric 2.5D or full 3D before! The Nintendo 64 game '[Kirby 64 - The Crystal Shards](https://www.youtube.com/watch?v=5uu2TWli-_M)' is an example of what an isometric 2.5D world looks like). One particularly interesting example is [Dorottya Urmossy and David Yang's Fall 2022 submission](https://www.youtube.com/watch?v=XJBQYucuAKc&t=94s), which is a 2.5D first-person view, i.e. the world is 3D but the entities are 2D. 
 
-    [![perspective](/assets/projects/proj5c/perspective.gif)](/assets/projects/proj5c/perspective.gif)
+    [![perspective](/assets/projects/proj3b/perspective.gif)](/assets/projects/proj3b/perspective.gif)
 
 - **Battle System**: Implement a battle system that allows players to interact with moving enemies and obstacles. Assign the player a health value, place collectibles that restore health around the map, and create randomly-moving enemies/objects that inflict damage on and receive damage from the player.
 
 - **Explorer**: Make your world larger than the preset display size such that the player can "explore" beyond the starting world. The rendered world should move with the player beyond a certain point and be scrollable.
 
-- **Wrap**: Make your world "wrap" around the border of the rendered world, where the player should be able to enter from one side of the screen and exit from the opposite side interchangeably. In order to wrap, you must have rooms on the edge of the world that clip off such that the opposite side also has a room that is clipped off, allowing the player to continue traveling on the floor tiles. The world should still follow the [World Requirements](../proj5b/#world-requirements) from Part B excluding requirement #10.
+- **Wrap**: Make your world "wrap" around the border of the rendered world, where the player should be able to enter from one side of the screen and exit from the opposite side interchangeably. In order to wrap, you must have rooms on the edge of the world that clip off such that the opposite side also has a room that is clipped off, allowing the player to continue traveling on the floor tiles. The world should still follow the [World Requirements](../proj3a/#world-requirements) from Project 3A excluding requirement #10.
 
 - **Online Multiplayer**: Add online multiplayer where other users can join and leave the current game. `java.net.Socket` might be useful here. All players must have the ability to do interactivity (moving, save/load, etc)
 
@@ -94,7 +97,7 @@ Doing both of these steps will allow anyone who has your project on their laptop
 
 - **Altered Terrain**: Implement the ability for the avatar to significantly alter the landscape of the world, e.g. digging, triggering traps that cause parts of the world to become dangerous or impassible, solving puzzles that make some rooms accessible only after fulfilling some objective.
 
-## Secondary Features (30 points)
+## Secondary Features (4 points)
 
 - **Replay**: Add the ability for the user to "replay" their most recent save, visually displaying all the actions taken since the last time a new world was created. This must result in the same final state as would occur if the user had loaded the most recent save. This means that the game should be playable once the replay is complete.
 

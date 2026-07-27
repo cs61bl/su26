@@ -5,16 +5,17 @@ parent: Project 3
 ---
 
 ## Policies and Deadlines
-Partnerships are **due July 26th** at 11:59 PM. After this time, if you do not have a partner yet, you will be randomly assigned.
 
-+ If you are in 61B, you are required to and may only partner with other 61B students
-+ If you are in 47B, partners are optional, but you may only partner with other 47B students
-+ If you are retaking 61B, you may only partner with those who are also retaking the class
+Partnerships are **due Sunday, July 26th at 12:00 PM**. After this time, if you do not have a partner yet, you will be
+randomly assigned.
+
+- 47B students can only partner with 47B students.
+- Students retaking the class can only partner with students retaking the class.
+- Students retaking the class who plan on reusing their code cannot have a partner and must work solo.
 
 ## Partnership Structure
 
-For Project 3, we require that you work in pairs (optional for 47B
-), unless you have a special
+For Project 3, we require that you work in pairs (optional for 47B), unless you have a special
 reason that prevents you from doing so. This term, we are not allowing
 partnerships on any other assignments.
 
@@ -76,10 +77,10 @@ Sometimes your partnership just doesn't work out for a variety of reasons. In
 extremely dire cases, we will allow a dissolving of a partnership. Here are
 some reasons we've dissolved partnerships in the past:
 
-1.  A one-sided partnership. This means your partner hasn't done any work on
-    the assignment despite many attempts at communication.
-2.  A variety of personal reasons where a student was uncomfortable.
-3.  One partner has dropped the class.
+1. A one-sided partnership. This means your partner hasn't done any work on
+   the assignment despite many attempts at communication.
+2. A variety of personal reasons where a student was uncomfortable.
+3. One partner has dropped the class.
 
 To submit a dissolution request, go to the Groups tab on Beacon and select a      
 reason. Your reason will not be disclosed to your group members. Once staff have
@@ -88,29 +89,27 @@ the dissolution. In the meantime, you can proceed as if your dissolution request
 has been approved.
 
 Please keep in mind the following partner policies:
-- You should have attempted to contact your partner at least a few times. 
-- You should not be dissolving your group to be in another group. 
+
+- You should have attempted to contact your partner at least a few times.
+- You should not be dissolving your group to be in another group.
 - Finally, requesting a dissolution should be a last resort
 
 If we find that your reason for dissolving is not within reason, we will treat it
 as [academic misconduct](/policies/academic-misconduct).
-
-If we find that you are not attempting to establish contact with your partner and
-work with them, you will not be awarded points for partnership formation.
 
 Once your group has been dissolved, you and your original partner will lose write
 access to your original group repo. You can still read and use your original code,
 however you will need to work in a new individual group repo that has been made
 for you.
 
-{: .NOTE}
-We will not be accepting anymore partnership dissolution requests after the Project
-3B deadline.
+{: .DANGER}
+> We will not be accepting anymore partnership dissolution requests after the Project
+> 3A deadline.
 
 ### Re-Pairings
 
 If your group has been dissolved and you are currently working solo, or
-if you a 47B student who wasn't originally paired, you may  request to be re-paired
+if you are a 47B student who wasn't originally paired, you may request to be re-paired
 with another student in a similar situation. To be eligible, you must have already
 dissolved your group and be in a solo group. 47B students will only be re-paired
 with other 47B students.
@@ -121,15 +120,14 @@ and your new partner will both receive an email confirming you have been re-pair
 into a new group.
 
 Please keep in mind:
+
 - A new group repo will be created for both of you to work in.
-- You will be required to submit a new design document for Project 3A by the      
-  Project 3B deadline. If you do not, you will not be awarded points for Project 3A.
 - All re-pair requests will be processed by the Project 3A deadline, please      
   submit your request before then.
 
 If we find that your reason for re-pairing is not within reason, we will treat it
 as [academic misconduct](/policies/academic-misconduct).
 
-{: .NOTE}
+{: .DANGER}
 We will not be accepting anymore partnership re-pairing requests after the Project
 3A deadline.

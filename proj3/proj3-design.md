@@ -14,7 +14,7 @@ toc_max_heading: 3 # hide h4 headings from table of contents
 ## Note on Grading
 
 {: .IMPORTANT}
-> For {{ site.semester_full }}, **we are NOT grading thi assignment as it is considered optional**. However, we will
+> For {{ site.semester_full }}, **we are NOT grading this assignment as it is considered optional**. However, we will
 > grade it based on effort to determine whether you receive the recovery points. Make sure to submit this before the
 > Project 3A: World Generation deadline in order to be eligible to receive recovery points. Additionally, if you'd
 > like feedback on your design doc, feel free to ask in lab.
@@ -53,8 +53,7 @@ also linked in the assignment below.
 > On the other hand, the data of your program is. What type of data do you expect to save and load?
 
 {: .WARNING}
-> If you expect to work on this project during office hours, we may ask to see your design document to help understand
-> your approach. As such, please put effort into this assignment! Grasping project requirements in the design phase
+> We may ask to see your design document to help understand your approach. As such, please put effort into this assignment! Grasping project requirements in the design phase
 > will help immensely during the later implementation phases.
 
 ### Design Tips
@@ -119,17 +118,13 @@ We've included below a few questions for you to consider while brainstorming you
 
 {: .TASK}
 > Submit your design document on
-> gradescope: [Project 3: BYOW Design](https://www.gradescope.com/courses/1318601/assignments/8321280/) (TODO recovery
+> gradescope: [Project 3: BYOW Design](https://www.gradescope.com/courses/1318601/assignments/8321280/) (4 recovery
 > points)
 >
 > Don't forget to add your partner to the submission!
 
 The score you receive on Gradescope is your final score for this assignment (assuming you followed
 the [collaboration policy](/policies/#collaboration-policy)).
-
-TODO: While we're unable to give detailed individual feedback for each TDD, we'll aggregate common mistakes we notice and
-showcase them (as well as implementation hints...) in assignment section during Week 13 (11/17-11/21). As always, come
-to office hours if you want specific feedback from 61B staff!
 
 {: .NOTE}
 > A note on grading, we are looking for thoughtfulness and effort. In other words, you do not have to be correct in

@@ -10,6 +10,7 @@ has_toc: false
 has_right_toc: true
 description: >-
   Project 3B spec.
+toc_max_heading: 3 # hide h4 headings from table of contents
 released: true
 ---
 
@@ -19,6 +20,17 @@ released: true
 {{ deadlines | markdownify }}
 
 # Project 3B: BYOW (Interactivity)
+
+## Large Language Model (LLM) Policy
+
+Recall that in the collaboration policy, we say:
+
+{: .danger}
+> **DANGER: LLMs are Prohibited from Accessing or Interacting with Code and Repositories**
+>
+> You must **never** allow an LLM or any GenAI tool to read, analyze, or interface with your codebase or your GitHub repository in any way. This means all local and terminal-based tools (such as **Claude Code**), GitHub Copilot, built-in IDE extensions (e.g., Cursor, IntelliJ AI Assistant), or any other agentic coding tools are **outright banned**.
+>
+> You may **ONLY** interact with LLMs and GenAI tools conceptually, and this interaction must take place **exclusively through browser-based chatbots** (such as chatgpt.com or claude.ai).
 
 ## Task 1: Main Menu
 
@@ -174,12 +186,12 @@ Here are some cases of undefined behavior. Remember, undefined behavior means yo
 - If there is no previous save, and the user presses `L` or `l` on the main menu, the behavior is undefined.
 - If the user quits the program some other way (e.g. quits IntelliJ, or unplugs their computer), the behavior is undefined. You don't need to save anything in this case.
 
-## Task 5: Pathfinding
+## Task 5: Pathfinder
 
 Now, we are going to add the ability for movement by clicking on a tile, rather than just using keyboard (WASD) movements.
 
 {: .TASK}
-Implement pathfinding according to the requirements listed below
+> Implement pathfinding according to the requirements listed below
 
 - When a user clicks on a tile, draw a distinct path to that point. Note that this path must go through only floor or other traversable tiles. This path must be the **shortest possible path**. There may/will be multiple shortest paths, any of these are valid.
 
@@ -201,11 +213,13 @@ public void someMethod() {
 ```
 
 {: .TASK}
-> Implement at least **one primary** Ambition Feature and **one secondary** Ambition Feature either from the list below or of your choosing. 
-> Saving and loading MUST save the state of your ambition feature.
+> Implement at least **one primary** Ambition Feature and **one secondary** Ambition Feature either from the list below or an **approved** feature from the [Custom Ambition Feature Request Ed thread](https://edstem.org/us/courses/99666/discussion/8178005). 
+> 
+> Saving and loading **MUST** save the state of your ambition feature.
+> 
 > You are more than welcome to implement more than the minimum requirement, such as two primary Ambition Features, etc.
 > 
-> If you'd like to implement your own feature(s), please ask on the [Feature Request Ed thread]() and ask ***early*** so we can let you know if your feature is approved!
+> If you'd like to implement your own feature(s), please ask on the [Custom Ambition Feature Request Ed thread](https://edstem.org/us/courses/99666/discussion/8178005) and ask ***early*** so we can let you know if your feature is approved.
 
 [For a list of pre-approved ambition features, see our ambition features list.](../ambition)
 
@@ -220,13 +234,11 @@ public void someMethod() {
 
 Submit the code of the game you want us to grade to Gradescope.
 
-There is an autograder, and this will also be the submission that must be used during your live checkoff (see below).
-
 The code you present during your live checkoff needs to be the same as the code you submitted to Gradescope.
 
 ### Live Checkoff
 
-Project 3B will be partially graded in a live checkoff with a TA. These checkoffs will happen during the last week of class, before RRR week. Checkoffs are held in-person, though we will have a very limited number of remote checkoffs for documented reasons (e.g. sickness).
+Project 3B will be graded in a live checkoff with a TA. These checkoffs will happen on 8/10.
 
 Exact details, including how to sign up for a checkoff slot, will be posted on Ed closer to the start of checkoffs.
 

@@ -3,7 +3,7 @@ layout: page
 title: "Project 3A: BYOW (World Generation)"
 parent: Project 3
 nav_order: 0
-toc_max_heading: 2 # hide h3 headings from table of contents
+toc_max_heading: 3 # hide h4 headings from table of contents
 ---
 
 ## Deadlines
@@ -26,7 +26,6 @@ In accordance with this, the grading of this project will be different from othe
 2. Recognize and mitigate code complexity. Inevitably, whenever a team builds a large software system, they'll make some bad design decisions and cut corners, resulting in "technical debt". Your code becomes complicated to understand and modify, which in the real world translates to software that becomes stale and expensive to maintain. It is *very likely* that your code will feel sort of hacked together by the end of this project. As you grow as a programmer over the course of your career, arguably the main skill you'll be building is to avoid such hacks. However, the only way to know and defeat this is to suffer from it.
 3. Exploring and experimenting with resources. Know that there are no right and wrong answers, as this is a very open-ended project. In fact, it is not required to use any of the data structures from class, but it will likely make your solution significantly simpler and more efficient. You will likely go through several iterations before settling on your final implementation
 
-
 [A video playlist (from Spring 2018) discussing tips for working on this project can be found at this link](https://www.youtube.com/playlist?list=PL8FaHk7qbOD6REWjsJd5jz9fpXO5_3ebY&disable_polymer=true) Note: The tour through the skeleton code is a bit out of date, for example, the `playWithKeyboard` and `playWithInputString` methods are gone.
 
 Your task for the next few weeks is to design and implement a 2D tile-based world exploration engine. As an example of a much more sophisticated system than you will build, the NES game "Zelda II" is (sometimes) a tile based world exploration engine that happens to be a video game:
@@ -39,14 +38,14 @@ The system you build can either use graphical tiles (as shown above), or it can 
 
 We will provide a tile renderer and a small set of starter tiles for you to use.
 
-### Project Roadmap
+#### Project Roadmap
 
 1. Implement code to generate random worlds (Project 3A).
 2. Add a main menu for the user to start the game from (Project 3B).
 3. Add support for saving a game and loading it back (Project 3B).
 4. Add several game mechanics/features to your project (Project 3B).
 
-### Large Language Model (LLM) Policy
+## Large Language Model (LLM) Policy
 
 Recall that in the collaboration policy, we say:
 
@@ -67,7 +66,7 @@ Recall that in the collaboration policy, we say:
 The setup for this project is different from all other assignments so far. **Read this carefully and do not skip any steps!**
 
 {: .TASK}
-Follow the instructions below after partnerships have been released to use your group repo. Make sure to provide a screenshot of your group repository to submit to gradescope to show that you have accepted the invite.
+Follow the instructions below after partnerships have been released to use your group repo.
 
 {: .WARNING}
 > You need to accept your Github repo invite **within a week** of it being sent, or else it will expire, and you will not be able to work on the project.
@@ -76,7 +75,7 @@ Follow the instructions below after partnerships have been released to use your 
 
     <img alt="Github repo invite email." src="/assets/projects/proj3a/3-github-invite.webp">
 
-2. Screenshot your github repo like below, showing that you have accepted the invite. Here is an example
+2. Here is an example of what your repo should look like after accepting the invite.
 
    <img alt="Github repo proof" src="/assets/projects/proj3a/9-repo.webp">
 
@@ -110,16 +109,16 @@ Follow the instructions below after partnerships have been released to use your 
 
 Once you’ve completed the above steps, you should see your new group repo called `{{ site.semester_slug }}-proj3-g***` in your local files, and if you open this repo, you’ll see the `proj3` skeleton folder. From here, you and your partner can proceed as normal, by adding, committing, pushing, and pulling from this repo as you would otherwise.
 
-## Optional Task: Design
+## Task 2 (Optional): Design
 
 {: .TASK}
 > [Project 3: BYOW Design](/proj3/proj3-design) is a design assignment for you to plan your approach for BYOW before implementing it. Although this is optional, we highly recommend attempting this to ensure you have a plan before building your own world.
 > 
-> To further incentivize you to do this, completing this assignment with effort by the Project 3A: BYOW deadline will grant you TODO recovery points for the checkoff. In other words, if you lose points on the checkoff, these recovery points can be used to gain back points.
+> To further incentivize you to do this, completing this assignment with effort by the Project 3A: BYOW deadline will award you 4 recovery points for the checkoff. In other words, if you lose points on the checkoff, these recovery points can be used to gain back points.
 
 ### Code Overview
 
-### Skeleton Code
+#### Skeleton Code
 
 {: .NOTE}
 > [A walkthrough of the skeleton code and demos is available here.](https://youtu.be/2VMoC4eMj7Y) 
@@ -146,7 +145,7 @@ In the `Core` package, you'll write code for your game. We recommend putting all
 This project makes heavy use of `StdDraw`, which is a package that has basic graphics rendering capabilities. Additionally, it supports user interaction with keyboard and mouse clicks. You will likely need to consult the API specification for `StdDraw` at some points in the project. [See here for the API specification.](https://introcs.cs.princeton.edu/java/stdlib/javadoc/StdDraw.html)
 
 
-### Imports
+#### Imports
 
 Your project should only use standard Java libraries or any libraries we provided with your repo and `library-{{ site.semester_slug }}`.
 
@@ -160,7 +159,7 @@ Here is a non-comprehensive list of allowed imports:
 
 ### Getting Started
 
-### TETile Array
+#### TETile Array
 
 At a high level, your goal is to create a 2D array of `TETile` objects, and fill in the array with different tiles, to create a nice-looking world. Then, you can call one of our library functions to display this world to the user.
 
@@ -174,7 +173,7 @@ Important notes on orientation:
 
 <img alt="2D grid with coordinates (0,0) at bottom-left, (8,0) at bottom-right, and (0,3) at top-right." src="/assets/projects/proj3a/coords.webp">
 
-### Tile Rendering
+#### Tile Rendering
 
 Open up the skeleton and check out the `BoringWorldDemo` file in the `demo` folder. Try running
 it.
@@ -191,7 +190,7 @@ This code does 3 things:
 > The rendering engine calls most of the `StdDraw` methods for you. We recommend against using `StdDraw` commands like `setXScale` or `setYScale` unless you really know what you're doing, as you may considerably alter or damage the *a e s t h e t i c* of the system otherwise.
 
 
-### Pseudo-Randomness
+#### Pseudo-Randomness
 
 To generate random numbers in Java, we can use create a `Random` object, which represents a random number generator:
 
@@ -230,7 +229,7 @@ In Project 3, you should always seed your Random objects, so that your worlds lo
  
 Note: Most students won't use any of the fancy stuff from `RandomUtils`.
 
-### Pseudo-Randomness with World Generation Demo/Example
+#### Pseudo-Randomness with World Generation Demo/Example
 
 {: .TASK}
 Open up the skeleton and check out the `RandomWorldDemo.java` file in the `demo` folder. Try running it.
@@ -257,7 +256,7 @@ Here are some examples of valid worlds, where `#` is wall, dot/quote is floor, a
 <img alt="Another valid 2D world with hallways and rooms." src="/assets/projects/proj3a/valid-world-2.webp">
 
 
-### Valid
+#### Valid
 
 **Requirements for a valid world:**
 
@@ -364,7 +363,7 @@ Here are some examples of valid worlds, where `#` is wall, dot/quote is floor, a
     </details>
 
 
-### Pseudorandom
+#### Pseudorandom
 
 **Requirements for a pseudorandom world:**
 
@@ -391,7 +390,7 @@ Here are some examples of valid worlds, where `#` is wall, dot/quote is floor, a
 7. You can pick any window size you want, as long as the window size is reasonable (e.g. not something tiny like 3×3), and the entire window is visible on your computer. For example, a fixed, non-random window size is fine.
 
 
-### Clarifications
+#### Clarifications
 
 **Note on grading:** We know that some of these requirements are subjective, and we'll try to be generous as long as your worlds follow the spirit of the requirements.
 
@@ -438,7 +437,7 @@ Staff cannot answer questions like "is my world valid" or "is my world good enou
 It's time to generate some worlds!
 
 {: .TASK}
-Implement code that takes in a seed, generates a pseudo-random 2D world array, and displays that world back to the user.
+> Implement code that takes in a seed, generates a pseudo-random 2D world array, and displays that world back to the user.
 
 For Project 3A, when the user runs the `main` method in `Main.java`, they should see a world pop up. For now, you can hard-code the seed in the `main` method (and change the code to see the output of different seeds).
 
@@ -449,7 +448,7 @@ Besides the `Main.main` requirement, your world generation code can live anywher
 
 ### World Screenshots
 
-1. [Go to this Java Visualizer link](https://cscircles.cemc.uwaterloo.ca/java_visualize/#code=import+java.util.Random%3B%0A%0Apublic+class+SeedGenerator+%7B%0A+++public+static+void+main(String%5B%5D+args)+%7B%0A++++++%0A++++++//+Replace+1270+with+your+fa25-g***+group+ID.%0A++++++Random+r+%3D+new+Random(1270)%3B%0A++++++%0A++++++System.out.println(%22Your+seeds+are%3A+%22)%3B%0A++++++%0A++++++for+(int+i+%3D+0%3B+i+%3C+5%3B+i+%2B%3D+1)+%7B%0A+++++++++System.out.println(Math.abs(r.nextLong()))%3B%0A++++++%7D%0A++++++%0A++++++%0A+++%7D%0A%7D&mode=edit) to generate 5 seeds. Remember to replace `1270` with your group ID.
+1. [Go to this Java Visualizer link](https://cscircles.cemc.uwaterloo.ca/java_visualize/#code=import+java.util.Random%3B%0A%0Apublic+class+SeedGenerator+%7B%0A+++public+static+void+main(String%5B%5D+args)+%7B%0A++++++%0A++++++//+Replace+1270+with+your+su26-proj3-g***+group+ID.%0A++++++Random+r+%3D+new+Random(1270)%3B%0A++++++%0A++++++System.out.println(%22Your+seeds+are%3A+%22)%3B%0A++++++%0A++++++for+(int+i+%3D+0%3B+i+%3C+5%3B+i+%2B%3D+1)+%7B%0A+++++++++System.out.println(Math.abs(r.nextLong()))%3B%0A++++++%7D%0A++++++%0A++++++%0A+++%7D%0A%7D&mode=edit) to generate 5 seeds. Remember to replace `1270` with your group ID.
 
 2. Use your code to generate the 5 worlds corresponding to these seeds.
 
@@ -481,7 +480,7 @@ In your regrade request, please include:
 - A screenshot of `git show --summary` with the commit of the new code you used to generate your fixed worlds.
 - The 5 worlds you generated with your fixed code. Use the same seeds as you did originally.
 
-It can take up to a week to respond to your regrade request, so please be patient.
+It can take up to a few days to respond to your regrade request, so please be patient.
 
 
 ### Style
