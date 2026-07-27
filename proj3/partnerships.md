@@ -82,8 +82,8 @@ some reasons we've dissolved partnerships in the past:
 2. A variety of personal reasons where a student was uncomfortable.
 3. One partner has dropped the class.
 
-To submit a dissolution request, go to the Groups tab on Beacon and select a      
-reason. Your reason will not be disclosed to your group members. Once staff have
+To submit a dissolution request, go to the Groups tab on Beacon and select a reason. 
+Your reason will not be disclosed to your group members. Once staff have
 reviewed your request, you and your partner will both receive an email confirming
 the dissolution. In the meantime, you can proceed as if your dissolution request
 has been approved.
@@ -102,7 +102,7 @@ access to your original group repo. You can still read and use your original cod
 however you will need to work in a new individual group repo that has been made
 for you.
 
-{: .DANGER}
+{: .danger}
 > We will not be accepting anymore partnership dissolution requests after the Project
 > 3A deadline.
 
@@ -128,6 +128,6 @@ Please keep in mind:
 If we find that your reason for re-pairing is not within reason, we will treat it
 as [academic misconduct](/policies/academic-misconduct).
 
-{: .DANGER}
-We will not be accepting anymore partnership re-pairing requests after the Project
-3A deadline.
+{: .danger}
+> We will not be accepting anymore partnership re-pairing requests after the Project
+> 3A deadline.
