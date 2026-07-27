@@ -224,7 +224,7 @@ lectures:
     nonumber: true
     readings:
       - name: "Project 3 Spec"
-        link: "#"
+        link: "https://cs61bl.org/proj3/"
 
   - title: "Shortest Paths + MSTs"
     readings:
