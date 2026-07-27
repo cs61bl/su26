@@ -197,7 +197,7 @@ lectures:
   - title:
     nonumber: true
 
-  - title: "Hashing, Heaps, and Priority Queues (Daniel Wang)"
+  - title: "Hashing, Heaps, and Priority Queues (Daniel W.)"
     slides: "https://docs.google.com/presentation/d/1Dd8q-E1PddAR-9TzzZ0FaWG4VupklMy7UHtKJxsQ-qU/edit?usp=sharing"
     readings:
       - name: "Chapter 19"
@@ -214,7 +214,8 @@ lectures:
   - title:
     nonumber: true
 
-  - title: "Disjoint Sets + Introduction to Shortest Paths"
+  - title: "Disjoint Sets"
+    slides: "https://docs.google.com/presentation/d/1_6Ce6K3ditcax90v_zF0TnoaQYVA4FsY5DSa3To6OxU/edit?usp=sharing"
     readings:
       - name: "Chapter 14"
         link: https://cs61b-2.gitbook.io/cs61b-textbook/14.-disjoint-sets
@@ -239,7 +240,7 @@ lectures:
   - title:
     nonumber: true
 
-  - title: "Comparison Sorts / Quicksort"
+  - title: "Comparison Sorts + Quicksort"
     readings:
       - name: "Chapter 29"
         link: https://cs61b-2.gitbook.io/cs61b-textbook/29.-basic-sorts
