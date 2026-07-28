@@ -28,16 +28,13 @@ Some steps to complete before getting started on this lab:
 - Understand that Project 3 will be a marathon and not a sprint. Don't wait until the last minute! You and your partner should start thinking about your design NOW.
 
 {: .info}
->This lab will be graded by completing a checkoff with your TA, who will give you a magic word to submit to Gradescope. This means you should try to finish the required parts of the lab ASAP to avoid waiting in a long line for checkoff. **This lab (magic word submission) is due Wednesday, July 29th at 11:59PM.** Asynchronous checkoffs are also available; see the [bottom of the spec](#checkoff) for how to get asynchronously checked off. 
-
-{: .danger}
->If you choose to get asynchronously checked off, please try to post your finalized video on Ed by Wednesday, July 29th at **11:30PM**; otherwise, we cannot guarantee that we can give you your magic word by the deadline. **It is up to you to make sure you submit to Gradescope by 11:59 PM.**
+>This lab will be graded by completing a checkoff with your TA. This means you should try to finish the required parts of the lab ASAP to avoid waiting in a long line for checkoff. Asynchronous checkoffs are also available; see the [bottom of the spec](#checkoff) for how to get asynchronously checked off. 
 
 This lab is divided into two main parts: "Plus World" and "Memory Game". Both will help you with Project 3: Build your own World (BYOW).
 The first part will teach you how to use a set of "tiles" to generate shapes on your screen. This will apply to building the rooms, hallways, and other features of your world in Project 3. The second part will teach you more about how to use the StdDraw package to make a fun text-based game. This will help you build the main menu and other text-based elements of Project 3. It will also teach you how to achieve user interactivity, which is vital to Project 3!
 
 {: .info}
->If you are working with a partner, we recommend that you complete this lab together!
+>You are allowed and encouraged to work together in your Project 3 group for this assignment!
 
 ## Plus World Introduction
 
@@ -360,22 +357,19 @@ After you’ve done this you should be able to run `MemoryGame.java` and play yo
     - `flashSequence`
     - `solicitNCharsInput` 
     - `startGame`
-- Get checked off and submit your magic word to Gradescope. See below for more information.
+- Get checked off. See below for more information.
 
 ### Checkoff
 
 {: .info}
->To get credit for this lab, a TA will check your `PlusWorld.java` and `MemoryGame.java` *visually*. You will be asked to show that you can generate a single plus at various sizings (or a whole tesselation), and that you can play your memory game. Once the TA verifies that those two requirements have been met, they will give you a magic word, which you should type into `magic_word.txt`. **You will be solely graded off of whether your magic word is present or not.** This is similar to how you will be graded for BYOW: your final product will be graded in a live checkoff with a staff member.
+>To get credit for this lab, a TA will check your `PlusWorld.java` and `MemoryGame.java` *visually*. You will be asked to show that you can generate a single plus at various sizings (or a whole tesselation), and that you can play your memory game. Once the TA verifies that those two requirements have been met, they will note down your class ID (e.g. `s***` in `{{ site.semester_slug }}-s***`).
+> - You do not need to submit to the Gradescope assignment.
+> - You may go to any lab section to be checked off.
+> 
+> This is similar to how you will be graded for BYOW: your final product will be graded in a live checkoff with a staff member.
 
-**In-person/Online Lab Checkoff**
+**Asynchronous Checkoff**
 
-You may go to any lab section for a live checkoff.
+{: .info}
+> If you want to get checked off asynchronously, all you need to do is submit to the Gradescope assignment by the deadline. A TA will then manually grade your assignment once the deadline has passed. However, please note that you may not get a full score if your submission is not complete, and that you will not be allowed to re-submit or submit regrade requests.
 
-**Asynchronous Ed Checkoff**
-
-If you want to get checked off asynchronously, you can make a private Ed **Question** thread under Practical Labs -> Lab 18 -> Checkoff. **Make sure you follow the instructions on the template.** If you do not see a template, make sure you have selected *Question*, not Post.
-
-{: .danger}
->Copied from above:
->
->If you choose to get asynchronously checked off, please try to post your finalized video on Ed by Wednesday, July 29th at **11:30PM**; otherwise, we cannot guarantee that we can give you your magic word by the deadline. **It is up to you to make sure you submit to Gradescope by 11:59 PM.**
