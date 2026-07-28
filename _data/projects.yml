@@ -118,14 +118,14 @@ projects:
       - "schedule-purple"
     rowspan: 7
   - title: "Project 3A: World Generation"
-    link: "/projects/proj3/proj3a"
+    link: "/proj3/proj3a"
     show_links: true
     due: "2026/08/03"
     classes:
       - "schedule-green"
     rowspan: 6
   - title: "Project 3B: Interactivity"
-    link: "/projects/proj3/proj3b"
+    link: "/proj3/proj3b"
     show_links: true
     due: "2026/08/09"
     classes:
