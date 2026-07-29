@@ -227,6 +227,7 @@ lectures:
         link: "https://cs61bl.org/proj3/"
 
   - title: "Shortest Paths + MSTs"
+    slides: https://docs.google.com/presentation/d/1zsdtBtYo--bgeRefUehfeZ0bHVBJlrgTPB4UaEVnzh8/edit?usp=sharing
     readings:
       - name: "Chapter 24 (Ignore A*)"
         link: https://cs61b-2.gitbook.io/cs61b-textbook/24.-shortest-paths
@@ -272,4 +273,4 @@ lectures:
     exam: true
     nonumber: true
 
-  - title: "Getting a Tech Job (Sherdil & Friends)"
+  - title: "The Tech Industry (Sherdil & Friends)"
