@@ -338,6 +338,12 @@ copies after the first copy dequeued.
 two vertices are the *same* distance away from the source, you may tiebreak arbitrarily.
 
 ## A* search
+
+{: .WARNING}
+> For {{ site.semester_full }}, A* Search is **NOT** considered in scope. 
+> 
+> We've left this here in case you want to read up on it, but note that this will not be tested.
+
 Sometimes, we know more about a graph than just the edge weights. If we're looking for the shortest path from `s` to `t` (aka we have a particular destination in mind), we might have an *estimate* of how far any other vertex is to `t`. We'll see how to solve this problem using an algorithm called **A\*** ("A star"), which is like Dijkstra's with an additional factor.
 
 As an example, imagine you're in Davis, and you want to know the shortest path to New York. Let's say that in our graph, the two nearest vertices to Davis are San Francisco (west of Davis) and Lake Tahoe (east of Davis). San Francisco is a little closer to your starting point (Davis), but you can estimate that Lake Tahoe is *ultimately closer to the goal* (New York). If we were using Dijkstra's, we'd visit San Francisco first, since Dijkstra's only considers how close something is to the start. With A* though, we can take into account our estimate, and go to Lake Tahoe first, which will bring us closer to New York!
