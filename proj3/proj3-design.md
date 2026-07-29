@@ -34,7 +34,7 @@ which is
 also linked in the assignment below.
 
 {: .NOTE}
-> Check the [Technical Design Document tab](/resources/design-doc) for a refresher and an example of a design document
+> Check the [Design Doc Guide](/resources/design-doc-guide) for a refresher and an example of a design document
 >
 > As mentioned earlier, design docs are living documents. You (the designer) might not understand the entire project
 > scope while drafting, *and that's fine*. Including a section for questions can help track your thoughts for future
