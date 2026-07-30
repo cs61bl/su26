@@ -7,6 +7,7 @@ parent: >-
 nav_order: 2
 grand_parent: Labs
 has_right_toc: true
+nav_exclude: true
 released: true
 ---
 
