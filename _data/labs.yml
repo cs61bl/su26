@@ -177,8 +177,7 @@ labs:
     examprep: True
     video: false
     worksheet: "/assets/discussions/exam-prep-03.pdf"
-    # slides: https://docs.google.com/presentation/d/1xlwynVwRnXdKzzO3lgFZVF0kprRi_TJY/edit?usp=sharing&ouid=108192614859963248609&rtpof=true&sd=true
-    # solutions: https://drive.google.com/file/d/1UrA3mgSFMOMgM5XkuWckLdGn18MLpowj/view?usp=sharing
+    solutions: "/assets/discussions/exam-prep-03-sol.pdf"
     link: 
     show_links: true
     nonumber: True
@@ -201,11 +200,11 @@ labs:
   - title: "Exam Prep 4: Disjoint Sets, MSTs, and SPTs"
     examprep: true
     video: false
-    # worksheet: https://drive.google.com/file/d/1e5--z-MvpO7D8RukzloS13xeRm1NrVaP/view?usp=sharing
+    worksheet: "/assets/discussions/exam-prep-04.pdf"
     # slides: https://docs.google.com/presentation/d/1gKvy5kKWVEFdjM710Aq_cR_Ok4LN1XWz/edit?slide=id.p1#slide=id.p1
     # solutions: https://drive.google.com/file/d/1Yb9ghBTkZVeKOGhzEoEtqt43CFBWiXgd/view?usp=sharing
     link: 
-    show_links: false
+    show_links: true
     nonumber: True
   - title: "Recitation 3: Sorting"
     recitation: true
