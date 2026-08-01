@@ -13,8 +13,8 @@ This course has a midterm exam and a final exam.
 
 - The Midterm will be on **Friday, July 17th from 7-9 PM in Pimentel Hall**.
 - The Final Exam will be on **Tuesday, August 11th from 3-6 PM**.
-  - **Hearst Field Annex**: Last Name A-M
-  - **Physics Building, Room 1**: Last Name N-Z
+  - **Hearst Field Annex (HFAX) A1**: Last Name A-M
+  - **Physics Building (PHYS) 1**: Last Name N-Z
 
 We will offer **in-person exams only**.
 
