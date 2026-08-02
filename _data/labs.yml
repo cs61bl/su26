@@ -203,7 +203,7 @@ labs:
     worksheet: "/assets/discussions/exam-prep-04.pdf"
     solutions: "/assets/discussions/exam-prep-04-sols.pdf"
     link: 
-    show_links: false
+    show_links: true
     nonumber: True
   - title: "Recitation 3: Sorting"
     recitation: true
