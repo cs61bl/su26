@@ -222,12 +222,12 @@ labs:
     due: "2026/08/07"
     link: labs/lab22
     show_links: false
-  - title: "BYOW OH & Checkoffs"
+  - title: "None (TRS in Evening)"
     nonumber: True
-  - title: "Exam Prep 5: Final Exam Review"
+  - title: "Exam Prep 5: Past Final Walkthroughs"
     examprep: true
     nonumber: True
-  - title: "BYOW OH & Checkoffs"
+  - title: "BYOW Checkoffs"
     nonumber: True
   - title: "None"
     nonumber: True
