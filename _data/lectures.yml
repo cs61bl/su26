@@ -241,8 +241,9 @@ lectures:
   - title:
     nonumber: true
 
-  - title: "Comparison Sorts + Quicksort"
-    readings:
+  - title: "Comparison Sorts (Michelle + Dawn)"
+    slides: https://docs.google.com/presentation/d/17zHi6Jfbc6cIWWKqWvc6VuSECxBd73zEA-uilGjJNXQ/edit?usp=sharing
+    readings: 
       - name: "Chapter 29"
         link: https://cs61b-2.gitbook.io/cs61b-textbook/29.-basic-sorts
       - name: "Chapter 30"
