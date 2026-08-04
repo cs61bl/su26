@@ -255,7 +255,8 @@ lectures:
       - name: "Chapter 32"
         link: https://cs61b-2.gitbook.io/cs61b-textbook/32.-more-quick-sort-sorting-summary
   
-  - title: "Radix Sorts + Sorting Bounds"
+  - title: "Radix Sort + Life"
+    slides: "https://docs.google.com/presentation/d/1DROx6NVFs9s6O9Y_5OmQi2ETqrIvoxMKreOu-ljGmo4/edit?usp=sharing"
     readings:
       - name: "Chapter 35"
         link: https://cs61b-2.gitbook.io/cs61b-textbook/35.-radix-sorts
