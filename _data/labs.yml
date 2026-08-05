@@ -221,7 +221,7 @@ labs:
   - title: "Counting Sorts"
     due: "2026/08/07"
     link: labs/lab22
-    show_links: false
+    show_links: true
   - title: "None (TRS in Evening)"
     nonumber: True
   - title: "Exam Prep 5: Past Final Walkthroughs"

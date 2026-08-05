@@ -4,10 +4,10 @@ title: >-
   Lab 22: Counting Sorts
 has_children: true
 parent: Labs
-nav_exclude: true
+nav_exclude: false
 has_toc: false
 has_right_toc: true
-released: false
+released: true
 ---
 
 ## [FAQ](faq)
