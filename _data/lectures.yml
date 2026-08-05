@@ -184,30 +184,8 @@ lectures:
     exam: true
     nonumber: true
 
-  - title: "Hashing, Heaps, and Priority Queues"
-    readings:
-      - name: "Chapter 19"
-        link: https://cs61b-2.gitbook.io/cs61b-textbook/19.-hashing-i
-      - name: "Chapter 20"
-        link: https://cs61b-2.gitbook.io/cs61b-textbook/20.-hashing-ii
-  
-  - title:
-    nonumber: true
-    readings:
-      - name: "Chapter 21"
-
-  - title: "Disjoint Sets / Introduction to Graphs"
-    readings:
-      - name: "Chapter 14"
-        link: https://cs61b-2.gitbook.io/cs61b-textbook/14.-disjoint-sets
-
-  - title:
-    nonumber: true
-
-  - title:
-    nonumber: true
-
   - title: "Graph Traversals, DAGs, Topological Sorts"
+    slides: "https://docs.google.com/presentation/d/1YV3Mx9ze_zvtlZryONPLICRgiAYEelOoWXJGg4ey_Ew/edit?usp=sharing"
     readings:
       - name: "Chapters 22.3-22.4"
         link: https://cs61b-2.gitbook.io/cs61b-textbook/22.-tree-traversals-and-graphs/22.3-graphs
@@ -218,13 +196,40 @@ lectures:
   
   - title:
     nonumber: true
+
+  - title: "Hashing, Heaps, and Priority Queues (Daniel W.)"
+    slides: "https://docs.google.com/presentation/d/1Dd8q-E1PddAR-9TzzZ0FaWG4VupklMy7UHtKJxsQ-qU/edit?usp=sharing"
+    readings:
+      - name: "Chapter 19"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/19.-hashing-i
+      - name: "Chapter 20"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/20.-hashing-ii
+  
+  - title:
+    nonumber: true
+    readings:
+      - name: "Chapter 21"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/21.-heaps-and-priority-queues
+
+  - title:
+    nonumber: true
+
+  - title: "Disjoint Sets"
+    slides: "https://docs.google.com/presentation/d/1_6Ce6K3ditcax90v_zF0TnoaQYVA4FsY5DSa3To6OxU/edit?usp=sharing"
+    readings:
+      - name: "Chapter 14"
+        link: https://cs61b-2.gitbook.io/cs61b-textbook/14.-disjoint-sets
+
+  - title:
+    nonumber: true
     readings:
       - name: "Project 3 Spec"
-        link: "#"
+        link: "https://cs61bl.org/proj3/"
 
   - title: "Shortest Paths + MSTs"
+    slides: https://docs.google.com/presentation/d/1zsdtBtYo--bgeRefUehfeZ0bHVBJlrgTPB4UaEVnzh8/edit?usp=sharing
     readings:
-      - name: "Chapter 24"
+      - name: "Chapter 24 (Ignore A*)"
         link: https://cs61b-2.gitbook.io/cs61b-textbook/24.-shortest-paths
   
   - title:
@@ -236,8 +241,9 @@ lectures:
   - title:
     nonumber: true
 
-  - title: "Comparison Sorts / Quicksort"
-    readings:
+  - title: "Comparison Sorts (Michelle + Dawn)"
+    slides: https://docs.google.com/presentation/d/17zHi6Jfbc6cIWWKqWvc6VuSECxBd73zEA-uilGjJNXQ/edit?usp=sharing
+    readings: 
       - name: "Chapter 29"
         link: https://cs61b-2.gitbook.io/cs61b-textbook/29.-basic-sorts
       - name: "Chapter 30"
@@ -249,7 +255,8 @@ lectures:
       - name: "Chapter 32"
         link: https://cs61b-2.gitbook.io/cs61b-textbook/32.-more-quick-sort-sorting-summary
   
-  - title: "Radix Sorts + Sorting Bounds"
+  - title: "Radix Sort + Life"
+    slides: "https://docs.google.com/presentation/d/1DROx6NVFs9s6O9Y_5OmQi2ETqrIvoxMKreOu-ljGmo4/edit?usp=sharing"
     readings:
       - name: "Chapter 35"
         link: https://cs61b-2.gitbook.io/cs61b-textbook/35.-radix-sorts
@@ -268,4 +275,4 @@ lectures:
     exam: true
     nonumber: true
 
-  - title: "Getting a Tech Job (Sherdil & Friends)"
+  - title: "The Tech Industry (Sherdil & Friends)"
