@@ -208,11 +208,10 @@ labs:
   - title: "Recitation 3: Sorting"
     recitation: true
     video: false
-    worksheet: https://drive.google.com/file/d/1TEq460eswL06HY2J8-LGxUI_hEv05Dcx/view?usp=sharing
-    slides: https://docs.google.com/presentation/d/1s46F1QqZRGJR6thIv_yDrUuAo-lk7w2r/view?usp=sharing
-    # solutions: https://drive.google.com/file/d/1Kbvlb1WXoVFXRjrP0S7ZWEavj5zda8tY/view?usp=sharing
+    worksheet: "/assets/discussions/recitation-03.pdf"
+    solutions: "/assets/discussions/recitation-03-sols.pdf"
     link:
-    show_links: false
+    show_links: true
     nonumber: True
   - title: "Comparison Sorts"
     due: "2026/08/05"
