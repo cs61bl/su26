@@ -21,7 +21,7 @@ released: true
 
 ## Ambition Features
 
-12 points of your project score will be based on features of your choosing, which we call your "ambition score". The big idea is that beyond the base requirements of this project, we want you to try to polish your product a bit more and add some cool features. Below is a list of features worth either 60 points (primary feature) or 30 points (secondary feature).
+12 points of your project score will be based on features of your choosing, which we call your "ambition score". The big idea is that beyond the base requirements of this project, we want you to try to polish your product a bit more and add some cool features. Below is a list of features worth either 8 points (primary feature) or 4 points (secondary feature).
 
 From these two categories, you need to implement 12 points of features, and at least one of your features must be a primary feature. There will be no extra credit beyond
 the 12 points for this. Here are some ways to achieve this:
