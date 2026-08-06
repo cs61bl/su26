@@ -45,7 +45,7 @@ The following is exactly what the TA will do when checking you off: we recommend
 Both partners should be present **in person** for the checkoff.
 
 {: .NOTE}
-> Please fill out the [Checkoffs Extenuating Circumstances Form](TODO) if you are experiencing [extenuating circumstances](https://{{ site.semester_slug }}.datastructur.es/policies/extensions/#extenuating-circumstances) and need accommodations for the following:
+> Please fill out the [Checkoffs Extenuating Circumstances Form](https://docs.google.com/forms/d/e/1FAIpQLSclIHQEt6M8HOun1-AJsDvaL6qDYyQEByOJzO4H3J_S-ZmcIQ/viewform?usp=publish-editor) if you are experiencing [extenuating circumstances](https://{{ site.semester_slug }}.datastructur.es/policies/extensions/#extenuating-circumstances) and need accommodations for the following:
 > * Need to be checked off outside of the usual time of checkoffs (8/10), AND/OR
 > * Need to be checked off online
 > 
