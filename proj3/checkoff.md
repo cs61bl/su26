@@ -13,13 +13,6 @@ description: >-
 released: true
 ---
 
-## Unreleased Spec
-
-{: .danger}
-> This page is **unreleased**, meaning policies on this page are subject to change and are **NOT** final.
-> 
-> **Details regarding checkoffs are still to be decided**. Once they have been, an update will be announced on Ed.
-
 ## Deadlines
 
 {% capture deadlines %}{% include proj3-deadlines.html %}{% endcapture %}
@@ -92,7 +85,7 @@ The TA will now try the basic commands that should be available during gameplay.
 - TA should hover over 3 different tiles and make sure their names show up somewhere on screen and that the names make sense
 - TA should verify that the HUD does not flicker
 - TA should move into a wall and make sure the player stops at the wall instead of moving into it
-- TA should type ":q" or ":Q" (they may do either) in "world mode" which should quit the world and close the program. Autograder should remember the world layout at this point
+- TA should type ":q" or ":Q" (they may do either) in "world mode" which should quit the world and close the program. The TA should remember the world layout at this point
 
 The program is now closed, and we will test the load feature.
 
