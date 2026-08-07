@@ -226,6 +226,10 @@ labs:
   - title: "Exam Prep 5: Past Final Walkthroughs"
     examprep: true
     nonumber: True
+    video: false
+    worksheet: "/assets/discussions/exam-prep-05.pdf"
+    link:
+    show_links: true
   - title: "BYOW Checkoffs"
     nonumber: True
   - title: "None"
