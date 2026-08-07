@@ -203,14 +203,7 @@ Here is an example (Credit: Miller Liu)
 
 ## Task 6: Ambition Features
 
-Now that you have a basic game working, in the last part of the project, you'll get a chance to add creative features of your own choosing! 
-
-```java
-// This method was written by Gemini 2.5.
-public void someMethod() {
-    // ...
-}
-```
+Now that you have a basic game working, in the last part of the project, you'll get a chance to add creative features of your own choosing!
 
 {: .TASK}
 > Implement at least **one primary** Ambition Feature and **one secondary** Ambition Feature either from the list below or an **approved** feature from the [Custom Ambition Feature Request Ed thread](https://edstem.org/us/courses/99666/discussion/8178005). 
