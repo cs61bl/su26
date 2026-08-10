@@ -60,9 +60,11 @@ Designate one partner to be the presenter; this should be the partner who signed
    - If any of these requirements are not fulfilled, you may not receive a grade for Project 3 checkoff.
 3. Run "git log" and make sure that the HEAD commit is a commit from before the deadline. Run "pwd". Make sure the path
    matches that of the open IntelliJ window.
-4. The TA will then ask you to demonstrate the Pathfinder Task.
-5. The TA will then ask you to demonstrate your ambition features, along with saving and loading (must save state of ambition feature).
-6. The TA will tell you which items you received/did not receive credit for. They will ask if you agree with your score: if you do not, you will have the opportunity to request a regrade within 24 hours of your checkoff. This can be done under the Checkoff tab in Beacon.
+4. The TA will then check your Basic World Functionality as described below.
+5. The TA will then check your Randomness as described below.
+6. The TA will then ask you to demonstrate the Pathfinder Task.
+7. The TA will then ask you to demonstrate your ambition features, along with saving and loading (must save state of ambition feature).
+8. The TA will tell you which items you received/did not receive credit for. They will ask if you agree with your score: if you do not, you will have the opportunity to request a regrade within 24 hours of your checkoff. This can be done under the Checkoff tab in Beacon.
 
 ### Basic World Functionality (12 points total)
 
@@ -102,7 +104,7 @@ The TA will run the world again after it has been closed and the main menu shoul
 - The TA will close the world again and will begin testing to see if worlds are randomly generated.
 - TA will check that the use of randomness does not lead to a severe limitation on the variety of worlds (ie. randomly choosing a world layout from a finite set of worlds)
 - The TA will open the world 3-5 times, making sure to use a different seed each time
-- The TA will be looking for your world's ability to generate variety in both world structure and player experience while exploring that world. What this means is when two different seeds are used to generatge new worlds, these worlds should not feel identical (or close to identical).
+- The TA will be looking for your world's ability to generate variety in both world structure and player experience while exploring that world. What this means is when two different seeds are used to generate new worlds, these worlds should not feel identical (or close to identical).
 
 ### Pathfinder (4 points total)
 - The TA will click a square, and path will be drawn to that square. This must be a shortest path.
