@@ -270,6 +270,7 @@ lectures:
     nonumber: true
 
   - title: "Final Review (TAs)"
+    slides: "https://docs.google.com/presentation/d/1vJkdQcRR5bjkMBTfxBnwP7mmGOYdyJG2Z0EBmJSCb2c/edit?usp=sharing"
 
   - title: "**Final Exam (3pm - 6pm)**"
     exam: true
